@@ -49,10 +49,10 @@ if faixaEtaria == 3:
 
 # Area das variáveis específicas de cada persona
 
-diretorio_perfil = "--profile-directory=Profile 6"
-google_login = "crianca1LOCUS@gmail.com"
+diretorio_perfil = "--profile-directory=Profile 1"
+google_login = "flaviocrianco@gmail.com"
 google_password = "Superben10!"
-twitch_username = "crianca0101"
+twitch_username = "flaviocrianco"
 twitch_password = "Superben10!"
 
 # Configurar Logs
@@ -66,7 +66,7 @@ logging.basicConfig(
 # Configurar o WebDriver
 chromeOptions = Options()
 chromeOptions.add_argument(diretorio_perfil)
-chromeOptions.add_argument("user-data-dir=/home/flavio/.config/google-chrome")
+chromeOptions.add_argument("user-data-dir=/home/locus/.config/google-chrome")
 chromeOptions.add_argument("--window-size=1280,800")
 chromeOptions.add_argument("--disable-extensions")
 chromeOptions.add_argument("--disable-notifications")
@@ -123,7 +123,7 @@ def acessarTwitch(driver):
     driver.get("https://www.google.com")
 
     try:
-        ChromeLogin(driver)
+        ChromeLogin(driver, google_login, google_password)
         time.sleep(random.uniform(3.0, 5.5))
     except:
         logging.info("Erro ao logar no Google ou Login já realizado")
@@ -131,19 +131,17 @@ def acessarTwitch(driver):
 
     try:
         driver.get("https://www.twitch.tv")
-        LoginTwitch(driver)
+        LoginTwitch(driver, twitch_username, twitch_password)
     except:
         logging.info("Erro ao logar no Twitch ou Login já realizado")
         pass
 
 def TreinarPersona1():
     #iniciar driver
-    try:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chromeOptions)
-        driver.maximize_window()
-    except:
-        logging.error("Erro ao iniciar o driver")
-        exit()
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chromeOptions)
+    driver.maximize_window()
+   
     
     acessarTwitch(driver)
 
@@ -157,12 +155,15 @@ def TreinarPersona1():
     driver.quit()
 
 
+
 schedule.every().day.at("10:00").do(TreinarPersona1)
-schedule.every().day.at("13:35").do(TreinarPersona1)
+schedule.every().day.at("14:00").do(TreinarPersona1)
+schedule.every().day.at("18:00").do(TreinarPersona1)
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
 
 while True:
     schedule.run_pending()
     time.sleep(1)
+
 

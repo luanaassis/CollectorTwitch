@@ -17,6 +17,7 @@ def ChromeLogin(driver, google_login, google_password):
     #fazer login na conta google
     time.sleep(random.uniform(1.5, 3.0))
     driver.find_element(By.LINK_TEXT, "Fazer login").click()
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "identifier")))
     driver.find_element(By.NAME, "identifier").send_keys(google_login)
     time.sleep(random.uniform(0.2, 0.5))
     driver.find_element(By.NAME, "identifier").send_keys(Keys.RETURN)
