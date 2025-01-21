@@ -114,9 +114,18 @@ def Treino(driver):
 
     if len(canais_achados) == 0:
         logging.error("Nenhuma transmissão encontrada")
+        screenshot_path = "screenshot_nenhuma_transmissao_nao_encontrada.png"
+        driver.save_screenshot(screenshot_path)
+        logging.info(f"Screenshot salva em: {screenshot_path}")
         return
     elif len(canais_achados) < videoAssistido:
         logging.INFO(f"Transmissão {videoAssistido} não encontrada, tentando transmissão 0")
+
+        # Tirando o print da tela e salvando
+        screenshot_path = "screenshot_transmissao_nao_encontrada.png"
+        driver.save_screenshot(screenshot_path)
+        logging.info(f"Screenshot salva em: {screenshot_path}")
+
         videoAssistido = 0
     
     video = canais_achados[videoAssistido]
