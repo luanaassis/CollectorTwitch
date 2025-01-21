@@ -25,26 +25,30 @@ jogos14 = {"Valorant"}
 
 # 0 = 0 - 10
 # 1 = 10 - 13
-# 2 = 13 - 17
+# 2 = 14 - 17
 # 3 = 18+
 faixaEtaria = 2
 
 # Area das variáveis específicas de cada faixa etária
+
 if faixaEtaria == 0:
-    #Talvez tenha que mudar a varivel para que em toda ocorrencia randomize o numero
-    tempoDeVisualizacao = random.uniform(450, 900) # Em segundos
+    tempo_min = 450
+    tempo_max = 900 
     jogosAssistir = jogosLivre
 
 if faixaEtaria == 1:
-    tempoDeVisualizacao = random.uniform(600, 600) # Em segundos
+    tempo_min = 600
+    tempo_max = 1800
     jogosAssistir = jogosLivre.union(jogos10)
 
 if faixaEtaria == 2:
-    tempoDeVisualizacao = random.uniform(900,   3600) # Em segundos
+    tempo_min = 900
+    tempo_max = 3600 
     jogosAssistir = jogosLivre.union(jogos10, jogos12, jogos14)
 
 if faixaEtaria == 3:
-    tempoDeVisualizacao = 3600 # Em segundos
+    tempo_min = 900
+    tempo_max = 7200
     jogosAssistir = "A DEFINIR"
 
 # Area das variáveis específicas de cada persona
@@ -58,7 +62,7 @@ twitch_password = "Superben10!"
 # Configurar Logs
 logging.basicConfig(
     filename="simulador.log",  # Nome do arquivo de log
-    level=logging.INFO,  # Nível de registro (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    level=logging.DEBUG,  # Nível de registro (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(levelname)s - %(message)s",  # Formato do log
     datefmt="%Y-%m-%d %H:%M:%S"  # Formato da data
 )
@@ -90,6 +94,8 @@ def assistirRecomendado(driver):
 
 def Treino(driver):
 
+    tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
+
     jogoPesquisado = random.choice(list(jogosAssistir))
     logging.info(f"Jogo escolhido: {jogoPesquisado}")
 
@@ -105,16 +111,16 @@ def Treino(driver):
     videoAssistido = random.randint(0, 2)
 
     canais_achados = driver.find_elements(By.CSS_SELECTOR, '[data-a-target="search-result-live-channel"]')
-    videoAssistido = 1
+
     if len(canais_achados) == 0:
-        print("Nenhum canal encontrado")
+        logging.error("Nenhuma transmissão encontrada")
         return
     elif len(canais_achados) < videoAssistido:
-        print("Canal não encontrado")
-        return
-    else:
-        video = canais_achados[videoAssistido]
+        logging.INFO(f"Transmissão {videoAssistido} não encontrada, tentando transmissão 0")
+        videoAssistido = 0
     
+    video = canais_achados[videoAssistido]
+
     logging.info(f"Assistindo {video.text} por {tempoDeVisualizacao} segundos")
     video.click()
     time.sleep(tempoDeVisualizacao)
