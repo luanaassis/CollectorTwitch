@@ -62,7 +62,7 @@ twitch_password = "Superben10!"
 # Configurar Logs
 logging.basicConfig(
     filename="simulador.log",  # Nome do arquivo de log
-    level=logging.DEBUG,  # Nível de registro (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    level=logging.INFO,  # Nível de registro (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(levelname)s - %(message)s",  # Formato do log
     datefmt="%Y-%m-%d %H:%M:%S"  # Formato da data
 )
@@ -83,13 +83,20 @@ chromeOptions.add_argument("--disable-gpu")
 chromeOptions.add_experimental_option("excludeSwitches", ["enable-automation"])
 chromeOptions.add_experimental_option("useAutomationExtension", False)
 
-def assistirRecomendado(driver):
+def RecuperarRecomendados(driver):
     try:
-        first_channel = driver.find_element(By.XPATH, '(//div[@class="Layout-sc-1xcs6mc-0 cwtKyw side-nav-card"])[1]/a')
-        first_channel.click()
-        print("Primeiro canal clicado com sucesso!")
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '(//div[@class="Layout-sc-1xcs6mc-0 cwtKyw side-nav-card"])/a')))
+        recommended_channels = driver.find_elements(By.XPATH, '(//div[@class="Layout-sc-1xcs6mc-0 cwtKyw side-nav-card"])/a')
+
+        logging.info("Canais Recomendados atualmente:")
+        if(len(recommended_channels) != 0):
+            for i in range(len(recommended_channels)):
+                logging.info(f"Canal Recomendado {i}: {recommended_channels[i].text}")
+        else:
+            logging.error("Nenhum canal recomendado encontrado")
+                
     except Exception as e:
-        print(f"Erro ao clicar no elemento: {e}")
+        logging.error(f"Erro ao recuperar canais recomendados: {e}")
         pass
 
 def Treino(driver):
@@ -132,6 +139,7 @@ def Treino(driver):
 
     logging.info(f"Assistindo {video.text} por {tempoDeVisualizacao} segundos")
     video.click()
+    RecuperarRecomendados(driver)
     time.sleep(tempoDeVisualizacao)
 
 def acessarTwitch(driver):
@@ -168,8 +176,6 @@ def TreinarPersona1():
         logging.error(f"Erro durante o treino: {e}")
 
     driver.quit()
-
-
 
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)

@@ -151,3 +151,400 @@ Shooter por 3042.5257179846535 segundos
 2025-01-20 18:00:08 - INFO - Iniciando treino...
 2025-01-20 18:00:08 - INFO - Jogo escolhido: Sea of Thieves
 2025-01-20 18:00:11 - ERROR - Erro durante o treino: list index out of range
+2025-01-21 10:00:00 - INFO - ====== WebDriver manager ======
+2025-01-21 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 10:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 10:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 10:00:01 - INFO - WebDriver version 132.0.6834.83 selected
+2025-01-21 10:00:01 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/linux64/chromedriver-linux64.zip
+2025-01-21 10:00:01 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/linux64/chromedriver-linux64.zip
+2025-01-21 10:00:01 - INFO - Driver downloading response is 200
+2025-01-21 10:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 10:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83]
+2025-01-21 10:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-21 10:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-21 10:00:09 - INFO - Iniciando treino...
+2025-01-21 10:00:09 - INFO - Jogo escolhido: Fortnite
+2025-01-21 10:00:13 - INFO - Assistindo AO VIVO
+Oatley
+Fortnite
+1,6 mil espectadores
+PRO RELOAD RANKED | Use Code "Oatley" #ad | !socials !youtube
+BattleRoyale
+Multiplayer
+Professional por 3042.5257179846535 segundos
+2025-01-21 10:50:56 - INFO - Treino concluído com sucesso.
+2025-01-21 14:00:00 - INFO - ====== WebDriver manager ======
+2025-01-21 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 14:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver] found in cache
+2025-01-21 14:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-21 14:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-21 14:00:08 - INFO - Iniciando treino...
+2025-01-21 14:00:08 - INFO - Jogo escolhido: The Sims 4
+2025-01-21 14:00:12 - INFO - Assistindo AO VIVO
+insanedra
+The Sims 4
+413 espectadores
+🌷Sims4 - 🍼Insane Baby Challenge👰4🍼20 !challenge || !simscode !KoFi !website !shop || ᵂᴱᴿᴮᵁᴺᴳ
+Deutsch
+safeplace por 3042.5257179846535 segundos
+2025-01-21 14:50:55 - INFO - Treino concluído com sucesso.
+2025-01-21 18:00:00 - INFO - ====== WebDriver manager ======
+2025-01-21 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver] found in cache
+2025-01-21 18:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-21 18:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-21 18:00:08 - INFO - Iniciando treino...
+2025-01-21 18:00:08 - INFO - Jogo escolhido: Minecraft
+2025-01-21 18:00:12 - INFO - Assistindo AO VIVO
+YoungMulti
+Minecraft
+17,4 mil espectadores
+🔴 YFL SMP 2 🔴 DZIEŃ 13 🔴 WOJNA O ZAMEK 🔴 | DARMOWY SUB -> !prime !OperaGX
+Polski
+Muzyka
+YFL por 3042.5257179846535 segundos
+2025-01-21 18:36:05 - INFO - ====== WebDriver manager ======
+2025-01-21 18:36:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:36:05 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-21 18:36:05 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9287
+2025-01-21 18:36:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:36:05 - DEBUG - Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-01-21 18:36:05 - DEBUG - https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 9287
+2025-01-21 18:36:05 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver] found in cache
+2025-01-21 18:36:05 - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: /home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver
+2025-01-21 18:36:05 - DEBUG - Started executable: `/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver` in a child process with pid: 11164 using 0 to output -3
+2025-01-21 18:36:05 - DEBUG - POST http://localhost:49399/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'extensions': [], 'args': ['--profile-directory=Profile 1', 'user-data-dir=/home/locus/.config/google-chrome', '--window-size=1280,800', '--disable-extensions', '--disable-notifications', '--disable-infobars', '--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage', '--remote-debugging-port=9222', '--disable-gpu']}}}}
+2025-01-21 18:36:05 - DEBUG - Starting new HTTP connection (1): localhost:49399
+2025-01-21 18:36:05 - DEBUG - http://localhost:49399 "POST /session HTTP/1.1" 200 0
+2025-01-21 18:36:05 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"132.0.6834.83","chrome":{"chromedriverVersion":"132.0.6834.83 (03d59cf5ecf1d8444838ff9a1e96231304d4ff9c-refs/branch-heads/6834@{#3390})","userDataDir":"/home/locus/.config/google-chrome"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:9222"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"bb52ae73725dfcc8a8e4f86605131380"}} | headers=HTTPHeaderDict({'Content-Length': '846', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:05 - DEBUG - Finished Request
+2025-01-21 18:36:05 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/window/maximize {}
+2025-01-21 18:36:05 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/window/maximize HTTP/1.1" 200 0
+2025-01-21 18:36:05 - DEBUG - Remote response: status=200 | data={"value":{"height":741,"width":1299,"x":67,"y":27}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:05 - DEBUG - Finished Request
+2025-01-21 18:36:05 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/url {'url': 'https://www.google.com'}
+2025-01-21 18:36:06 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/url HTTP/1.1" 200 0
+2025-01-21 18:36:06 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:06 - DEBUG - Finished Request
+2025-01-21 18:36:08 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element {'using': 'link text', 'value': 'Fazer login'}
+2025-01-21 18:36:08 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element HTTP/1.1" 404 0
+2025-01-21 18:36:08 - DEBUG - Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Fazer login\"}\n  (Session info: chrome=132.0.6834.83)","stacktrace":"#0 0x555c5f15f7ca \u003Cunknown>\n#1 0x555c5ec572f0 \u003Cunknown>\n#2 0x555c5eca7035 \u003Cunknown>\n#3 0x555c5eca7251 \u003Cunknown>\n#4 0x555c5eced054 \u003Cunknown>\n#5 0x555c5eccb9dd \u003Cunknown>\n#6 0x555c5ecea3b3 \u003Cunknown>\n#7 0x555c5eccb753 \u003Cunknown>\n#8 0x555c5ec98baa \u003Cunknown>\n#9 0x555c5ec99dfe \u003Cunknown>\n#10 0x555c5f12a38b \u003Cunknown>\n#11 0x555c5f12e307 \u003Cunknown>\n#12 0x555c5f116e7c \u003Cunknown>\n#13 0x555c5f12eec7 \u003Cunknown>\n#14 0x555c5f0fb24f \u003Cunknown>\n#15 0x555c5f14e2f8 \u003Cunknown>\n#16 0x555c5f14e4c0 \u003Cunknown>\n#17 0x555c5f15e646 \u003Cunknown>\n#18 0x7fc02a98a6db start_thread\n"}} | headers=HTTPHeaderDict({'Content-Length': '857', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:08 - DEBUG - Finished Request
+2025-01-21 18:36:08 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-21 18:36:08 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/url {'url': 'https://www.twitch.tv'}
+2025-01-21 18:36:11 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/url HTTP/1.1" 200 0
+2025-01-21 18:36:11 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:11 - DEBUG - Finished Request
+2025-01-21 18:36:11 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element {'using': 'xpath', 'value': '/html/body/div[1]/div/div[1]/nav/div/div[3]/div[3]/div/div[1]/div[1]/button/div/div'}
+2025-01-21 18:36:11 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element HTTP/1.1" 404 0
+2025-01-21 18:36:11 - DEBUG - Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div/div[1]/nav/div/div[3]/div[3]/div/div[1]/div[1]/button/div/div\"}\n  (Session info: chrome=132.0.6834.83)","stacktrace":"#0 0x555c5f15f7ca \u003Cunknown>\n#1 0x555c5ec572f0 \u003Cunknown>\n#2 0x555c5eca7035 \u003Cunknown>\n#3 0x555c5eca7251 \u003Cunknown>\n#4 0x555c5eced054 \u003Cunknown>\n#5 0x555c5eccb9dd \u003Cunknown>\n#6 0x555c5ecea3b3 \u003Cunknown>\n#7 0x555c5eccb753 \u003Cunknown>\n#8 0x555c5ec98baa \u003Cunknown>\n#9 0x555c5ec99dfe \u003Cunknown>\n#10 0x555c5f12a38b \u003Cunknown>\n#11 0x555c5f12e307 \u003Cunknown>\n#12 0x555c5f116e7c \u003Cunknown>\n#13 0x555c5f12eec7 \u003Cunknown>\n#14 0x555c5f0fb24f \u003Cunknown>\n#15 0x555c5f14e2f8 \u003Cunknown>\n#16 0x555c5f14e4c0 \u003Cunknown>\n#17 0x555c5f15e646 \u003Cunknown>\n#18 0x7fc02a98a6db start_thread\n"}} | headers=HTTPHeaderDict({'Content-Length': '925', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:11 - DEBUG - Finished Request
+2025-01-21 18:36:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-21 18:36:11 - INFO - Iniciando treino...
+2025-01-21 18:36:11 - INFO - Jogo escolhido: The Sims 4
+2025-01-21 18:36:11 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element {'using': 'css selector', 'value': '[placeholder="Buscar"]'}
+2025-01-21 18:36:11 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element HTTP/1.1" 200 0
+2025-01-21 18:36:11 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.4"}} | headers=HTTPHeaderDict({'Content-Length': '125', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:11 - DEBUG - Finished Request
+2025-01-21 18:36:11 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.4/value {'text': 'The Sims 4', 'value': ['T', 'h', 'e', ' ', 'S', 'i', 'm', 's', ' ', '4']}
+2025-01-21 18:36:11 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.4/value HTTP/1.1" 200 0
+2025-01-21 18:36:11 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:11 - DEBUG - Finished Request
+2025-01-21 18:36:13 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.4/value {'text': '\ue006', 'value': ['\ue006']}
+2025-01-21 18:36:13 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.4/value HTTP/1.1" 200 0
+2025-01-21 18:36:13 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:13 - DEBUG - Finished Request
+2025-01-21 18:36:15 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/elements {'using': 'css selector', 'value': '[data-a-target="search-result-live-channel"]'}
+2025-01-21 18:36:15 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/elements HTTP/1.1" 200 0
+2025-01-21 18:36:15 - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.43"},{"element-6066-11e4-a52e-4f735466cecf":"f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.44"},{"element-6066-11e4-a52e-4f735466cecf":"f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.45"}]} | headers=HTTPHeaderDict({'Content-Length': '362', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:15 - DEBUG - Finished Request
+2025-01-21 18:36:15 - DEBUG - GET http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.45/text {}
+2025-01-21 18:36:15 - DEBUG - http://localhost:49399 "GET /session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.45/text HTTP/1.1" 200 0
+2025-01-21 18:36:15 - DEBUG - Remote response: status=200 | data={"value":"The Sims 4\n136 espectadores\nconstrucción: parque aesthetic 🌳☕ | !PARTNERPLUS\nEspañol"} | headers=HTTPHeaderDict({'Content-Length': '106', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:15 - DEBUG - Finished Request
+2025-01-21 18:36:15 - INFO - Assistindo The Sims 4
+136 espectadores
+construcción: parque aesthetic 🌳☕ | !PARTNERPLUS
+Español por 3016 segundos
+2025-01-21 18:36:15 - DEBUG - POST http://localhost:49399/session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.45/click {}
+2025-01-21 18:36:15 - DEBUG - http://localhost:49399 "POST /session/bb52ae73725dfcc8a8e4f86605131380/element/f.45495E79F55164E504183D0DC62BD5F3.d.34113E7278CDE1436D7CE1763F6C03C7.e.45/click HTTP/1.1" 200 0
+2025-01-21 18:36:15 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-01-21 18:36:15 - DEBUG - Finished Request
+2025-01-21 18:52:12 - INFO - ====== WebDriver manager ======
+2025-01-21 18:52:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:52:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-21 18:52:12 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver] found in cache
+2025-01-21 18:52:16 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-21 18:52:20 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-21 18:52:20 - INFO - Iniciando treino...
+2025-01-21 18:52:20 - INFO - Jogo escolhido: Minecraft
+2025-01-21 18:52:23 - INFO - Assistindo AO VIVO
+EWROON
+Minecraft
+7,2 mil espectadores
+🎉EWRON YFL SMP TEAM HOPAKI DZIEN 13🎉EVENT BITWY O ZAMEK🎉| ODBIERZ DARMOWEGO SUBA TUTAJ !prime | !g2a
+Polski por 2386 segundos
+2025-01-21 18:52:24 - INFO - Canal Recomendado 0: JonVlogs
+Só Na Conversa
+Ao vivo
+15,8 mil
+15,8 mil espectadores
+2025-01-21 18:52:24 - INFO - Canal Recomendado 1: alanzoka
+Enslaved: Odyssey to the West
+Ao vivo
+12,8 mil
+12,8 mil espectadores
+2025-01-21 18:52:24 - INFO - Canal Recomendado 2: brino
+Só Na Conversa
+Ao vivo
+6,9 mil
+6,9 mil espectadores
+2025-01-21 18:52:24 - INFO - Canal Recomendado 3: LuanZ7_
+Grand Theft Auto V
+Ao vivo
+5,3 mil
+5,3 mil espectadores
+2025-01-21 18:52:25 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+1,8 mil
+1,8 mil espectadores
+2025-01-21 18:52:26 - INFO - Canal Recomendado 5: sacy
+VALORANT
+Ao vivo
+5,1 mil
+5,1 mil espectadores
+2025-01-21 18:56:58 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-01-22 10:00:00 - INFO - ====== WebDriver manager ======
+2025-01-22 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 10:00:00 - INFO - WebDriver version 132.0.6834.83 selected
+2025-01-22 10:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/linux64/chromedriver-linux64.zip
+2025-01-22 10:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.83/linux64/chromedriver-linux64.zip
+2025-01-22 10:00:01 - INFO - Driver downloading response is 200
+2025-01-22 10:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 10:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83]
+2025-01-22 10:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-22 10:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-22 10:00:09 - INFO - Iniciando treino...
+2025-01-22 10:00:09 - INFO - Jogo escolhido: Minecraft
+2025-01-22 10:00:13 - INFO - Assistindo AO VIVO
+Gaules
+Minecraft
+2,8 mil espectadores
+A NOVA BASE DE BAIXO DA TERRA! MINECRAFT RAIZ!!! - !socio - Siga @Gaules nas redes sociais!
+Português por 1964 segundos
+2025-01-22 10:00:13 - INFO - Canais Recomendados atualmente:
+2025-01-22 10:00:13 - INFO - Canal Recomendado 0: JonVlogs
+Só Na Conversa
+Ao vivo
+8,3 mil
+8,3 mil espectadores
+2025-01-22 10:00:13 - INFO - Canal Recomendado 1: Baiano
+League of Legends
+Ao vivo
+5 mil
+5 mil espectadores
+2025-01-22 10:00:13 - INFO - Canal Recomendado 2: Dante_Will
+I'm Only Sleeping
+Ao vivo
+248
+248 espectadores
+2025-01-22 10:00:14 - INFO - Canal Recomendado 3: Tixinhadois
+VALORANT
+Ao vivo
+1,2 mil
+1,2 mil espectadores
+2025-01-22 10:00:14 - INFO - Canal Recomendado 4: Gaules
+Minecraft
+Ao vivo
+2,8 mil
+2,8 mil espectadores
+Hype Train
+•
+Nível 8
+2025-01-22 10:00:14 - INFO - Canal Recomendado 5: YoDa
+League of Legends
+Ao vivo
+6,1 mil
+6,1 mil espectadores
+2025-01-22 10:32:58 - INFO - Treino concluído com sucesso.
+2025-01-22 14:00:00 - INFO - ====== WebDriver manager ======
+2025-01-22 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 14:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.83/chromedriver-linux64/chromedriver] found in cache
+2025-01-22 14:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-22 14:00:07 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-22 14:00:07 - INFO - Iniciando treino...
+2025-01-22 14:00:07 - INFO - Jogo escolhido: ROBLOX
+2025-01-22 14:00:10 - INFO - Assistindo AO VIVO
+Zintid
+ROBLOX
+20 espectadores
+ROBUX GIVEAWAY | !giveaway | !discord | !play FREE ROBUX
+English por 1952 segundos
+2025-01-22 14:00:11 - INFO - Canais Recomendados atualmente:
+2025-01-22 14:00:11 - INFO - Canal Recomendado 0: JonVlogs
+Só Na Conversa
+Ao vivo
+18,7 mil
+18,7 mil espectadores
+2025-01-22 14:00:11 - INFO - Canal Recomendado 1: paivinha29
+EA Sports FC 25
+Ao vivo
+2,5 mil
+2,5 mil espectadores
+2025-01-22 14:00:11 - INFO - Canal Recomendado 2: R3crutaTV
+Rust
+Ao vivo
+357
+357 espectadores
+2025-01-22 14:00:12 - INFO - Canal Recomendado 3: SouthParkBRA2
+South Park
+Ao vivo
+598
+598 espectadores
+2025-01-22 14:00:12 - INFO - Canal Recomendado 4: 
+2025-01-22 14:00:12 - ERROR - Erro ao recuperar canais recomendados: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x563c17cbe7ca <unknown>
+#1 0x563c177b62f0 <unknown>
+#2 0x563c177bc2f1 <unknown>
+#3 0x563c177be988 <unknown>
+#4 0x563c177bea13 <unknown>
+#5 0x563c17800608 <unknown>
+#6 0x563c1782a9b2 <unknown>
+#7 0x563c177f9b78 <unknown>
+#8 0x563c1782ab7e <unknown>
+#9 0x563c178493b3 <unknown>
+#10 0x563c1782a753 <unknown>
+#11 0x563c177f7baa <unknown>
+#12 0x563c177f8dfe <unknown>
+#13 0x563c17c8938b <unknown>
+#14 0x563c17c8d307 <unknown>
+#15 0x563c17c75e7c <unknown>
+#16 0x563c17c8dec7 <unknown>
+#17 0x563c17c5a24f <unknown>
+#18 0x563c17cad2f8 <unknown>
+#19 0x563c17cad4c0 <unknown>
+#20 0x563c17cbd646 <unknown>
+#21 0x7fb5d87d96db start_thread
+
+2025-01-22 14:32:44 - INFO - Treino concluído com sucesso.
+2025-01-22 18:00:00 - INFO - ====== WebDriver manager ======
+2025-01-22 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 18:00:00 - INFO - There is no [linux64] chromedriver "132.0.6834.110" for browser google-chrome "132.0.6834" in cache
+2025-01-22 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 18:00:01 - INFO - WebDriver version 132.0.6834.110 selected
+2025-01-22 18:00:01 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/linux64/chromedriver-linux64.zip
+2025-01-22 18:00:01 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/linux64/chromedriver-linux64.zip
+2025-01-22 18:00:01 - INFO - Driver downloading response is 200
+2025-01-22 18:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-22 18:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.110]
+2025-01-22 18:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-22 18:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-22 18:00:09 - INFO - Iniciando treino...
+2025-01-22 18:00:09 - INFO - Jogo escolhido: ROBLOX
+2025-01-22 18:00:12 - INFO - Assistindo AO VIVO
+nojimatv
+Project Zomboid
+20 espectadores
+PRIMEIRA VEZ NO ZOMBOID - ACEITO DICAS - SUBATHON - 1 REAL = 3 MINS - 1 SUB = 7 MINS - 100 BITS = 15 MINS - ❗DC ❗LOJA
+roblox
+robloxgames
+Português por 2727 segundos
+2025-01-22 18:00:13 - INFO - Canais Recomendados atualmente:
+2025-01-22 18:00:13 - INFO - Canal Recomendado 0: JonVlogs
+Só Na Conversa
+Ao vivo
+19,9 mil
+19,9 mil espectadores
+2025-01-22 18:00:13 - INFO - Canal Recomendado 1: alanzoka
+The Pink Panther's Passport to Peril
+Ao vivo
+15,2 mil
+15,2 mil espectadores
+2025-01-22 18:00:13 - INFO - Canal Recomendado 2: gabepeixe
+Só Na Conversa
+Ao vivo
+5,6 mil
+5,6 mil espectadores
+2025-01-22 18:00:13 - INFO - Canal Recomendado 3: brino
+Só Na Conversa
+Ao vivo
+4,6 mil
+4,6 mil espectadores
+Hype Train
+•
+Nível 6
+2025-01-22 18:00:14 - INFO - Canal Recomendado 4: sacy
+VALORANT
+Ao vivo
+3,8 mil
+3,8 mil espectadores
+2025-01-22 18:00:14 - INFO - Canal Recomendado 5: LuanZ7_
+Grand Theft Auto V
+Ao vivo
+4,2 mil
+4,2 mil espectadores
+2025-01-22 18:45:42 - INFO - Treino concluído com sucesso.
+2025-01-23 10:00:00 - INFO - ====== WebDriver manager ======
+2025-01-23 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 10:00:00 - INFO - WebDriver version 132.0.6834.110 selected
+2025-01-23 10:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/linux64/chromedriver-linux64.zip
+2025-01-23 10:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/linux64/chromedriver-linux64.zip
+2025-01-23 10:00:01 - INFO - Driver downloading response is 200
+2025-01-23 10:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-23 10:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.110]
+2025-01-23 10:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-01-23 10:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-01-23 10:00:10 - INFO - Iniciando treino...
+2025-01-23 10:00:10 - INFO - Jogo escolhido: Fortnite
+2025-01-23 10:00:14 - INFO - Assistindo AO VIVO
+Loeya
+Fortnite
+2,3 mil espectadores
+aimpractice ᕙ( •̀ ᗜ •́ )ᕗ !video- Code: LOEYA #EpicPartner
+English
+Cats
+BattleRoyale por 2134 segundos
+2025-01-23 10:00:14 - INFO - Canais Recomendados atualmente:
+2025-01-23 10:00:14 - INFO - Canal Recomendado 0: Kittey
+Teamfight Tactics
+Ao vivo
+127
+127 espectadores
+2025-01-23 10:00:14 - INFO - Canal Recomendado 1: Oatley
+Fortnite
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-01-23 10:00:15 - INFO - Canal Recomendado 2: Arguz11
+ROBLOX
+Ao vivo
+54
+54 espectadores
+2025-01-23 10:00:15 - INFO - Canal Recomendado 3: k4sen
+League of Legends
+Ao vivo
+13,1 mil
+13,1 mil espectadores
+2025-01-23 10:00:16 - INFO - Canal Recomendado 4: NEUU
+Overwatch 2
+Ao vivo
+832
+832 espectadores
+2025-01-23 10:00:16 - INFO - Canal Recomendado 5: iDbz
+Sea of Thieves
+Ao vivo
+34
+34 espectadores
+2025-01-23 10:35:50 - INFO - Treino concluído com sucesso.
