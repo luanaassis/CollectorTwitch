@@ -14,7 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-import collector
+import Collector.collector as collector
 from utils.login import ChromeLogin, LoginTwitch
 from utils.csv_operations import registrar_dados
 
