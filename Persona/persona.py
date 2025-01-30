@@ -14,9 +14,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-import Collector.collector as collector
 from utils.login import ChromeLogin, LoginTwitch
 from utils.csv_operations import registrar_dados
+from utils.commit_to_github import commit_and_push
 
 jogosLivre = {"Minecraft"}
 jogos10 = {"ROBLOX"}
@@ -180,6 +180,8 @@ def TreinarPersona1():
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
 schedule.every().day.at("18:00").do(TreinarPersona1)
+
+schedule.every().day.at("19:03").do(commit_and_push("Persona/simulador.log", "Atualizando log", "/home/locus/Desktop/Flavio/CollectorTwitch"))
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
 
