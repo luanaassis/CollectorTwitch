@@ -17,16 +17,22 @@ from webdriver_manager.chrome import ChromeDriverManager
 from utils.login import ChromeLogin, LoginTwitch
 from utils.csv_operations import registrar_dados
 from utils.commit_to_github import commit_and_push
+from Collector.collector import getChannelInfo, getStreams
+from Collector.classes import Channel, Stream
 
-jogosLivre = {"Minecraft"}
+jogosLivre = {"Minecraft", "EA Sports FC 25"}
 jogos10 = {"ROBLOX"}
-jogos12 = {"Fortnite", "Sea of Thieves", "The Sims 4", "League of Legends", "Overwatch 2"}
+jogos12 = {"Fortnite", "Sea of Thieves", "The Sims 4", "League of Legends", "Overwatch 2", "Marvel Rivals"}
 jogos14 = {"Valorant"}
+jogos16 = {"Counter-Strike"}
+jogos18 = {"Grand Theft Auto V"}
 
-# 0 = 0 - 10
-# 1 = 10 - 13
-# 2 = 14 - 17
-# 3 = 18+
+# 0 = 0 - 9
+# 1 = 10 - 11
+# 2 = 12 - 13
+# 3 = 14 - 15
+# 4 = 16 - 17
+# 5 = 18+
 faixaEtaria = 2
 
 # Area das variáveis específicas de cada faixa etária
@@ -140,6 +146,11 @@ def Treino(driver):
     logging.info(f"Assistindo {video.text} por {tempoDeVisualizacao} segundos")
     video.click()
     RecuperarRecomendados(driver)
+
+    id = driver.current_url.split("/")[-1]
+    print( id )
+    Stream = getStreams(id, "live")
+    print(Stream)
     time.sleep(tempoDeVisualizacao)
 
 def acessarTwitch(driver):
