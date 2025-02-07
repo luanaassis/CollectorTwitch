@@ -32,42 +32,67 @@ def retry_on_exception(max_retries=3, delay=5):
         return wrapper
     return decorator
 
-@retry_on_exception()
+
 def get_access_token(client_id, client_secret):
 
+    try:
+        url = 'https://id.twitch.tv/oauth2/token'
+        params = {
+            'client_id': client_id,
+            'client_secret': client_secret,
+            'grant_type': 'client_credentials'
+        }
+        response = requests.post(url, params=params)
+        data = response.json()
+        return data.get('access_token')
+    except Exception as e:
+        print(f"Failed to get access token: {e}")
+        return None
 
-    url = 'https://id.twitch.tv/oauth2/token'
-    params = {
-        'client_id': client_id,
-        'client_secret': client_secret,
-        'grant_type': 'client_credentials'
-    }
-    response = requests.post(url, params=params)
-    data = response.json()
-    return data.get('access_token')
 
-@retry_on_exception()
 def twitchApiRequestBase(endpoint, params=None):
-    base_url = 'https://api.twitch.tv/helix/'
-    headers = {
-        'Client-ID': client_id,
-        'Authorization': f'Bearer {get_access_token(client_id, client_secret)}'
-    }
-    response = requests.get(base_url + endpoint, headers=headers, params=params)
-    return response.json()
-
-@retry_on_exception()
-def getChannelInfo(broadcaster_id):
-    endpoint = 'channels'
-    params = {'broadcaster_id': broadcaster_id}
+    try:
+        base_url = 'https://api.twitch.tv/helix/'
+        headers = {
+            'Client-ID': client_id,
+            'Authorization': f'Bearer {get_access_token(client_id, client_secret)}'
+        }
+        response = requests.get(base_url + endpoint, headers=headers, params=params)
+        return response.json()
+    except Exception as e:
+        print(f"Failed to make request: {e}")
+        return None
+    
+def searchChannels(query, live_only, first=1):
+    endpoint = 'search/channels'
+    params = {'query': query, 'live_only': live_only, 'first': first}
     response = twitchApiRequestBase(endpoint, params)
     if response['data']:
-        channel_info = response['data'][0]
-        newChannel = Channel(channel_info['broadcaster_id'], channel_info['broadcaster_login'], channel_info['broadcaster_name'],
-                             channel_info['broadcaster_language'], channel_info['game_name'], channel_info['game_id'],
-                             channel_info['title'], channel_info['tags'], channel_info['content_classification_labels'],
-                             channel_info['is_branded_content'])
-        print(newChannel.channel_name, newChannel.stream_tags, newChannel.classification_labels, newChannel.is_branded_content)
-        return newChannel
+        channel_id = response['data'][0]['id']
+        login = response['data'][0]['broadcaster_login']
+        print(f"Channel found: {login} with ID: {channel_id}")
+        return channel_id
     else:
-        raise Exception("No channel info found")
+        raise Exception("No channels found")
+
+def getChannelInfo(broadcasterName):
+    try:
+        broadcaster_id = searchChannels(broadcasterName, False) 
+        endpoint = 'channels'
+        params = {'broadcaster_id': broadcaster_id}
+        response = twitchApiRequestBase(endpoint, params)
+        print(response)
+        if response['data']:
+            channel_info = response['data'][0]
+            newChannel = Channel(channel_info['broadcaster_id'], channel_info['broadcaster_login'], channel_info['broadcaster_name'],
+                                channel_info['broadcaster_language'], channel_info['game_name'], channel_info['game_id'],
+                                channel_info['title'], channel_info['tags'], channel_info['content_classification_labels'],
+                                channel_info['is_branded_content'])
+            print(newChannel.channel_name, newChannel.stream_tags, newChannel.classification_labels, newChannel.is_branded_content)
+            return newChannel
+        else:
+            print("No channel info found")
+            raise Exception("No channel info found")
+    except Exception as e:
+        print(f"Failed to get channel info: {e}")
+        return None

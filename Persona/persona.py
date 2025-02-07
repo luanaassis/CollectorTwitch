@@ -17,8 +17,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from utils.login import ChromeLogin, LoginTwitch
 from utils.csv_operations import registrar_dados
 from utils.commit_to_github import commit_and_push
-from Collector.collector import getChannelInfo, getStreams
-from Collector.classes import Channel, Stream
+from utils.channelCollector import getChannelInfo
 
 jogosLivre = {"Minecraft", "EA Sports FC 25"}
 jogos10 = {"ROBLOX"}
@@ -123,6 +122,7 @@ def Treino(driver):
 
     videoAssistido = random.randint(0, 2)
 
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[data-a-target="search-result-live-channel"]')))
     canais_achados = driver.find_elements(By.CSS_SELECTOR, '[data-a-target="search-result-live-channel"]')
 
     if len(canais_achados) == 0:
@@ -131,7 +131,7 @@ def Treino(driver):
         driver.save_screenshot(screenshot_path)
         logging.info(f"Screenshot salva em: {screenshot_path}")
         return
-    elif len(canais_achados) < videoAssistido:
+    elif len(canais_achados) < (videoAssistido + 1):
         logging.INFO(f"Transmissão {videoAssistido} não encontrada, tentando transmissão 0")
 
         # Tirando o print da tela e salvando
@@ -148,9 +148,10 @@ def Treino(driver):
     RecuperarRecomendados(driver)
 
     id = driver.current_url.split("/")[-1]
-    print( id )
-    Stream = getStreams(id, "live")
-    print(Stream)
+    print(id)
+    channel = getChannelInfo(id)
+    print(channel)
+    registrar_dados("coletaTeste.csv", channel, tempoDeVisualizacao, jogoPesquisado)
     time.sleep(tempoDeVisualizacao)
 
 def acessarTwitch(driver):
@@ -188,16 +189,19 @@ def TreinarPersona1():
 
     driver.quit()
 
+schedule.every().day.at("06:00").do(TreinarPersona1)
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
-schedule.every().day.at("18:00").do(TreinarPersona1)
-
-schedule.every().day.at("19:03").do(commit_and_push("Persona/simulador.log", "Atualizando log", "/home/locus/Desktop/Flavio/CollectorTwitch"))
+schedule.every().day.at("19:15").do(TreinarPersona1)
+schedule.every().day.at("22:00").do(TreinarPersona1)
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
-
 while True:
     schedule.run_pending()
     time.sleep(1)
+"""
+TreinarPersona1()
+"""
+
 
 
