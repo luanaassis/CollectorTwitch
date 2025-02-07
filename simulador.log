@@ -1077,3 +1077,34 @@ Ao vivo
 8,9 mil espectadores
 2025-02-07 10:00:13 - INFO - Canal Recomendado 5: 
 2025-02-07 10:36:05 - INFO - Treino concluído com sucesso.
+2025-02-07 14:00:00 - INFO - ====== WebDriver manager ======
+2025-02-07 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 14:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 14:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-07 14:00:16 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-07 14:00:21 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-07 14:00:21 - INFO - Iniciando treino...
+2025-02-07 14:00:21 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-07 14:00:34 - ERROR - Erro durante o treino: Message: 
+Stacktrace:
+#0 0x55895da3553a <unknown>
+#1 0x55895d530f00 <unknown>
+#2 0x55895d580c0c <unknown>
+#3 0x55895d580e31 <unknown>
+#4 0x55895d5c6bd4 <unknown>
+#5 0x55895d5a55cd <unknown>
+#6 0x55895d5c3f84 <unknown>
+#7 0x55895d5a5343 <unknown>
+#8 0x55895d57278a <unknown>
+#9 0x55895d5739de <unknown>
+#10 0x55895d9ff2cb <unknown>
+#11 0x55895da03242 <unknown>
+#12 0x55895d9ec7ac <unknown>
+#13 0x55895da03df7 <unknown>
+#14 0x55895d9d0b2f <unknown>
+#15 0x55895da241a8 <unknown>
+#16 0x55895da24370 <unknown>
+#17 0x55895da343b6 <unknown>
+#18 0x7f4466a9e6db start_thread
+
+https://nordcheckout.com/pt-br/payment/?product_group=nordvpn&nord_origin=nordvpn&product_period=1_month&currency=BRL&step2_nav_off=true&bundle_type=complete&_gl=1%2As7295o%2A_gcl_aw%2AR0NMLjE3Mzg5NTEwMzcuRUFJYUlRb2JDaE1JaU11T2c1R3lpd01WcmhhSEF4MUdnaGhCRUFBWUFTQUFFZ0lNbWZEX0J3RQ..%2A_gcl_au%2AMjA0OTYwODgxOC4xNzM4OTUwOTMy%2AFPAU%2AMjA0OTYwODgxOC4xNzM4OTUwOTMy%2A_ga%2AOTQxNTMyODgwLjE3Mzg5NTA5MzI.%2A_ga_LEXMJ1N516%2AMTczODk1MDkzMS4xLjEuMTczODk1MTUzMS42MC4wLjA.&cart_id=aa4871f4-c02b-4535-afdc-93c3afb077cf
