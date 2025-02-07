@@ -1,0 +1,1079 @@
+2025-02-05 12:09:25 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-02-05 12:10:00 - INFO - ====== WebDriver manager ======
+2025-02-05 12:10:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:10:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:10:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:10:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:10:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:10:08 - INFO - Iniciando treino...
+2025-02-05 12:10:08 - INFO - Jogo escolhido: Valorant
+2025-02-05 12:10:12 - INFO - Assistindo AO VIVO
+はんじょう
+VALORANT
+12,8 mil espectadores
+ソロヴァロ アセンダントを目指してます
+日本語 por 2644 segundos
+2025-02-05 12:10:12 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:10:12 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+2,9 mil
+2,9 mil espectadores
+2025-02-05 12:10:12 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+10
+10 espectadores
+2025-02-05 12:10:12 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+120
+120 espectadores
+2025-02-05 12:10:13 - INFO - Canal Recomendado 3: letiltz
+Fortnite
+Ao vivo
+284
+284 espectadores
+2025-02-05 12:10:13 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-02-05 12:10:14 - INFO - Canal Recomendado 5: Arguz11
+ROBLOX
+Ao vivo
+64
+64 espectadores
+2025-02-05 12:10:33 - ERROR - Erro durante o treino: Failed after 3 retries
+2025-02-05 12:13:07 - INFO - ====== WebDriver manager ======
+2025-02-05 12:13:07 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:13:07 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:13:07 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:13:10 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:13:14 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:13:14 - INFO - Iniciando treino...
+2025-02-05 12:13:14 - INFO - Jogo escolhido: EA Sports FC 25
+2025-02-05 12:13:19 - INFO - Assistindo AO VIVO
+robert87000
+EA Sports FC 25
+1,3 mil espectadores
+LES 83X14 SONT LA 😍😍 ! 100 Packs à ouvrir pour avoir Endrick 93 ou Yamal 94 ! !psnpascher ! FC25
+FC25
+packopening
+Français por 2241 segundos
+2025-02-05 12:13:19 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:13:19 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+3,4 mil
+3,4 mil espectadores
+2025-02-05 12:13:19 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+10
+10 espectadores
+2025-02-05 12:13:19 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+123
+123 espectadores
+2025-02-05 12:13:19 - INFO - Canal Recomendado 3: letiltz
+Fortnite
+Ao vivo
+284
+284 espectadores
+2025-02-05 12:13:20 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:13:21 - ERROR - Erro ao recuperar canais recomendados: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x55882a03253a <unknown>
+#1 0x558829b2df00 <unknown>
+#2 0x558829b3404c <unknown>
+#3 0x558829b36578 <unknown>
+#4 0x558829b36603 <unknown>
+#5 0x558829b781d8 <unknown>
+#6 0x558829ba25a2 <unknown>
+#7 0x558829b71758 <unknown>
+#8 0x558829ba276e <unknown>
+#9 0x558829bc0f84 <unknown>
+#10 0x558829ba2343 <unknown>
+#11 0x558829b6f78a <unknown>
+#12 0x558829b709de <unknown>
+#13 0x558829ffc2cb <unknown>
+#14 0x55882a000242 <unknown>
+#15 0x558829fe97ac <unknown>
+#16 0x55882a000df7 <unknown>
+#17 0x558829fcdb2f <unknown>
+#18 0x55882a0211a8 <unknown>
+#19 0x55882a021370 <unknown>
+#20 0x55882a0313b6 <unknown>
+#21 0x7faa186d66db start_thread
+
+2025-02-05 12:13:39 - ERROR - Erro durante o treino: Failed after 3 retries
+2025-02-05 12:14:22 - INFO - ====== WebDriver manager ======
+2025-02-05 12:14:22 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:14:22 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:14:22 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:14:25 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:14:27 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:14:27 - INFO - Iniciando treino...
+2025-02-05 12:14:27 - INFO - Jogo escolhido: Sea of Thieves
+2025-02-05 12:14:31 - INFO - Assistindo AO VIVO
+HitboTC
+Sea of Thieves
+248 espectadores
+Solo Hardcore Adventure (!hardcore) (!coffee) (!starcitizen) (!nordvpn)
+FamilyFriendly
+PvP
+NewPlayersWelcome por 1849 segundos
+2025-02-05 12:14:32 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:14:32 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+3,4 mil
+3,4 mil espectadores
+2025-02-05 12:14:32 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+8
+8 espectadores
+2025-02-05 12:14:32 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+123
+123 espectadores
+2025-02-05 12:14:32 - INFO - Canal Recomendado 3: letiltz
+Fortnite
+Ao vivo
+265
+265 espectadores
+2025-02-05 12:14:32 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:14:32 - INFO - Canal Recomendado 5: Beardageddon
+Sea of Thieves
+Ao vivo
+441
+441 espectadores
+2025-02-05 12:14:34 - ERROR - Erro durante o treino: 'data'
+2025-02-05 12:15:34 - INFO - ====== WebDriver manager ======
+2025-02-05 12:15:34 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:15:34 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:15:34 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:15:37 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:15:41 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:15:41 - INFO - Iniciando treino...
+2025-02-05 12:15:41 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-05 12:15:44 - INFO - Assistindo AO VIVO
+Necros
+Marvel Rivals
+7,2 mil espectadores
+[DROPS ENABLED] ONE ABOVE ALL RANK 1 SPIDER-MAN. CREATOR CUP LATER! !creatorcup
+blackpanther
+DropsEnabled
+spiderman por 2807 segundos
+2025-02-05 12:15:45 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:15:45 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+3,4 mil
+3,4 mil espectadores
+2025-02-05 12:15:45 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+8
+8 espectadores
+2025-02-05 12:15:45 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+123
+123 espectadores
+2025-02-05 12:15:45 - INFO - Canal Recomendado 3: letiltz
+Fortnite
+Ao vivo
+265
+265 espectadores
+2025-02-05 12:15:45 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:15:45 - INFO - Canal Recomendado 5: Beardageddon
+Sea of Thieves
+Ao vivo
+441
+441 espectadores
+2025-02-05 12:15:47 - ERROR - Erro durante o treino: module 'datetime' has no attribute 'now'
+2025-02-05 12:16:55 - INFO - ====== WebDriver manager ======
+2025-02-05 12:16:55 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:16:55 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:16:55 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:16:58 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:17:02 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:17:02 - INFO - Iniciando treino...
+2025-02-05 12:17:02 - INFO - Jogo escolhido: Valorant
+2025-02-05 12:17:06 - ERROR - Nenhuma transmissão encontrada
+2025-02-05 12:17:06 - INFO - Screenshot salva em: screenshot_nenhuma_transmissao_nao_encontrada.png
+2025-02-05 12:17:06 - INFO - Treino concluído com sucesso.
+2025-02-05 12:18:55 - INFO - ====== WebDriver manager ======
+2025-02-05 12:18:55 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:18:55 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:18:55 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:19:09 - INFO - ====== WebDriver manager ======
+2025-02-05 12:19:09 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:19:09 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:19:09 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:19:24 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:19:26 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:19:26 - INFO - Iniciando treino...
+2025-02-05 12:19:26 - INFO - Jogo escolhido: Fortnite
+2025-02-05 12:19:31 - INFO - Assistindo AO VIVO
+dakotaz
+Fortnite
+1,3 mil espectadores
+✅ zerobuild: solos
+english
+pessimist
+handsome por 2488 segundos
+2025-02-05 12:19:32 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:19:32 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+4 mil
+4 mil espectadores
+2025-02-05 12:19:32 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+10
+10 espectadores
+2025-02-05 12:19:32 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+121
+121 espectadores
+2025-02-05 12:19:32 - INFO - Canal Recomendado 3: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:19:33 - INFO - Canal Recomendado 4: Beardageddon
+Sea of Thieves
+Ao vivo
+461
+461 espectadores
+2025-02-05 12:19:33 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+34
+34 espectadores
+2025-02-05 12:19:35 - ERROR - Erro durante o treino: module 'datetime' has no attribute 'now'
+2025-02-05 12:22:46 - INFO - ====== WebDriver manager ======
+2025-02-05 12:22:46 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:22:46 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:22:46 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:22:49 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:22:53 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:22:53 - INFO - Iniciando treino...
+2025-02-05 12:22:53 - INFO - Jogo escolhido: Minecraft
+2025-02-05 12:22:57 - INFO - Assistindo AO VIVO
+PWGood
+Minecraft
+1,9 mil espectadores
+💥КОМНАТА ОЖИДАНИЯ КУРИНОГО АПДЕЙТА💥ВИДОСЫ💥РАЗМЕТКА МЕГА СПАВНА💥СТАРТОВЫЙ ДОМ СЕГОДНЯ💥PepeLand 9 День 45 !сервер https://t.me/pwgood
+Русский por 2397 segundos
+2025-02-05 12:22:57 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:22:58 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+4,3 mil
+4,3 mil espectadores
+2025-02-05 12:22:58 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+9
+9 espectadores
+2025-02-05 12:22:58 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+124
+124 espectadores
+2025-02-05 12:22:58 - INFO - Canal Recomendado 3: Gaules
+Counter-Strike
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-02-05 12:22:58 - ERROR - Erro ao recuperar canais recomendados: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x556a2eadd53a <unknown>
+#1 0x556a2e5d8f00 <unknown>
+#2 0x556a2e5df04c <unknown>
+#3 0x556a2e5e1578 <unknown>
+#4 0x556a2e5e1603 <unknown>
+#5 0x556a2e6231d8 <unknown>
+#6 0x556a2e64d5a2 <unknown>
+#7 0x556a2e61c758 <unknown>
+#8 0x556a2e64d76e <unknown>
+#9 0x556a2e66bf84 <unknown>
+#10 0x556a2e64d343 <unknown>
+#11 0x556a2e61a78a <unknown>
+#12 0x556a2e61b9de <unknown>
+#13 0x556a2eaa72cb <unknown>
+#14 0x556a2eaab242 <unknown>
+#15 0x556a2ea947ac <unknown>
+#16 0x556a2eaabdf7 <unknown>
+#17 0x556a2ea78b2f <unknown>
+#18 0x556a2eacc1a8 <unknown>
+#19 0x556a2eacc370 <unknown>
+#20 0x556a2eadc3b6 <unknown>
+#21 0x7ff735cbe6db start_thread
+
+2025-02-05 12:23:00 - ERROR - Erro durante o treino: module 'datetime' has no attribute 'now'
+2025-02-05 12:27:40 - INFO - ====== WebDriver manager ======
+2025-02-05 12:27:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:27:40 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:27:40 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:27:44 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:27:48 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:27:48 - INFO - Iniciando treino...
+2025-02-05 12:27:48 - INFO - Jogo escolhido: Overwatch 2
+2025-02-05 12:27:51 - INFO - Assistindo AO VIVO
+SoOn
+Overwatch 2
+412 espectadores
+[✔️DROPS] SoOn | 13h30-17h | !tshirt !coaching !vods !soon12
+English
+Français
+Ranked por 3493 segundos
+2025-02-05 12:27:51 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:27:51 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+4,3 mil
+4,3 mil espectadores
+2025-02-05 12:27:51 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+11
+11 espectadores
+2025-02-05 12:27:51 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+120
+120 espectadores
+2025-02-05 12:27:51 - INFO - Canal Recomendado 3: Gaules
+Counter-Strike
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-02-05 12:27:51 - INFO - Canal Recomendado 4: Beardageddon
+Sea of Thieves
+Ao vivo
+474
+474 espectadores
+2025-02-05 12:27:52 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+32
+32 espectadores
+2025-02-05 12:27:55 - ERROR - Erro durante o treino: module 'datetime' has no attribute 'now'
+2025-02-05 12:30:23 - INFO - ====== WebDriver manager ======
+2025-02-05 12:30:23 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:30:23 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:30:23 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:30:27 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:30:35 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:30:35 - INFO - Iniciando treino...
+2025-02-05 12:30:35 - INFO - Jogo escolhido: Fortnite
+2025-02-05 12:30:39 - INFO - Assistindo AO VIVO
+dakotaz
+Fortnite
+1,2 mil espectadores
+✅ zerobuild: solos
+lonewolf
+sarcastic
+handsome por 2474 segundos
+2025-02-05 12:30:39 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:30:39 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+4,5 mil
+4,5 mil espectadores
+2025-02-05 12:30:39 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+10
+10 espectadores
+2025-02-05 12:30:39 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+120
+120 espectadores
+2025-02-05 12:30:39 - INFO - Canal Recomendado 3: Gaules
+Counter-Strike
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-02-05 12:30:39 - INFO - Canal Recomendado 4: Beardageddon
+Sea of Thieves
+Ao vivo
+486
+486 espectadores
+2025-02-05 12:30:40 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+34
+34 espectadores
+2025-02-05 12:33:51 - INFO - ====== WebDriver manager ======
+2025-02-05 12:33:51 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:33:51 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:33:51 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:33:54 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:33:58 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:33:58 - INFO - Iniciando treino...
+2025-02-05 12:33:58 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-05 12:34:02 - INFO - Assistindo AO VIVO
+Necros
+Marvel Rivals
+7,6 mil espectadores
+[DROPS ENABLED] ONE ABOVE ALL RANK 1 SPIDER-MAN. CREATOR CUP LATER! !creatorcup
+English
+DropsEnabled
+spiderman por 1293 segundos
+2025-02-05 12:34:02 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:34:02 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+4,5 mil
+4,5 mil espectadores
+2025-02-05 12:34:02 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+10
+10 espectadores
+2025-02-05 12:34:02 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+125
+125 espectadores
+2025-02-05 12:34:02 - INFO - Canal Recomendado 3: Beardageddon
+Sea of Thieves
+Ao vivo
+486
+486 espectadores
+2025-02-05 12:34:02 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,1 mil
+2,1 mil espectadores
+2025-02-05 12:34:03 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+31
+31 espectadores
+2025-02-05 12:44:24 - INFO - ====== WebDriver manager ======
+2025-02-05 12:44:24 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:44:24 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:44:24 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:44:27 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:44:28 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:44:28 - INFO - Iniciando treino...
+2025-02-05 12:44:28 - INFO - Jogo escolhido: Valorant
+2025-02-05 12:44:32 - INFO - Assistindo AO VIVO
+furq
+VALORANT
+1,9 mil espectadores
+JOGANDO VALORANT SIMULATOR !youtube !pix !tapacontrole
+valorant
+FPS
+radiante por 2257 segundos
+2025-02-05 12:44:32 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:44:32 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+5,4 mil
+5,4 mil espectadores
+2025-02-05 12:44:32 - INFO - Canal Recomendado 1: Kittey
+League of Legends
+Ao vivo
+121
+121 espectadores
+2025-02-05 12:44:32 - INFO - Canal Recomendado 2: Thzzn_
+MIR 4
+Ao vivo
+128
+128 espectadores
+2025-02-05 12:44:32 - INFO - Canal Recomendado 3: ESLCS
+Counter-Strike
+Ao vivo
+4,1 mil
+4,1 mil espectadores
+2025-02-05 12:44:33 - INFO - Canal Recomendado 4: ZAKl1k
+Minecraft
+Ao vivo
+12
+12 espectadores
+2025-02-05 12:44:34 - INFO - Canal Recomendado 5: Beardageddon
+Sea of Thieves
+Ao vivo
+495
+495 espectadores
+2025-02-05 12:45:35 - INFO - ====== WebDriver manager ======
+2025-02-05 12:45:35 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:45:35 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:45:35 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:45:37 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:45:38 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:45:38 - INFO - Iniciando treino...
+2025-02-05 12:45:38 - INFO - Jogo escolhido: Sea of Thieves
+2025-02-05 12:45:43 - INFO - Assistindo AO VIVO
+Beardageddon
+Sea of Thieves
+502 espectadores
+Want beard 24 hours a day? check the second channel !247 !merch !gs !mobile
+chill
+Casual
+PvP por 945 segundos
+2025-02-05 12:45:43 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:45:43 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+5,4 mil
+5,4 mil espectadores
+2025-02-05 12:45:44 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+12
+12 espectadores
+2025-02-05 12:45:44 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+124
+124 espectadores
+2025-02-05 12:45:44 - INFO - Canal Recomendado 3: Beardageddon
+Sea of Thieves
+Ao vivo
+502
+502 espectadores
+2025-02-05 12:45:44 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:45:44 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+28
+28 espectadores
+2025-02-05 12:47:44 - INFO - ====== WebDriver manager ======
+2025-02-05 12:47:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:47:44 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 12:47:44 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 12:47:48 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 12:47:49 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 12:47:49 - INFO - Iniciando treino...
+2025-02-05 12:47:49 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-05 12:47:53 - INFO - Assistindo Marvel Rivals
+3,1 mil espectadores
+[DROPS ON] 🛑 WE HIT TOP 500 🛑SEASON 1 IS HERE 🛑 CELESTIAL 2 🛑 I'M NOT A BIRD 🛑
+English
+holidayhoopla
+DropsEnabled por 3502 segundos
+2025-02-05 12:47:54 - INFO - Canais Recomendados atualmente:
+2025-02-05 12:47:54 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+5,6 mil
+5,6 mil espectadores
+2025-02-05 12:47:54 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+16
+16 espectadores
+2025-02-05 12:47:54 - INFO - Canal Recomendado 2: Kittey
+League of Legends
+Ao vivo
+124
+124 espectadores
+2025-02-05 12:47:54 - INFO - Canal Recomendado 3: Beardageddon
+Sea of Thieves
+Ao vivo
+502
+502 espectadores
+2025-02-05 12:47:54 - INFO - Canal Recomendado 4: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 12:47:54 - INFO - Canal Recomendado 5: Beardageddon247
+Sea of Thieves
+Ao vivo
+28
+28 espectadores
+2025-02-05 12:49:36 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-02-05 14:00:00 - INFO - ====== WebDriver manager ======
+2025-02-05 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 14:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 14:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 14:00:05 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 14:00:05 - INFO - Iniciando treino...
+2025-02-05 14:00:05 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-05 14:00:09 - INFO - Assistindo Marvel Rivals
+3,6 mil espectadores
+[DROPS ON] 🛑 WE HIT TOP 500 🛑SEASON 1 IS HERE 🛑 CELESTIAL 1 🛑 I'M NOT A BIRD 🛑
+holidayhoopla
+English
+DropsEnabled por 3425 segundos
+2025-02-05 14:00:10 - INFO - Canais Recomendados atualmente:
+2025-02-05 14:00:10 - INFO - Canal Recomendado 0: MrSavage
+Fortnite
+Ao vivo
+11 mil
+11 mil espectadores
+2025-02-05 14:00:10 - INFO - Canal Recomendado 1: ZAKl1k
+Minecraft
+Ao vivo
+20
+20 espectadores
+2025-02-05 14:00:10 - INFO - Canal Recomendado 2: LDSylvr
+Sea of Thieves
+Ao vivo
+203
+203 espectadores
+2025-02-05 14:00:10 - INFO - Canal Recomendado 3: Kittey
+League of Legends
+Ao vivo
+126
+126 espectadores
+2025-02-05 14:00:10 - INFO - Canal Recomendado 4: Beardageddon
+Sea of Thieves
+Ao vivo
+583
+583 espectadores
+Hype Train
+•
+Nível 6
+2025-02-05 14:00:10 - INFO - Canal Recomendado 5: Gaules
+Counter-Strike
+Ao vivo
+2,2 mil
+2,2 mil espectadores
+2025-02-05 14:57:18 - INFO - Treino concluído com sucesso.
+2025-02-05 18:00:00 - INFO - ====== WebDriver manager ======
+2025-02-05 18:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 18:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 18:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 18:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 18:00:06 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 18:00:06 - INFO - Iniciando treino...
+2025-02-05 18:00:06 - INFO - Jogo escolhido: Overwatch 2
+2025-02-05 18:00:09 - INFO - Assistindo AO VIVO
+Skiesti
+Overwatch 2
+936 espectadores
+[!DROPS] Mercy Juno Gamer !rivals | !mercyhelp @skiesti
+Mercy
+Support
+Educational por 1906 segundos
+2025-02-05 18:00:09 - INFO - Canais Recomendados atualmente:
+2025-02-05 18:00:09 - INFO - Canal Recomendado 0: Necros
+Marvel Rivals
+Ao vivo
+10,6 mil
+10,6 mil espectadores
+2025-02-05 18:00:10 - INFO - Canal Recomendado 1: MrSavage
+Fortnite
+Ao vivo
+8,8 mil
+8,8 mil espectadores
+2025-02-05 18:00:10 - INFO - Canal Recomendado 2: Beardageddon247
+Sea of Thieves
+Ao vivo
+150
+150 espectadores
+2025-02-05 18:00:10 - INFO - Canal Recomendado 3: LDSylvr
+Rust
+Ao vivo
+212
+212 espectadores
+2025-02-05 18:00:11 - INFO - Canal Recomendado 4: dakotaz
+Kingdom Come: Deliverance II
+Ao vivo
+464
+464 espectadores
+2025-02-05 18:00:12 - INFO - Canal Recomendado 5: mount
+UNDERWARD
+Ao vivo
+3,3 mil
+3,3 mil espectadores
+2025-02-05 18:32:01 - INFO - Treino concluído com sucesso.
+2025-02-05 22:00:00 - INFO - ====== WebDriver manager ======
+2025-02-05 22:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 22:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 22:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-05 22:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-05 22:00:05 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-05 22:00:05 - INFO - Iniciando treino...
+2025-02-05 22:00:05 - INFO - Jogo escolhido: ROBLOX
+2025-02-05 22:00:09 - INFO - Assistindo AO VIVO
+Arguz11
+ROBLOX
+34 espectadores
+FREE ROBUX ON PLS DONATE! Commands on screen!
+roblox
+Albion
+giveaway por 1115 segundos
+2025-02-05 22:00:10 - INFO - Canais Recomendados atualmente:
+2025-02-05 22:00:10 - INFO - Canal Recomendado 0: Beardageddon247
+Sea of Thieves
+Ao vivo
+84
+84 espectadores
+2025-02-05 22:00:10 - INFO - Canal Recomendado 1: FroggerOW
+Overwatch 2
+Ao vivo
+3,2 mil
+3,2 mil espectadores
+2025-02-05 22:00:10 - INFO - Canal Recomendado 2: Necros
+Marvel Rivals
+Ao vivo
+7,1 mil
+7,1 mil espectadores
+2025-02-05 22:00:10 - INFO - Canal Recomendado 3: Aspen
+Overwatch 2
+Ao vivo
+2,8 mil
+2,8 mil espectadores
+2025-02-05 22:00:11 - INFO - Canal Recomendado 4: loud_coringa
+Grand Theft Auto V
+Ao vivo
+64,5 mil
+64,5 mil espectadores
+Hype Train
+•
+Nível 3
+2025-02-05 22:00:11 - INFO - Canal Recomendado 5: Arguz11
+ROBLOX
+Ao vivo
+34
+34 espectadores
+2025-02-05 22:18:49 - INFO - Treino concluído com sucesso.
+2025-02-06 06:00:00 - INFO - ====== WebDriver manager ======
+2025-02-06 06:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 06:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 06:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 06:00:00 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-06 06:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-06 06:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-06 06:00:01 - INFO - Driver downloading response is 200
+2025-02-06 06:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 06:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159]
+2025-02-06 06:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-06 06:00:06 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-06 06:00:06 - INFO - Iniciando treino...
+2025-02-06 06:00:06 - INFO - Jogo escolhido: The Sims 4
+2025-02-06 06:00:10 - ERROR - Erro durante o treino: list index out of range
+2025-02-06 10:00:00 - INFO - ====== WebDriver manager ======
+2025-02-06 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 10:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-06 10:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-06 10:00:05 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-06 10:00:05 - INFO - Iniciando treino...
+2025-02-06 10:00:05 - INFO - Jogo escolhido: League of Legends
+2025-02-06 10:00:10 - INFO - Assistindo League of Legends
+4,8 mil espectadores
+🟢 HE'S ACTUALLY DOING IT: LEGENDARY CHAMP REQUESTS SAGA VS CHALLENGER PLAYERS... 🟢
+English
+ASMR por 2449 segundos
+2025-02-06 10:00:10 - INFO - Canais Recomendados atualmente:
+2025-02-06 10:00:10 - INFO - Canal Recomendado 0: FroggerOW
+Overwatch 2
+Ao vivo
+1,5 mil
+1,5 mil espectadores
+2025-02-06 10:00:10 - INFO - Canal Recomendado 1: ow_esports_th
+Overwatch 2
+Ao vivo
+1,7 mil
+1,7 mil espectadores
+2025-02-06 10:00:10 - INFO - Canal Recomendado 2: Beardageddon247
+Sea of Thieves
+Ao vivo
+169
+169 espectadores
+2025-02-06 10:00:10 - INFO - Canal Recomendado 3: sinatraa
+Marvel Rivals
+Ao vivo
+6,1 mil
+6,1 mil espectadores
+2025-02-06 10:00:11 - INFO - Canal Recomendado 4: Zintid
+ROBLOX
+Ao vivo
+18
+18 espectadores
+2025-02-06 10:00:11 - INFO - Canal Recomendado 5: Moreweth
+Overwatch 2
+Ao vivo
+102
+102 espectadores
+2025-02-06 10:41:02 - INFO - Treino concluído com sucesso.
+2025-02-06 14:00:00 - INFO - ====== WebDriver manager ======
+2025-02-06 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 14:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 14:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-06 14:00:03 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-06 14:00:06 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-06 14:00:06 - INFO - Iniciando treino...
+2025-02-06 14:00:06 - INFO - Jogo escolhido: ROBLOX
+2025-02-06 14:00:10 - INFO - Assistindo AO VIVO
+RealzBlueWater
+ROBLOX
+4,3 mil espectadores
+🍉VERY SWEET🍉CLICK🐬✨NOW🐬✨💰BIG GIVEAWAYS💰PS5💰💎GIFT CARDS💎GRIND CHANNEL POINTS💎!(>❛̀ 👅 ́❛)>
+caseoh
+English
+pet por 3074 segundos
+2025-02-06 14:00:11 - INFO - Canais Recomendados atualmente:
+2025-02-06 14:00:11 - INFO - Canal Recomendado 0: Symfuhny
+Marvel Rivals
+Ao vivo
+3,2 mil
+3,2 mil espectadores
+2025-02-06 14:00:11 - INFO - Canal Recomendado 1: NEUU
+Overwatch 2
+Ao vivo
+1,8 mil
+1,8 mil espectadores
+2025-02-06 14:00:11 - INFO - Canal Recomendado 2: Skiesti
+Overwatch 2
+Ao vivo
+621
+621 espectadores
+2025-02-06 14:00:11 - INFO - Canal Recomendado 3: insanedra
+The Sims 4
+Ao vivo
+459
+459 espectadores
+2025-02-06 14:00:12 - INFO - Canal Recomendado 4: dakotaz
+Fortnite
+Ao vivo
+1,2 mil
+1,2 mil espectadores
+2025-02-06 14:00:12 - INFO - Canal Recomendado 5: OlivesCrossing
+Hello Kitty Island Adventure
+Ao vivo
+383
+383 espectadores
+2025-02-06 14:51:29 - INFO - Treino concluído com sucesso.
+2025-02-06 18:00:00 - INFO - ====== WebDriver manager ======
+2025-02-06 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 18:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 18:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-06 18:00:04 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-06 18:00:07 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-06 18:00:07 - INFO - Iniciando treino...
+2025-02-06 18:00:07 - INFO - Jogo escolhido: The Sims 4
+2025-02-06 18:00:11 - INFO - Assistindo AO VIVO
+Lu_K
+The Sims 4
+1,8 mil espectadores
+🔥 J’ai des jumeaux et je dois les rendre heureux… : Crazy Baby Challenge | !recap !crazy !insta
+Francais
+Français por 2532 segundos
+2025-02-06 18:00:12 - INFO - Canais Recomendados atualmente:
+2025-02-06 18:00:12 - INFO - Canal Recomendado 0: Skiesti
+Overwatch 2
+Ao vivo
+3,5 mil
+3,5 mil espectadores
+2025-02-06 18:00:12 - INFO - Canal Recomendado 1: Symfuhny
+Marvel Rivals
+Ao vivo
+3,5 mil
+3,5 mil espectadores
+2025-02-06 18:00:12 - INFO - Canal Recomendado 2: beaplays
+ROBLOX
+Ao vivo
+193
+193 espectadores
+2025-02-06 18:00:13 - INFO - Canal Recomendado 3: EWROON
+Minecraft
+Ao vivo
+17,9 mil
+17,9 mil espectadores
+2025-02-06 18:00:13 - INFO - Canal Recomendado 4: Arguz11
+ROBLOX
+Ao vivo
+54
+54 espectadores
+2025-02-06 18:00:14 - INFO - Canal Recomendado 5: OlivesCrossing
+Hello Kitty Island Adventure
+Ao vivo
+349
+349 espectadores
+2025-02-06 18:42:29 - INFO - Treino concluído com sucesso.
+2025-02-06 22:00:00 - INFO - ====== WebDriver manager ======
+2025-02-06 22:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 22:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-06 22:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-06 22:00:05 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-06 22:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-06 22:00:08 - INFO - Iniciando treino...
+2025-02-06 22:00:08 - INFO - Jogo escolhido: Sea of Thieves
+2025-02-06 22:00:12 - INFO - Assistindo AO VIVO
+MixelPlx
+Sea of Thieves
+289 espectadores
+REAL✅SOLO✅LEGEND | NMS LATER | MONSTER HUNTER TONIGHT! | !yt
+English por 2521 segundos
+2025-02-06 22:00:12 - INFO - Canais Recomendados atualmente:
+2025-02-06 22:00:12 - INFO - Canal Recomendado 0: Arguz11
+ROBLOX
+Ao vivo
+43
+43 espectadores
+2025-02-06 22:00:12 - INFO - Canal Recomendado 1: Ninja
+Fortnite
+Ao vivo
+2,7 mil
+2,7 mil espectadores
+2025-02-06 22:00:12 - INFO - Canal Recomendado 2: KreekCraft
+ROBLOX
+Ao vivo
+415
+415 espectadores
+2025-02-06 22:00:13 - INFO - Canal Recomendado 3: alanzoka
+Só Na Conversa
+Ao vivo
+14,3 mil
+14,3 mil espectadores
+2025-02-06 22:00:13 - ERROR - Erro ao recuperar canais recomendados: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=132.0.6834.83); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x562b09a3a53a <unknown>
+#1 0x562b09535f00 <unknown>
+#2 0x562b0953c04c <unknown>
+#3 0x562b0953e578 <unknown>
+#4 0x562b0953e603 <unknown>
+#5 0x562b095801d8 <unknown>
+#6 0x562b095aa5a2 <unknown>
+#7 0x562b09579758 <unknown>
+#8 0x562b095aa76e <unknown>
+#9 0x562b095c8f84 <unknown>
+#10 0x562b095aa343 <unknown>
+#11 0x562b0957778a <unknown>
+#12 0x562b095789de <unknown>
+#13 0x562b09a042cb <unknown>
+#14 0x562b09a08242 <unknown>
+#15 0x562b099f17ac <unknown>
+#16 0x562b09a08df7 <unknown>
+#17 0x562b099d5b2f <unknown>
+#18 0x562b09a291a8 <unknown>
+#19 0x562b09a29370 <unknown>
+#20 0x562b09a393b6 <unknown>
+#21 0x7f8351de46db start_thread
+
+2025-02-06 22:42:18 - INFO - Treino concluído com sucesso.
+2025-02-07 06:00:00 - INFO - ====== WebDriver manager ======
+2025-02-07 06:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 06:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 06:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 06:00:02 - INFO - WebDriver version 132.0.6834.159 selected
+2025-02-07 06:00:02 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-07 06:00:02 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/linux64/chromedriver-linux64.zip
+2025-02-07 06:00:02 - INFO - Driver downloading response is 200
+2025-02-07 06:00:03 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 06:00:03 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159]
+2025-02-07 06:00:07 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-07 06:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-07 06:00:11 - INFO - Iniciando treino...
+2025-02-07 06:00:11 - INFO - Jogo escolhido: Overwatch 2
+2025-02-07 06:00:15 - INFO - Assistindo AO VIVO
+ta1yo_tv
+Overwatch 2
+2,7 mil espectadores
+OWの時代が変わっているらしいぞ！OWCS KR #owcs
+Drops有効
+日本語 por 2411 segundos
+2025-02-07 06:00:15 - INFO - Canais Recomendados atualmente:
+2025-02-07 06:00:15 - INFO - Canal Recomendado 0: NEUU
+Overwatch 2
+Ao vivo
+565
+565 espectadores
+2025-02-07 06:00:15 - INFO - Canal Recomendado 1: Loeya
+Fortnite
+Ao vivo
+1,7 mil
+1,7 mil espectadores
+2025-02-07 06:00:15 - INFO - Canal Recomendado 2: flotsam
+Sea of Thieves
+Ao vivo
+579
+579 espectadores
+2025-02-07 06:00:16 - INFO - Canal Recomendado 3: Beardageddon
+Sea of Thieves
+Ao vivo
+48
+48 espectadores
+2025-02-07 06:00:16 - INFO - Canal Recomendado 4: OW_ESPORTS_JP
+Overwatch 2
+Ao vivo
+6,8 mil
+6,8 mil espectadores
+2025-02-07 06:00:16 - INFO - Canal Recomendado 5: Oatley
+Fortnite
+Ao vivo
+2 mil
+2 mil espectadores
+2025-02-07 06:40:30 - INFO - Treino concluído com sucesso.
+2025-02-07 10:00:00 - INFO - ====== WebDriver manager ======
+2025-02-07 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-07 10:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/132.0.6834.159/chromedriver-linux64/chromedriver] found in cache
+2025-02-07 10:00:03 - INFO - Erro ao logar no Google ou Login já realizado
+2025-02-07 10:00:07 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-02-07 10:00:07 - INFO - Iniciando treino...
+2025-02-07 10:00:07 - INFO - Jogo escolhido: Marvel Rivals
+2025-02-07 10:00:11 - INFO - Assistindo Marvel Rivals
+555 espectadores
+DROPS its spidey time with @boba & @pedguin
+bronzesmith
+falconry
+esportsready por 2148 segundos
+2025-02-07 10:00:12 - INFO - Canais Recomendados atualmente:
+2025-02-07 10:00:12 - INFO - Canal Recomendado 0: Beardageddon247
+Sea of Thieves
+Ao vivo
+201
+201 espectadores
+2025-02-07 10:00:12 - INFO - Canal Recomendado 1: sinatraa
+Marvel Rivals
+Ao vivo
+6,3 mil
+6,3 mil espectadores
+2025-02-07 10:00:12 - INFO - Canal Recomendado 2: 39daph
+Kingdom Come: Deliverance II
+Ao vivo
+5,1 mil
+5,1 mil espectadores
+2025-02-07 10:00:12 - INFO - Canal Recomendado 3: ta1yo_tv
+Overwatch 2
+Ao vivo
+3,6 mil
+3,6 mil espectadores
+2025-02-07 10:00:13 - INFO - Canal Recomendado 4: PirateSoftware
+Monster Hunter Wilds
+Ao vivo
+8,9 mil
+8,9 mil espectadores
+2025-02-07 10:00:13 - INFO - Canal Recomendado 5: 
+2025-02-07 10:36:05 - INFO - Treino concluído com sucesso.
