@@ -192,7 +192,7 @@ def TreinarPersona1():
 schedule.every().day.at("06:00").do(TreinarPersona1)
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
-schedule.every().day.at("19:15").do(TreinarPersona1)
+schedule.every().day.at("19:30").do(TreinarPersona1)
 schedule.every().day.at("22:00").do(TreinarPersona1)
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
