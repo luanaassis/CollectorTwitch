@@ -22,6 +22,7 @@ def ChromeLogin(driver, google_login, google_password):
     time.sleep(random.uniform(0.2, 0.5))
     driver.find_element(By.NAME, "identifier").send_keys(Keys.RETURN)
     time.sleep(random.uniform(1, 2.5))
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "Passwd")))
     driver.find_element(By.NAME, "Passwd").send_keys(google_password)
     time.sleep(random.uniform(0.2, 0.5))
     driver.find_element(By.NAME, "Passwd").send_keys(Keys.RETURN)

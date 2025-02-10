@@ -17,7 +17,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from utils.login import ChromeLogin, LoginTwitch
 from utils.csv_operations import registrar_dados
-from utils.commit_to_github import commit_and_push
 from utils.channelCollector import getChannelInfo
 
 jogosLivre = {"Minecraft", "EA Sports FC 25"}
@@ -192,7 +191,7 @@ def TreinarPersona1():
         logging.error(f"Erro durante o treino: {e}")
 
     driver.quit()
-
+"""
 schedule.every().day.at("06:00").do(TreinarPersona1)
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
@@ -205,7 +204,7 @@ while True:
     time.sleep(1)
 """
 TreinarPersona1()
-"""
+
 
 
 
