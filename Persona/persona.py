@@ -3,6 +3,7 @@ import random
 import time
 import logging
 import schedule
+from dotenv import load_dotenv
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -71,6 +72,9 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",  # Formato do log
     datefmt="%Y-%m-%d %H:%M:%S"  # Formato da data
 )
+
+# Carregar variáveis de ambiente
+load_dotenv()
 
 # Configurar o WebDriver
 chromeOptions = Options()
