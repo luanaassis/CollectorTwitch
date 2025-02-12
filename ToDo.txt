@@ -12,3 +12,7 @@ script para coleta: (1 assistir pesquisados, outro assistir recomendados)
 fazer o scheduled e definir máquinas virtuais.
 
 Compra nova maquina
+
+Melhorias codigo:
+
+Colocar ifs para, caso demore para encontrar elemento, recarregar a pagina
