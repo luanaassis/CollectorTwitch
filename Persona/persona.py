@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 from utils.login import ChromeLogin, LoginTwitch
-from utils.csv_operations import registrar_dados
+from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
 
 jogosLivre = {"Minecraft", "EA Sports FC 25"}
@@ -26,43 +26,41 @@ jogos14 = {"Valorant"}
 jogos16 = {"Counter-Strike"}
 jogos18 = {"Grand Theft Auto V"}
 
+jogosE = {"EA Sports FC 25"}  # Everyone (Livre para todas as idades)
+jogosE10 = {"Minecraft"}  # Everyone 10+ (Maiores de 10 anos)
+jogosT = {"ROBLOX", "Fortnite", "Sea of Thieves", "The Sims 4", "League of Legends", "Overwatch 2", "Marvel Rivals", "Valorant"}  # Teen (Maiores de 13 anos)
+jogosM = {"Counter-Strike", "Grand Theft Auto V"}  # Mature (Maiores de 17 anos)
+
+allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
+
+
 # 0 = 0 - 9
 # 1 = 10 - 11
 # 2 = 12 - 13
 # 3 = 14 - 15
 # 4 = 16 - 17
 # 5 = 18+
-faixaEtaria = 2
+faixaEtaria = 0
 
 # Area das variáveis específicas de cada faixa etária
 
-if faixaEtaria == 0:
-    tempo_min = 450
-    tempo_max = 900 
-    jogosAssistir = jogosLivre
+if faixaEtaria == 0: # 12-
+    tempo_min = 600
+    tempo_max = 3600 
+    jogosAssistir = jogosLivre.union(jogos10, jogos12)
 
 if faixaEtaria == 1:
-    tempo_min = 600
-    tempo_max = 1800
-    jogosAssistir = jogosLivre.union(jogos10)
-
-if faixaEtaria == 2:
-    tempo_min = 900
-    tempo_max = 3600 
-    jogosAssistir = jogosLivre.union(jogos10, jogos12, jogos14)
-
-if faixaEtaria == 3:
     tempo_min = 900
     tempo_max = 7200
-    jogosAssistir = "A DEFINIR"
+    jogosAssistir = allJogos
 
 # Area das variáveis específicas de cada persona
 
-diretorio_perfil = "--profile-directory=Profile 1"
-google_login = "flaviocrianco@gmail.com"
-google_password = "Superben10!"
-twitch_username = "flaviocrianco"
-twitch_password = "Superben10!"
+diretorio_perfil = "--profile-directory=Profile 6"
+google_login = "enzosouza0013@gmail.com"
+google_password = "LOCUS123!"
+twitch_username = "enzosouza0013"
+twitch_password = "LOCUS123!"
 
 # Configurar Logs
 logging.basicConfig(
@@ -99,7 +97,22 @@ def RecuperarRecomendados(driver):
         logging.info("Canais Recomendados atualmente:")
         if(len(recommended_channels) != 0):
             for i in range(len(recommended_channels)):
-                logging.info(f"Canal Recomendado {i}: {recommended_channels[i].text}")
+                try:
+                    # Pega o atributo 'href' diretamente do elemento <a>
+                    href = recommended_channels[i].get_attribute("href")  # Exemplo: "/yoda"
+
+                    # Extrai o nome do canal do href (última parte da URL)
+                    channel_name = href.split("/")[-1]  # "yoda"
+
+                    logging.info(f"Canal Recomendado {i}: {channel_name} ({href})")
+
+                    print(channel_name)
+                    time.sleep(1.5)
+                    channel = getChannelInfo(channel_name)
+                    registrar_dados_recomendados("coletaTwitchBr1_recomendados.csv", channel, id_transmissao)
+                except Exception as e:
+                    logging.error(f"Erro ao processar canal {i}: {str(e)}")
+                    pass
         else:
             logging.error("Nenhum canal recomendado encontrado")
                 
@@ -114,6 +127,8 @@ def Treino(driver):
     jogoPesquisado = random.choice(list(jogosAssistir))
     logging.info(f"Jogo escolhido: {jogoPesquisado}")
 
+    time.sleep(random.uniform(3.0, 4.0))
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[placeholder="Buscar"]')))
     barraBusca = driver.find_element('css selector', '[placeholder="Buscar"]')
     barraBusca.send_keys(jogoPesquisado)
     
@@ -148,13 +163,18 @@ def Treino(driver):
 
     logging.info(f"Assistindo {video.text} por {tempoDeVisualizacao} segundos")
     video.click()
-    RecuperarRecomendados(driver)
+    time.sleep(random.uniform(15.0, 20.0))
 
     id = driver.current_url.split("/")[-1]
     print(id)
     channel = getChannelInfo(id)
     print(channel)
-    registrar_dados("coletaTeste.csv", channel, tempoDeVisualizacao, jogoPesquisado)
+
+    registrar_dados("coletaTwitchBr1.csv", channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
+    RecuperarRecomendados(driver)
+
+    id_transmissao += 1
+
     time.sleep(tempoDeVisualizacao)
 
 def acessarTwitch(driver):
@@ -174,6 +194,7 @@ def acessarTwitch(driver):
         logging.info("Erro ao logar no Twitch ou Login já realizado")
         pass
 
+
 def TreinarPersona1():
     #iniciar driver
     service = Service(ChromeDriverManager().install())
@@ -191,20 +212,17 @@ def TreinarPersona1():
         logging.error(f"Erro durante o treino: {e}")
 
     driver.quit()
-"""
+
 schedule.every().day.at("06:00").do(TreinarPersona1)
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
-schedule.every().day.at("19:30").do(TreinarPersona1)
+schedule.every().day.at("18:00").do(TreinarPersona1)
 schedule.every().day.at("22:00").do(TreinarPersona1)
 
+id_transmissao = 0
+
+TreinarPersona1()
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
 while True:
     schedule.run_pending()
     time.sleep(1)
-"""
-TreinarPersona1()
-
-
-
-
