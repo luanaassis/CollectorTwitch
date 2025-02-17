@@ -10,12 +10,11 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
 
 
 def ChromeLogin(driver, google_login, google_password):
     #fazer login na conta google
-    time.sleep(random.uniform(1.5, 3.0))
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.LINK_TEXT, "Fazer login")))
     driver.find_element(By.LINK_TEXT, "Fazer login").click()
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "identifier")))
     driver.find_element(By.NAME, "identifier").send_keys(google_login)
@@ -32,14 +31,20 @@ def GetVerificationCode(driver):
     driver.get("https://mail.google.com/mail/u/0/#inbox")
     time.sleep(random.uniform(1.0, 3.0))
 
-    firstEmail = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.XPATH, '(//tr[contains(@class, "zA")])[1]'))
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, "//span[text()='Twitch']"))
     )
-    firstEmail.click()
+    emailsTwitch = driver.find_elements(By.XPATH, "//span[text()='Twitch']")
+    print(emailsTwitch.__len__())
+    for email in emailsTwitch:
+        if email.is_displayed():  # Verifica se está visível
+            email.click()
+            break  # Para no primeiro que for clicável
+    print("primeiro email aberto")
     time.sleep(random.uniform(4.0, 6.0))
             #nao esta funcionando mais, nao faço ideia do porque
     element  = driver.find_element(By.XPATH, '//div[@style="background:#faf9fa;border:1px solid #dad8de;text-align:center;padding:5px;margin:0 0 5px 0;font-size:24px;line-height:1.5;width:80%"]')
-
+    print(element.text)
     codVerificacao = element.text
     return codVerificacao
 
@@ -72,13 +77,17 @@ def LoginTwitch(driver, twitch_username, twitch_password):
             #Volta para a aba original
             time.sleep(random.uniform(1.0, 2.0))
             driver.switch_to.window(original_tab)
-        except:
-            print("Erro ao tentar resgatar o código de verificação")
+        except Exception as e:
+            print(e)
+            print("Erro ao resgatar código de verificação")
             driver.quit()
             exit()
+
     
         time.sleep(random.uniform(1.0, 2.0))
         campoVerificacao.send_keys(verificationCode)
+        campoVerificacao.send_keys(Keys.RETURN)
+        time.sleep(random.uniform(2.0, 5.0))
     except:
         print("Código de verificação não solicitado")
         pass
