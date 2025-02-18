@@ -108,7 +108,7 @@ def RecuperarRecomendados(driver):
                     print(channel_name)
                     time.sleep(1.5)
                     channel = getChannelInfo(channel_name)
-                    registrar_dados_recomendados("coletaTwitchBr1_recomendados.csv", channel, id_transmissao)
+                    registrar_dados_recomendados("coletaTwitchUS1_recomendados.csv", channel, id_transmissao)
                 except Exception as e:
                     logging.error(f"Erro ao processar canal {i}: {str(e)}")
                     pass
@@ -120,6 +120,7 @@ def RecuperarRecomendados(driver):
         pass
 
 def Treino(driver):
+    global id_transmissao
 
     tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
 
@@ -206,13 +207,15 @@ def TreinarPersona1():
 
     driver.quit()
 
-schedule.every().day.at("06:00").do(TreinarPersona1)
-schedule.every().day.at("10:00").do(TreinarPersona1)
-schedule.every().day.at("14:00").do(TreinarPersona1)
-schedule.every().day.at("19:30").do(TreinarPersona1)
-schedule.every().day.at("22:00").do(TreinarPersona1)
-
 id_transmissao = 0
+
+schedule.every().day.at("06:15").do(TreinarPersona1)
+schedule.every().day.at("10:15").do(TreinarPersona1)
+schedule.every().day.at("14:15").do(TreinarPersona1)
+schedule.every().day.at("18:15").do(TreinarPersona1)
+schedule.every().day.at("22:15").do(TreinarPersona1)
+schedule.every().day.at("02:15").do(TreinarPersona1)
+
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
 while True:
