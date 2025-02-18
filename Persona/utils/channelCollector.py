@@ -6,8 +6,8 @@ load_dotenv()
 
 import os
 
-client_id = os.getenv('TWITCH_API_ID')
-client_secret = os.getenv('TWITCH_API_SECRET')
+client_id = 'f3etkvwrpvxhymoohuxbjxraeg7f0o'
+client_secret = 'xv7chjlx0eprbzcazuvyopenj3awhx'
 
 class Channel:
     def __init__(self, id, login_name, channel_name, language, last_game_name, last_game_id, stream_title, stream_tags, classification_labels, is_branded_content):
