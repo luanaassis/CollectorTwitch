@@ -121,6 +121,7 @@ def RecuperarRecomendados(driver):
         pass
 
 def Treino(driver):
+    global id_transmissao
 
     tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
 
@@ -128,6 +129,7 @@ def Treino(driver):
     logging.info(f"Jogo escolhido: {jogoPesquisado}")
 
     time.sleep(random.uniform(3.0, 4.0))
+    
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[placeholder="Buscar"]')))
     barraBusca = driver.find_element('css selector', '[placeholder="Buscar"]')
     barraBusca.send_keys(jogoPesquisado)
@@ -213,13 +215,14 @@ def TreinarPersona1():
 
     driver.quit()
 
+id_transmissao = 0
+
 schedule.every().day.at("06:00").do(TreinarPersona1)
 schedule.every().day.at("10:00").do(TreinarPersona1)
 schedule.every().day.at("14:00").do(TreinarPersona1)
 schedule.every().day.at("18:00").do(TreinarPersona1)
 schedule.every().day.at("22:00").do(TreinarPersona1)
 
-id_transmissao = 0
 
 TreinarPersona1()
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
