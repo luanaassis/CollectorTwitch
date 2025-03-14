@@ -40,7 +40,7 @@ allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 # 3 = 14 - 15
 # 4 = 16 - 17
 # 5 = 18+
-faixaEtaria = 0
+faixaEtaria = 1
 
 # Area das variáveis específicas de cada faixa etária
 
@@ -57,9 +57,9 @@ if faixaEtaria == 1:
 # Area das variáveis específicas de cada persona
 
 
-email_login = "mickevans13@outlook.com"
+email_login = "richardjohnson.0018@outlook.com"
 email_password = "LOCUS123!"
-twitch_username = "mickevans13"
+twitch_username = "richardjohnson0018"
 twitch_password = "LOCUS123!"
 
 # Configurar Logs
@@ -69,9 +69,6 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",  # Formato do log
     datefmt="%Y-%m-%d %H:%M:%S"  # Formato da data
 )
-
-# Carregar variáveis de ambiente
-load_dotenv()
 
 # Configurar o WebDriver
 chromeOptions = Options()
@@ -108,7 +105,7 @@ def RecuperarRecomendados(driver):
                     print(channel_name)
                     time.sleep(1.5)
                     channel = getChannelInfo(channel_name)
-                    registrar_dados_recomendados("coletaTwitchUS1_recomendados.csv", channel, id_transmissao)
+                    registrar_dados_recomendados("coletaTwitchUS2_recomendados.csv", channel, id_transmissao)
                 except Exception as e:
                     logging.error(f"Erro ao processar canal {i}: {str(e)}")
                     pass
@@ -173,7 +170,7 @@ def Treino(driver):
     print(id)
     channel = getChannelInfo(id)
     print(channel)
-    registrar_dados("coletaTwitchUS1.csv", channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
+    registrar_dados("coletaTwitchUS2.csv", channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
     id_transmissao += 1
     time.sleep(tempoDeVisualizacao)
 
@@ -209,13 +206,12 @@ def TreinarPersona1():
 
 id_transmissao = 0
 
-schedule.every().day.at("06:15").do(TreinarPersona1)
-schedule.every().day.at("10:15").do(TreinarPersona1)
-schedule.every().day.at("14:15").do(TreinarPersona1)
-schedule.every().day.at("18:15").do(TreinarPersona1)
-schedule.every().day.at("22:15").do(TreinarPersona1)
-schedule.every().day.at("02:15").do(TreinarPersona1)
-
+schedule.every().day.at("08:00").do(TreinarPersona1)
+schedule.every().day.at("12:00").do(TreinarPersona1)
+schedule.every().day.at("14:12").do(TreinarPersona1)
+schedule.every().day.at("20:00").do(TreinarPersona1)
+schedule.every().day.at("00:00").do(TreinarPersona1)
+schedule.every().day.at("04:00").do(TreinarPersona1)
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
 while True:
