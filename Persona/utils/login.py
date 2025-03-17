@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 
 def NordVpnLogin(numero_servidor):
-    script = "nordvpn connect us" + str(numero_servidor)
+    script = "nordvpn connect " + str(numero_servidor)
     output = os.popen(script).read()
     print(output)
 
