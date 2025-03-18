@@ -3,7 +3,6 @@ import random
 import time
 import logging
 import schedule
-from dotenv import load_dotenv
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -15,7 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.login import ChromeLogin, LoginTwitch
+from utils.login import LoginTwitch, NordVpnLogin
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
 
@@ -33,46 +32,39 @@ jogosM = {"Counter-Strike", "Grand Theft Auto V"}  # Mature (Maiores de 17 anos)
 
 allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
-
-# 0 = 0 - 9
-# 1 = 10 - 11
-# 2 = 12 - 13
-# 3 = 14 - 15
-# 4 = 16 - 17
-# 5 = 18+
-faixaEtaria = 1
-
-# Area das variáveis específicas de cada faixa etária
-
-if faixaEtaria == 0: # 12-
-    tempo_min = 600
-    tempo_max = 3600 
-    jogosAssistir = jogosLivre.union(jogos10, jogos12)
-
-if faixaEtaria == 1:
-    tempo_min = 900
-    tempo_max = 7200
-    jogosAssistir = allJogos
-
 # Area das variáveis específicas de cada persona
 
+email_login = ""
+email_password = ""
+twitch_username = ""
+twitch_password = ""
+server = ""
+data_base_name = ""
+home = ""
+faixaEtaria = 0 # ----Mudar para a faixa etária desejada----
 
-email_login = "richardjohnson.0018@outlook.com"
-email_password = "LOCUS123!"
-twitch_username = "richardjohnson0018"
-twitch_password = "LOCUS123!"
+if faixaEtaria == 0: # 12-
+    tempo_min = 300
+    tempo_max = 600 
+    jogosAssistir = allJogos
+
+if faixaEtaria == 1:
+    tempo_min = 300
+    tempo_max = 600
+    jogosAssistir = allJogos
 
 # Configurar Logs
 logging.basicConfig(
-    filename="simulador.log",  # Nome do arquivo de log
-    level=logging.INFO,  # Nível de registro (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-    format="%(asctime)s - %(levelname)s - %(message)s",  # Formato do log
-    datefmt="%Y-%m-%d %H:%M:%S"  # Formato da data
+    filename="simulador.log",  
+    level=logging.INFO, 
+    format="%(asctime)s - %(levelname)s - %(message)s", 
+    datefmt="%Y-%m-%d %H:%M:%S"  
 )
 
 # Configurar o WebDriver
 chromeOptions = Options()
-chromeOptions.add_argument("user-data-dir=/home/locus/.config/google-chrome")
+googleDir = "user-data-dir=" + home + "/.config/google-chrome"
+chromeOptions.add_argument(googleDir)
 chromeOptions.add_argument("--window-size=1280,800")
 chromeOptions.add_argument("--disable-extensions")
 chromeOptions.add_argument("--disable-notifications")
@@ -94,18 +86,17 @@ def RecuperarRecomendados(driver):
         if(len(recommended_channels) != 0):
             for i in range(len(recommended_channels)):
                 try:
-                    # Pega o atributo 'href' diretamente do elemento <a>
-                    href = recommended_channels[i].get_attribute("href")  # Exemplo: "/yoda"
-
-                    # Extrai o nome do canal do href (última parte da URL)
-                    channel_name = href.split("/")[-1]  # "yoda"
+                    
+                    href = recommended_channels[i].get_attribute("href")  
+                    channel_name = href.split("/")[-1]
 
                     logging.info(f"Canal Recomendado {i}: {channel_name} ({href})")
 
                     print(channel_name)
                     time.sleep(1.5)
                     channel = getChannelInfo(channel_name)
-                    registrar_dados_recomendados("coletaTwitchUS2_recomendados.csv", channel, id_transmissao)
+                    nomeArquivo = "coletaTwitch_" + data_base_name + "_recomendados.csv"
+                    registrar_dados_recomendados(nomeArquivo, channel, id_transmissao)
                 except Exception as e:
                     logging.error(f"Erro ao processar canal {i}: {str(e)}")
                     pass
@@ -119,42 +110,55 @@ def RecuperarRecomendados(driver):
 def Treino(driver):
     global id_transmissao
 
-    tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
+    NordVpnLogin(server)
 
+    #TODO : Modularizar a pesquisa, para pesquisar mais de uma vez por sessão (3 a 5 vezes)
+    #TODO : Mudar lógica de pesquisa, para pesquisar clicando na recomendação ao invés de apertar enter
+    #TODO : Caso não encontre a transmissão, não contar a tentativa e salvar esse registro no CSV
+
+
+
+
+ ################################
+    tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
     jogoPesquisado = random.choice(list(jogosAssistir))
     logging.info(f"Jogo escolhido: {jogoPesquisado}")
-
     time.sleep(random.uniform(3.0, 4.0))
 
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[placeholder="Search"]')))
     barraBusca = driver.find_element('css selector', '[placeholder="Search"]')
+    barraBusca.clear()
     barraBusca.send_keys(jogoPesquisado)
     
     time.sleep(random.uniform(1.0, 2.0))
 
-    barraBusca.send_keys(Keys.RETURN)
+    barraBusca.send_keys(Keys.DOWN)
+    time.sleep(random.uniform(0.7, 1.0))
+    barraBusca.send_keys(Keys.RETURN) 
 
     time.sleep(random.uniform(1.5, 2.5))
 
     videoAssistido = random.randint(0, 2)
 
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[data-a-target="search-result-live-channel"]')))
-    canais_achados = driver.find_elements(By.CSS_SELECTOR, '[data-a-target="search-result-live-channel"]')
+    #Mudar daqui pra baixo para selecionar os recomendados
+
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.Layout-sc-1xcs6mc-0')))
+    canais_achados = driver.find_elements(By.CSS_SELECTOR, '.Layout-sc-1xcs6mc-0')
     print(canais_achados)
 
     if len(canais_achados) == 0:
         logging.error("Nenhuma transmissão encontrada")
-        screenshot_path = "screenshot_nenhuma_transmissao_nao_encontrada.png"
+        screenshot_path = "screenshot_transmissao_nao_encontrada_" + id_transmissao + ".png"
         driver.save_screenshot(screenshot_path)
-        logging.info(f"Screenshot salva em: {screenshot_path}")
+        logging.info(f"Nenhuma transmissão para {jogoPesquisado} encontrada Screenshot salva em: {screenshot_path}")
         return
     elif len(canais_achados) < (videoAssistido + 1):
         logging.INFO(f"Transmissão {videoAssistido} não encontrada, tentando transmissão 0")
 
         # Tirando o print da tela e salvando
-        screenshot_path = "screenshot_transmissao_nao_encontrada.png"
+        screenshot_path = "screenshot_transmissao_nao_encontrada_" + id_transmissao + ".png"
         driver.save_screenshot(screenshot_path)
-        logging.info(f"Screenshot salva em: {screenshot_path}")
+        logging.info(f"Transmissão {id_transmissao} não encontrada Screenshot salva em: {screenshot_path}")
 
         videoAssistido = 0
     
@@ -170,13 +174,16 @@ def Treino(driver):
     print(id)
     channel = getChannelInfo(id)
     print(channel)
-    registrar_dados("coletaTwitchUS2.csv", channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
+
+    nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
+    registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
+
     id_transmissao += 1
     time.sleep(tempoDeVisualizacao)
+################################
 
 def acessarTwitch(driver):
     driver.get("https://www.google.com")
-    driver.get("https://www.twitch.tv")
 
     try:
         driver.get("https://www.twitch.tv")
@@ -208,12 +215,14 @@ id_transmissao = 0
 
 schedule.every().day.at("08:00").do(TreinarPersona1)
 schedule.every().day.at("12:00").do(TreinarPersona1)
-schedule.every().day.at("14:12").do(TreinarPersona1)
+schedule.every().day.at("16:00").do(TreinarPersona1)
 schedule.every().day.at("20:00").do(TreinarPersona1)
 schedule.every().day.at("00:00").do(TreinarPersona1)
 schedule.every().day.at("04:00").do(TreinarPersona1)
 
 logging.info("Agendamento iniciado. Aguardando próxima execução...")
+
+TreinarPersona1()
 while True:
     schedule.run_pending()
     time.sleep(1)
