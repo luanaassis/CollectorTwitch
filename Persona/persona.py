@@ -115,7 +115,7 @@ def Treino(driver):
     #TODO : Modularizar a pesquisa, para pesquisar mais de uma vez por sessão (3 a 5 vezes)
     #TODO : Mudar lógica de pesquisa, para pesquisar clicando na recomendação ao invés de apertar enter
     #TODO : Caso não encontre a transmissão, não contar a tentativa e salvar esse registro no CSV
-
+    #TODO : Salvar os dados de tudo que foi resultado de busca, e marcar apenas 1 como assistido
 
 
 
@@ -142,10 +142,10 @@ def Treino(driver):
 
     #Mudar daqui pra baixo para selecionar os recomendados
 
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.Layout-sc-1xcs6mc-0')))
-    canais_achados = driver.find_elements(By.CSS_SELECTOR, '.Layout-sc-1xcs6mc-0')
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'article[data-a-target="card-1"]')))
+    canais_achados = driver.find_element(By.CSS_SELECTOR, 'article[data-a-target="card-1"]')
     print(canais_achados)
-
+    """
     if len(canais_achados) == 0:
         logging.error("Nenhuma transmissão encontrada")
         screenshot_path = "screenshot_transmissao_nao_encontrada_" + id_transmissao + ".png"
@@ -161,8 +161,9 @@ def Treino(driver):
         logging.info(f"Transmissão {id_transmissao} não encontrada Screenshot salva em: {screenshot_path}")
 
         videoAssistido = 0
+    """
     
-    video = canais_achados[videoAssistido]
+    video = canais_achados
 
     print(video)
 
