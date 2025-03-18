@@ -12,6 +12,7 @@ def NordVpnLogin(numero_servidor):
     script = "nordvpn connect " + str(numero_servidor)
     output = os.popen(script).read()
     print(output)
+    time.sleep(10)
 
 def ChromeLogin(driver, google_login, google_password):
     #fazer login na conta google
