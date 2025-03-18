@@ -41,6 +41,7 @@ twitch_password = ""
 server = ""
 data_base_name = ""
 home = ""
+textSearchbar = ""
 faixaEtaria = 0 # ----Mudar para a faixa etária desejada----
 
 if faixaEtaria == 0: # 12-
@@ -110,7 +111,7 @@ def RecuperarRecomendados(driver):
 def Treino(driver):
     global id_transmissao
 
-    NordVpnLogin(server)
+
 
     #TODO : Modularizar a pesquisa, para pesquisar mais de uma vez por sessão (3 a 5 vezes)
     #TODO : Mudar lógica de pesquisa, para pesquisar clicando na recomendação ao invés de apertar enter
@@ -125,8 +126,9 @@ def Treino(driver):
     logging.info(f"Jogo escolhido: {jogoPesquisado}")
     time.sleep(random.uniform(3.0, 4.0))
 
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '[placeholder="Search"]')))
-    barraBusca = driver.find_element('css selector', '[placeholder="Search"]')
+    cssSearchBar = '[placeholder="' + textSearchbar + '"]'
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, cssSearchBar)))
+    barraBusca = driver.find_element('css selector', cssSearchBar)
     barraBusca.clear()
     barraBusca.send_keys(jogoPesquisado)
     
