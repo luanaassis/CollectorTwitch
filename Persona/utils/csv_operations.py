@@ -1,7 +1,7 @@
 import csv
 from datetime import datetime
 
-def registrar_dados(csv_file, channel_data, View_time, searched_game, id_transmissao):
+def registrar_dados(csv_file, channel_data, View_time, searched_game, id_transmissao, assistido):
     try:
         with open(csv_file, mode='a', newline='') as file:
             writer = csv.writer(file)
@@ -12,6 +12,7 @@ def registrar_dados(csv_file, channel_data, View_time, searched_game, id_transmi
                                 "Data",
                                 "View_time",
                                 "searched_game",
+                                "watched",
                                 "channel_name",
                                 "language",
                                 "last_game_name",
@@ -25,6 +26,7 @@ def registrar_dados(csv_file, channel_data, View_time, searched_game, id_transmi
                 datetime.now().strftime("%Y-%m-%d %H:%M"),
                 View_time,
                 searched_game,
+                str(assistido),
                 channel_data.channel_name,
                 channel_data.language,
                 channel_data.last_game_name,
