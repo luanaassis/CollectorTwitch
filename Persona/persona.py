@@ -18,30 +18,41 @@ from utils.login import LoginTwitch, NordVpnLogin
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
 
-jogosLivre = {"Minecraft", "EA Sports FC 25"}
-jogos10 = {"ROBLOX"}
-jogos12 = {"Fortnite", "Sea of Thieves", "The Sims 4", "League of Legends", "Overwatch 2", "Marvel Rivals"}
-jogos14 = {"Valorant"}
-jogos16 = {"Counter-Strike"}
-jogos18 = {"Grand Theft Auto V"}
+jogosLivre = {"minecraft", "ea-sports-fc-25"}
+jogos10 = {"roblox"}
+jogos12 = {"fortnite", "sea-of-thieves", "the-sims-4", "league-of-legends", "overwatch-2", "marvel-rivals"}
+jogos14 = {"valorant"}
+jogos16 = {"counter-strike"}
+jogos18 = {"grand-theft-auto-v"}
 
 jogosE = {"EA Sports FC 25"}  # Everyone (Livre para todas as idades)
 jogosE10 = {"Minecraft"}  # Everyone 10+ (Maiores de 10 anos)
 jogosT = {"ROBLOX", "Fortnite", "Sea of Thieves", "The Sims 4", "League of Legends", "Overwatch 2", "Marvel Rivals", "Valorant"}  # Teen (Maiores de 13 anos)
 jogosM = {"Counter-Strike", "Grand Theft Auto V"}  # Mature (Maiores de 17 anos)
 
+badSearch = {"ROBLOX", "Marvel RIvals", "League of Legends", "Counter-Strike"}
+
+
 allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
 # Area das variáveis específicas de cada persona
 
 email_login = ""
-email_password = ""
+email_password = "Locus123!"
 twitch_username = ""
-twitch_password = ""
-server = ""
+twitch_password = "Locus123!"
 data_base_name = ""
 home = ""
-textSearchbar = ""
+br = True
+
+
+
+textSearchbar = "Search"
+digit = "Digit"
+if(br):
+    textSearchbar = "Buscar"
+    digit = "Dígito" 
+    
 faixaEtaria = 0 # ----Mudar para a faixa etária desejada----
 
 if faixaEtaria == 0: # 12-
@@ -109,88 +120,136 @@ def RecuperarRecomendados(driver):
         pass
 
 def Treino(driver):
-    global id_transmissao
-
-
-
     #TODO : Modularizar a pesquisa, para pesquisar mais de uma vez por sessão (3 a 5 vezes)
-    #TODO : Mudar lógica de pesquisa, para pesquisar clicando na recomendação ao invés de apertar enter
     #TODO : Caso não encontre a transmissão, não contar a tentativa e salvar esse registro no CSV
-    #TODO : Salvar os dados de tudo que foi resultado de busca, e marcar apenas 1 como assistido
+   
+    global id_transmissao
+    numeroBuscas = random.randint(3, 5)
+    logging.info(f"Realizando {numeroBuscas} buscas nessa sessão")
+    jogosJaPesquisados = {"jogo"}
+    for i in range(numeroBuscas):
+        tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
+        #Garante que nao repita jogos na mesma sessão
+        jogoCandidato = random.choice(list(jogosAssistir))
+        while(jogoCandidato in jogosJaPesquisados):
+            jogoCandidato = random.choice(list(jogosAssistir))
+        
+        jogoPesquisado = jogoCandidato
+        jogosJaPesquisados.add(jogoCandidato)
+
+        logging.info(f"Jogo escolhido: {jogoPesquisado}")
+        time.sleep(random.uniform(3.0, 4.0))
+
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'[placeholder="{textSearchbar}"]')))
+        barraBusca = driver.find_element('css selector',  f'[placeholder="{textSearchbar}"]')
+        barraBusca.clear()
+        barraBusca.send_keys(jogoPesquisado)
+        
+        time.sleep(random.uniform(2.0, 2.5))
+        jogoLink = "https://www.twitch.tv/directory/category/" + jogoPesquisado
+        driver.get(jogoLink)
+
+        time.sleep(random.uniform(15, 20))
+
+        nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
+        canalAssistir = random.randint(0, 2)
+
+        if(br):
+            try:
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "ScTower-sc-1sjzzes-0.fwymPs.tw-tower")))
+                div = driver.find_element(By.CLASS_NAME, "ScTower-sc-1sjzzes-0.fwymPs.tw-tower")
+
+                links = div.find_elements(By.TAG_NAME, "a")
+
+                hrefs = [link.get_attribute("href") for link in links]
+
+                hrefsUtils = {""}
+                hrefsUtils.add(hrefs[0])
+                hrefsUtils.add(hrefs[3])
+                hrefsUtils.add(hrefs[6])
+            
+                aux = 0
+                canalPortuguesAssistir = ""
+                for hREF in hrefsUtils:
+                    try:
+                        time.sleep(random.uniform(1.0, 1.5))
+                        id = hREF.split("/")[-1]
+                        print(f"ID achado em portugues: {id}")
+                        channel = getChannelInfo(id)
+                        assistido = False
+                        if(aux == canalAssistir):
+                            assistido = True
+                            canalPortuguesAssistir = id
+                        registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao, assistido)
+                    except:
+                        continue
+                    aux += 1
+                
+                if(canalPortuguesAssistir != ""):
+                    link = "https://www.twitch.tv/" + canalPortuguesAssistir
+                    driver.get(link)
+                    logging.info(f"Assistindo {canalPortuguesAssistir} por {tempoDeVisualizacao} segundos")
+                else:
+                    canalPortuguesAssistir = hrefs[0].split("/")[-1]
+                    if(canalPortuguesAssistir != ""):
+                        link = "https://www.twitch.tv/" + canalPortuguesAssistir
+                        driver.get(link)
+                        logging.info(f"Assistindo {canalPortuguesAssistir} por {tempoDeVisualizacao} segundos")
+                    else:
+                        logging.error("Erro ao recuperar canais em portugues")
+                        i -= 1
+                        continue
+            except:
+                logging.error(f"Algo deu errodo nos card em portugues: {e}")
+                i -= 1
+                continue
+        else:
+            try:
+                WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'article[data-a-target="card-{canalAssistir}"]')))
+                canal_escolhido = driver.find_element(By.CSS_SELECTOR, f'article[data-a-target="card-{canalAssistir}"]')
+            except:
+                    try:
+                        canalAssistir = 0
+                        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'article[data-a-target="card-{canalAssistir}"]')))
+                        canal_escolhido = driver.find_element(By.CSS_SELECTOR, f'article[data-a-target="card-{canalAssistir}"]')
+                    except:
+                        logging.error(f"Erro ao recuperar canais na busca por {jogoPesquisado}")
+                        i -= 1
+                        continue
+            for j in range(3):
+                print(f"Procurando canal card-{j}...")
+                try:
+                    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, f'a[data-a-target="card-{j}"]')))
+                    canal_achado = driver.find_element(By.CSS_SELECTOR, f'a[data-a-target="card-{j}"]')
+                    href = canal_achado.get_attribute("href")  
+                    print(href)
+                    id = href.split("/")[-2]
+                    print(f"canal {id} listado nas buscas")
+                    channel = getChannelInfo(id)
+                    print(channel)
+
+                    assistido = False
+                    if(j == canalAssistir):
+                        assistido = True
+                    registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao, assistido)
+                except:
+                    continue
+            logging.info(f"Assistindo {canal_escolhido.text} por {tempoDeVisualizacao} segundos")
 
 
+        time.sleep(random.uniform(20, 25))
+        RecuperarRecomendados(driver)
+        id_transmissao += 1
+        time.sleep(tempoDeVisualizacao)
+        logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
- ################################
-    tempoDeVisualizacao = random.randint(tempo_min, tempo_max)
-    jogoPesquisado = random.choice(list(jogosAssistir))
-    logging.info(f"Jogo escolhido: {jogoPesquisado}")
-    time.sleep(random.uniform(3.0, 4.0))
-
-    cssSearchBar = '[placeholder="' + textSearchbar + '"]'
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, cssSearchBar)))
-    barraBusca = driver.find_element('css selector', cssSearchBar)
-    barraBusca.clear()
-    barraBusca.send_keys(jogoPesquisado)
-    
-    time.sleep(random.uniform(1.0, 2.0))
-
-    barraBusca.send_keys(Keys.DOWN)
-    time.sleep(random.uniform(0.7, 1.0))
-    barraBusca.send_keys(Keys.RETURN) 
-
-    time.sleep(random.uniform(1.5, 2.5))
-
-    videoAssistido = random.randint(0, 2)
-
-    #Mudar daqui pra baixo para selecionar os recomendados
-
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'article[data-a-target="card-1"]')))
-    canais_achados = driver.find_element(By.CSS_SELECTOR, 'article[data-a-target="card-1"]')
-    print(canais_achados)
-    """
-    if len(canais_achados) == 0:
-        logging.error("Nenhuma transmissão encontrada")
-        screenshot_path = "screenshot_transmissao_nao_encontrada_" + id_transmissao + ".png"
-        driver.save_screenshot(screenshot_path)
-        logging.info(f"Nenhuma transmissão para {jogoPesquisado} encontrada Screenshot salva em: {screenshot_path}")
-        return
-    elif len(canais_achados) < (videoAssistido + 1):
-        logging.INFO(f"Transmissão {videoAssistido} não encontrada, tentando transmissão 0")
-
-        # Tirando o print da tela e salvando
-        screenshot_path = "screenshot_transmissao_nao_encontrada_" + id_transmissao + ".png"
-        driver.save_screenshot(screenshot_path)
-        logging.info(f"Transmissão {id_transmissao} não encontrada Screenshot salva em: {screenshot_path}")
-
-        videoAssistido = 0
-    """
-    
-    video = canais_achados
-
-    print(video)
-
-    logging.info(f"Assistindo {video.text} por {tempoDeVisualizacao} segundos")
-    video.click()
-    RecuperarRecomendados(driver)
-
-    id = driver.current_url.split("/")[-1]
-    print(id)
-    channel = getChannelInfo(id)
-    print(channel)
-
-    nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
-    registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao)
-
-    id_transmissao += 1
-    time.sleep(tempoDeVisualizacao)
-################################
 
 def acessarTwitch(driver):
     driver.get("https://www.google.com")
 
     try:
         driver.get("https://www.twitch.tv")
-        LoginTwitch(driver, twitch_username, twitch_password, email_login, email_password)
+        LoginTwitch(driver, twitch_username, twitch_password, email_login, email_password, digit)
     except:
         logging.info("Erro ao logar no Twitch ou Login já realizado")
         pass
@@ -212,7 +271,10 @@ def TreinarPersona1():
     except Exception as e:
         logging.error(f"Erro durante o treino: {e}")
 
+    
+    time.sleep(random.uniform(1.0, 2.0))
     driver.quit()
+    
 
 id_transmissao = 0
 

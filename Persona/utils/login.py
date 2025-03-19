@@ -70,7 +70,7 @@ def GetVerificationCode(driver, email_login, email_password):
     return verification_code
 
 
-def LoginTwitch(driver, twitch_username, twitch_password, email_login, email_password):
+def LoginTwitch(driver, twitch_username, twitch_password, email_login, email_password, digit):
      #clicar em entrar
     driver.find_element(By.XPATH, "/html/body/div[1]/div/div[1]/nav/div/div[3]/div[3]/div/div[1]/div[1]/button/div/div").click()
     time.sleep(random.uniform(4.0, 6.0))
@@ -84,7 +84,7 @@ def LoginTwitch(driver, twitch_username, twitch_password, email_login, email_pas
     time.sleep(random.uniform(2.0, 5.0))
     try:
         #Se pedir código de verificação
-        campoVerificacao = WebDriverWait(driver, 4.0).until(EC.presence_of_element_located((By.XPATH, '//input[@aria-label="Digit 1"]')))
+        campoVerificacao = WebDriverWait(driver, 4.0).until(EC.presence_of_element_located((By.XPATH, f'//input[@aria-label="{digit} 1"]')))
         try:
             #troca de aba
             original_tab = driver.current_window_handle
