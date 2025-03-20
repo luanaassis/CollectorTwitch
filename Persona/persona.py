@@ -37,10 +37,11 @@ allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
 # Area das variáveis específicas de cada persona ( MUDE AQUI )
 
+idade = ""
+br = False
 login = ""
 data_base_name = ""
-home = ""
-br = False
+home = "/home"
 
 
 email_login = login + "@outlook.com"
