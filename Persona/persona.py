@@ -37,11 +37,11 @@ allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
 # Area das variáveis específicas de cada persona ( MUDE AQUI )
 
-idade = ""
+idade = "18+ - 14/12/2006"
 br = False
-login = ""
-data_base_name = ""
-home = "/home"
+login = "michaelwoods0018"
+data_base_name = "us18"
+home = "/home/locus"
 
 
 email_login = login + "@outlook.com"
@@ -235,8 +235,8 @@ def Treino(driver):
                     registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao, assistido)
                 except:
                     continue
-            canal_escolhido.click()
             logging.info(f"Assistindo {canal_escolhido.text} por {tempoDeVisualizacao} segundos")
+            canal_escolhido.click()
 
 
         time.sleep(random.uniform(20, 25))
