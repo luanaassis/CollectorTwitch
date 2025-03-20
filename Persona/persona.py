@@ -35,18 +35,18 @@ badSearch = {"ROBLOX", "Marvel RIvals", "League of Legends", "Counter-Strike"}
 
 allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
-# Area das variáveis específicas de cada persona
+# Area das variáveis específicas de cada persona ( MUDE AQUI )
 
-email_login = ""
-email_password = "Locus123!"
-twitch_username = ""
-twitch_password = "Locus123!"
+login = ""
 data_base_name = ""
 home = ""
-br = True
+br = False
 
 
-
+email_login = login + "@outlook.com"
+email_password = "Locus123!"
+twitch_username = login
+twitch_password = "Locus123!"
 textSearchbar = "Search"
 digit = "Digit"
 if(br):
@@ -234,6 +234,7 @@ def Treino(driver):
                     registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao, assistido)
                 except:
                     continue
+            canal_escolhido.click()
             logging.info(f"Assistindo {canal_escolhido.text} por {tempoDeVisualizacao} segundos")
 
 

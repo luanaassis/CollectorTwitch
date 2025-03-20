@@ -63,6 +63,7 @@ def GetVerificationCode(driver, email_login, email_password):
             email.click()
             break  # Para no primeiro que for clicável
     print("primeiro email aberto")
+    time.sleep(random.uniform(5.0, 10.0))
     WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "x_header-message-code")))
     verification_div = driver.find_element(By.CLASS_NAME, "x_header-message-code")
     verification_code = verification_div.text.strip()  # Remove espaços extras
