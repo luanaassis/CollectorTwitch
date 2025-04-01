@@ -1,14 +1,30 @@
-Coleta no Brasil:
-
-ver VPN e mandar tudo pra jussara. preferencialmente de varias contas
-Levantamento de quantas maquinas conseguimos e determinar o numero de contasa partir dai
-
-fazer mais contas, pelo menos 2 (16 e maior de idade)
-fazer levantamento da classificação indicativa US
-Overleaf do asonam
-
-script para coleta: (1 assistir pesquisados, outro assistir recomendados)
-
-fazer o scheduled e definir máquinas virtuais.
-
-Compra nova maquina
+2025-04-01T16:37:06.640079-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd[917]: Started app-com.google.Chrome-1659.scope.
+2025-04-01T16:37:10.515292-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 nordvpnd[594]: 2025/04/01 16:37:10 [NC] connection lost:  pingresp not received, disconnecting
+2025-04-01T16:37:10.515421-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 nordvpnd[594]: 2025/04/01 16:37:10 [NC] start connection loop
+2025-04-01T16:37:11.605549-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 nordvpnd[594]: 2025/04/01 16:37:11 [Info] [NC] Connected
+2025-04-01T16:37:11.749391-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 nordvpnd[594]: 2025/04/01 16:37:11 [NC] Connected
+2025-04-01T16:37:12.586136-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: Using degraded feature set UDP+EDNS0 instead of UDP+EDNS0+DO for DNS server 103.86.96.100.
+2025-04-01T16:37:12.774078-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: Server 103.86.96.100 does not support DNSSEC, downgrading to non-DNSSEC mode.
+2025-04-01T16:37:29.810468-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 chrome[1659]: [1659:1677:0401/163729.809251:INFO:extension_garbage_collector.cc(184)] Garbage collection for extensions on file thread is complete.
+2025-04-01T16:37:43.738137-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question twitch.tv IN DS: failed-auxiliary
+2025-04-01T16:37:43.739336-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question assets.twitch.tv IN DS: failed-auxiliary
+2025-04-01T16:37:43.739852-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question assets.twitch.tv IN SOA: failed-auxiliary
+2025-04-01T16:37:43.740014-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question assets.twitch.tv IN HTTPS: failed-auxiliary
+2025-04-01T16:37:43.740166-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question assets.twitch.tv IN A: failed-auxiliary
+2025-04-01T16:37:43.740339-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question twitch.tv IN SOA: failed-auxiliary
+2025-04-01T16:37:43.740505-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question www.twitch.tv IN HTTPS: failed-auxiliary
+2025-04-01T16:37:43.740697-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd-resolved[509]: DNSSEC validation failed for question www.twitch.tv IN A: failed-auxiliary
+2025-04-01T16:38:24.203712-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: BUG: unable to handle page fault for address: 0000000eae531792
+2025-04-01T16:38:24.204067-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: #PF: supervisor read access in kernel mode
+2025-04-01T16:38:24.204073-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: #PF: error_code(0x0000) - not-present page
+2025-04-01T16:38:24.204075-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: PGD 0 P4D 0 
+2025-04-01T16:38:24.204076-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: Oops: Oops: 0000 [#1] PREEMPT SMP PTI
+2025-04-01T16:38:24.204076-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: CPU: 1 UID: 1000 PID: 1806 Comm: Chrome_ChildIOT Not tainted 6.11.0-19-generic #19~24.04.1-Ubuntu
+2025-04-01T16:38:24.204077-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+2025-04-01T16:38:24.204077-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: RIP: 0010:block_dirty_folio+0x2e/0xb0
+2025-04-01T16:38:24.204079-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: Code: 00 55 48 89 e5 41 56 4c 8d 77 7c 41 55 41 54 49 89 fc 4c 89 f7 53 48 89 f3 e8 be 12 d3 00 48 8b 4b 28 48 85 c9 74 18 48 89 c8 <48> 8b 10 83 e2 02 75 04 f0 80 08 02 48 8b 40 08 48 39 c8 75 eb f0
+2025-04-01T16:38:24.204081-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: RSP: 0018:ffffbc1681b5f708 EFLAGS: 00010213
+2025-04-01T16:38:24.204082-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: RAX: 0000000eae531792 RBX: fffff1d641e98500 RCX: ffff9d25a4a9f478
+2025-04-01T16:38:24.204082-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000000
+2025-04-01T16:38:24.204083-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 kernel: RBP: ffffbc1681b5f728 R08: 0000000000000000 R09: 0000000000000000
+2025-04-01T16:38:24.204083-03:00 twitchcollector1-2025-04-01T18:53:04.534271-03:00 twitchcollector1-Standard-PC-Q35-ICH9-2009 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
