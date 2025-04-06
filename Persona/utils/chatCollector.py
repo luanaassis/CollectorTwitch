@@ -4,15 +4,16 @@ import time
 from datetime import datetime
 from twitchio import Client
 from twitchio import Message
+import asyncio
 
 OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twitchapps.com/tmi/
 CLIENT_ID="gp762nuuoqcoxypju8c569th9wz7q5"
 
-def collect_twitch_chat(
+async def collect_twitch_chat(
     channel_name: str,
     oauth_token: str,
     csv_filename: str,
-    time: int,
+    duration: int,
     StreamTitle: str,
     StreamGame: str
 ):
@@ -45,6 +46,11 @@ def collect_twitch_chat(
     )
 
     @client.event()
+    async def event_ready():
+        print(f'Conectado como {client.nick}')
+        print(f'Pronto para coletar mensagens de: {channel_name}')
+
+    @client.event()
     async def event_message(message: Message):
         try:
             tags = message.tags
@@ -56,9 +62,16 @@ def collect_twitch_chat(
             # Correção 2: Emotes via tags (não message.emotes)
             emotes = tags.get('emotes', '')  # Formato: 'emotesv2_123:0-4,6-10/456:12-15'
 
+            # Obtem timestamp do servidor ou usa o tempo atual como fallback
+            timestamp_ms = tags.get('tmi-sent-ts')
+            if timestamp_ms:
+                timestamp = datetime.fromtimestamp(int(timestamp_ms) / 1000).isoformat()
+            else:
+                timestamp = datetime.now().isoformat()
+
             # Monta os dados
             data = [
-                datetime.fromtimestamp(int(tags.get('tmi-sent-ts', 0)) / 1000).isoformat() if tags.get('tmi-sent-ts') else datetime.now().isoformat(),
+                timestamp,
                 tags.get('id', 'N/A'),
                 author.id,
                 author.name,
@@ -85,21 +98,26 @@ def collect_twitch_chat(
                 writer.writerow(data)
             print(f'Mensagem salva: {author.name} -> {message.content}')
 
+        except AttributeError as e:
+             # Pode ocorrer se message.author ou message.channel for None inesperadamente
+             print(f"Erro de atributo ao processar mensagem: {e} - Mensagem: {message.raw_data}")
         except Exception as e:
-            print(f'Erro ao processar mensagem: {e}')
+            print(f'Erro geral ao processar mensagem: {e} - Mensagem: {message.raw_data}')
 
-    # Inicia a coleta
-    print(f"Iniciando coleta do chat de {channel_name}...")
-    client.run()
-    time.sleep(time)
-    client.stop()
-    print(f"Coleta do chat de {channel_name} finalizada.")
+    print(f"Iniciando coleta do chat de {channel_name} por {duration} segundos...")
+    try:
+        # Conecta e inicia o cliente de forma não bloqueante
+        task = asyncio.create_task(client.start())
 
-if __name__ == "__main__":
-    collect_twitch_chat(
-        channel_name="alanzoka",
-        csv_filename="chat_custom.csv",  
-        client_id=CLIENT_ID,  
-        oauth_token=OAUTH_TOKEN,
-        time=60  # Tempo em segundos para coleta
-    )
+        # Mantém a função principal "viva" pela duração desejada
+        await asyncio.sleep(duration)
+
+        task.cancel()
+
+    except Exception as e:
+        print(f"Erro durante a execução do cliente: {e}")
+    finally:
+        # NAO ESTA FINALIZANDO
+        print(f"Tempo esgotado ({duration}s). Finalizando coleta de {channel_name}...")
+        await client.close()
+        print(f"Coleta do chat de {channel_name} finalizada. Dados salvos em {csv_filename}")

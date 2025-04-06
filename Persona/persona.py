@@ -14,9 +14,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.login import LoginTwitch, NordVpnLogin
+from utils.login import LoginTwitch
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
+from utils.chatCollector import collect_twitch_chat
 
 jogosLivre = {"Minecraft", "EA Sports FC 25"}
 jogos10 = {"ROBLOX"}
