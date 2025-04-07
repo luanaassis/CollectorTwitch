@@ -3,6 +3,7 @@ import random
 import time
 import logging
 import schedule
+import asyncio
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,9 +15,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.login import LoginTwitch, NordVpnLogin
+from utils.login import LoginTwitch
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
+from utils.chatCollector import collect_twitch_chat
 
 jogosLivre = {"minecraft", "ea-sports-fc-25"}
 jogos10 = {"roblox"}
@@ -42,6 +44,7 @@ br = True
 login = "caiooliveira0018"
 data_base_name = "br18"
 home = "/home/locus"
+OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twitchapps.com/tmi/
 
 
 email_login = login + "@outlook.com"
@@ -155,6 +158,8 @@ def Treino(driver):
         nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
         canalAssistir = random.randint(0, 2)
 
+        canalPortuguesAssistir = "" #ID DO CANAL
+
         if(br):
             try:
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "ScTower-sc-1sjzzes-0.fwymPs.tw-tower")))
@@ -242,7 +247,16 @@ def Treino(driver):
         time.sleep(random.uniform(20, 25))
         RecuperarRecomendados(driver)
         id_transmissao += 1
-        time.sleep(tempoDeVisualizacao)
+
+        channel = getChannelInfo(canalPortuguesAssistir)
+        asyncio.run(collect_twitch_chat(
+            channel_id=canalPortuguesAssistir,
+            oauth_token=OAUTH_TOKEN,
+            csv_filename="chat_br18.csv",  
+            duration=tempoDeVisualizacao,  
+            StreamTitle=channel.stream_title,
+            StreamGame=channel.last_game_name
+        ))
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
 
