@@ -10,7 +10,7 @@ OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twit
 CLIENT_ID="gp762nuuoqcoxypju8c569th9wz7q5"
 
 async def collect_twitch_chat(
-    channel_name: str,
+    channel_id: str,
     oauth_token: str,
     csv_filename: str,
     duration: int,
@@ -21,14 +21,17 @@ async def collect_twitch_chat(
     Coleta mensagens do chat da Twitch e salva em um CSV.
     
     Parâmetros:
-    - channel_name (str): Nome do canal (ex: 'gaules').
+    - channel_id (str): Id do canal a ser monitorado.
     - oauth_token (str): Token OAuth (opcional, busca do .env).
-    - csv_filename (str): Nome do arquivo CSV (padrão: f'twitch_chat_{channel_name}.csv').
+    - csv_filename (str): Nome do arquivo CSV de saída.
+    - duration (int): Duração em segundos para coletar mensagens.
+    - StreamTitle (str): Título da stream.
+    - StreamGame (str): Jogo da stream.
     """
     
     # Configurações do CSV
     HEADER = [
-        'timestamp', 'message_id', 'user_id', 'user_name', 'channel_name',
+        'timestamp', 'message_id', 'user_id', 'user_name', 'channel_id',
         'channel_id', 'stream_title', 'stream_game', 'message_content',
         'user_badges', 'badge_info', 'is_mod', 'is_sub', 'user_color',
         'bits_used', 'reply_parent_id', 'channel_reward_id', 'emotes_used',
@@ -42,13 +45,13 @@ async def collect_twitch_chat(
 
     client = Client(
         token=oauth_token,
-        initial_channels=[channel_name]
+        initial_channels=[channel_id]
     )
 
     @client.event()
     async def event_ready():
         print(f'Conectado como {client.nick}')
-        print(f'Pronto para coletar mensagens de: {channel_name}')
+        print(f'Pronto para coletar mensagens de: {channel_id}')
 
     @client.event()
     async def event_message(message: Message):
@@ -75,7 +78,7 @@ async def collect_twitch_chat(
                 tags.get('id', 'N/A'),
                 author.id,
                 author.name,
-                channel_name,
+                channel_id,
                 tags.get('room-id', 'N/A'),
                 StreamTitle,
                 StreamGame,
@@ -104,7 +107,7 @@ async def collect_twitch_chat(
         except Exception as e:
             print(f'Erro geral ao processar mensagem: {e} - Mensagem: {message.raw_data}')
 
-    print(f"Iniciando coleta do chat de {channel_name} por {duration} segundos...")
+    print(f"Iniciando coleta do chat de {channel_id} por {duration} segundos...")
     try:
         # Conecta e inicia o cliente de forma não bloqueante
         task = asyncio.create_task(client.start())
@@ -118,6 +121,16 @@ async def collect_twitch_chat(
         print(f"Erro durante a execução do cliente: {e}")
     finally:
         # NAO ESTA FINALIZANDO
-        print(f"Tempo esgotado ({duration}s). Finalizando coleta de {channel_name}...")
+        print(f"Tempo esgotado ({duration}s). Finalizando coleta de {channel_id}...")
         await client.close()
-        print(f"Coleta do chat de {channel_name} finalizada. Dados salvos em {csv_filename}")
+        print(f"Coleta do chat de {channel_id} finalizada. Dados salvos em {csv_filename}")
+
+if __name__ == "__main__":
+    asyncio.run(collect_twitch_chat(
+        channel_id="loud_coringa",
+        oauth_token=OAUTH_TOKEN,
+        csv_filename="chat_custom.csv",  
+        duration=60,  # Tempo em segundos para coleta
+        StreamTitle="Título da Stream Exemplo",
+        StreamGame="Jogo da Stream Exemplo"
+    ))
