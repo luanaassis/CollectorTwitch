@@ -249,18 +249,22 @@ def Treino(driver):
         time.sleep(random.uniform(20, 25))
         RecuperarRecomendados(driver)
         id_transmissao += 1
+        try:
+            channel = getChannelInfo(idCanalAssistido)
 
-        channel = getChannelInfo(idCanalAssistido)
-
-        asyncio.run(collect_twitch_chat(
-            channel_id=idCanalAssistido,
-            oauth_token=OAUTH_TOKEN,
-            csv_filename="chat_us18.csv",  
-            duration=tempoDeVisualizacao,
-            StreamTitle=channel.stream_title,
-            StreamLanguage=channel.language,
-            StreamGame=channel.last_game_name
-        ))
+            asyncio.run(collect_twitch_chat(
+                channel_id=idCanalAssistido,
+                oauth_token=OAUTH_TOKEN,
+                csv_filename="chat_us18.csv",  
+                duration=tempoDeVisualizacao,
+                StreamTitle=channel.stream_title,
+                StreamLanguage=channel.language,
+                StreamGame=channel.last_game_name
+            ))
+            logging.info(f"Coletado chat do canal {idCanalAssistido} por {tempoDeVisualizacao} segundos")
+        except:
+            logging.error(f"Erro ao coletar chat do canal {idCanalAssistido}")
+            pass
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
 
