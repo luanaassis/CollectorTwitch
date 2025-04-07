@@ -37,11 +37,11 @@ allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
 # Area das variáveis específicas de cada persona ( MUDE AQUI )
 
-idade = ""
-br = False
-login = ""
-data_base_name = ""
-home = "/home"
+idade = "18 07/11/2006"
+br = True
+login = "caiooliveira0018"
+data_base_name = "br18"
+home = "/home/locus"
 
 
 email_login = login + "@outlook.com"
@@ -287,9 +287,8 @@ schedule.every().day.at("20:00").do(TreinarPersona1)
 schedule.every().day.at("00:00").do(TreinarPersona1)
 schedule.every().day.at("04:00").do(TreinarPersona1)
 
-logging.info("Agendamento iniciado. Aguardando próxima execução...")
-
 TreinarPersona1()
+logging.info("Agendamento iniciado. Aguardando próxima execução...")
 while True:
     schedule.run_pending()
     time.sleep(1)

@@ -1,8 +1,0 @@
-2025-03-31T00:16:00.311575-03:00 locus-collector-1 systemd[1]: lightdm.service: Failed with result 'exit-code'.
-2025-03-31T00:16:00.534179-03:00 locus-collector-1 systemd[1]: lightdm.service: Scheduled restart job, restart counter is at>
-2025-03-31T00:16:00.549527-03:00 locus-collector-1 systemd[1]: Starting gpu-manager.service - Detect the available GPUs and >
-2025-03-31T00:16:15.659126-03:00 locus-collector-1 kernel: [TTM] Buffer eviction failed
-2025-03-31T00:16:15.659143-03:00 locus-collector-1 kernel: qxl 0000:00:02.0: object_init failed for (4096, 0x00000001)
-2025-03-31T00:16:31.019218-03:00 locus-collector-1 kernel: [TTM] Buffer eviction failed
-2025-03-31T00:16:31.019241-03:00 locus-collector-1 kernel: qxl 0000:00:02.0: object_init failed for (4096, 0x00000001)
-
