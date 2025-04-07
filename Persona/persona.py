@@ -257,9 +257,9 @@ def Treino(driver):
             oauth_token=OAUTH_TOKEN,
             csv_filename="chat_us18.csv",  
             duration=tempoDeVisualizacao,
-            StreamTitle=channel.StreamTitle,
-            StreamLanguage=channel.StreamLanguage,
-            StreamGame=channel.StreamGame
+            StreamTitle=channel.stream_title,
+            StreamLanguage=channel.language,
+            StreamGame=channel.last_game_name
         ))
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
