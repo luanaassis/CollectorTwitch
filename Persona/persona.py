@@ -283,17 +283,23 @@ def TreinarPersona1():
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chromeOptions)
         driver.maximize_window()
-   
+        
         acessarTwitch(driver)
         time.sleep(random.uniform(1.0, 2.0))
     except Exception as e:
-        logging.error(f"Erro ao iniciar o driver: {e}")
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=chromeOptions)
-        driver.maximize_window()
-   
-        acessarTwitch(driver)
-        time.sleep(random.uniform(1.0, 2.0))
+        try:
+            logging.error(f"Erro ao iniciar o WebDriver: {e}")
+            logging.info("Tentando iniciar o Chrome novamente...")
+            time.sleep(10)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=chromeOptions)
+            driver.maximize_window()
+            
+            acessarTwitch(driver)
+            time.sleep(random.uniform(1.0, 2.0))
+        except Exception as e:
+            logging.error(f"Erro ao reiniciar o WebDriver: {e}")
+            return
 
     try:
         logging.info("Iniciando treino...")
