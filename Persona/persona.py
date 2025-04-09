@@ -14,9 +14,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.login import LoginTwitch, NordVpnLogin
+from utils.login import LoginTwitch
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
+from utils.chatCollector import collect_twitch_chat
 
 jogosLivre = {"minecraft", "ea-sports-fc-25"}
 jogos10 = {"roblox"}
@@ -42,6 +43,7 @@ br = True
 login = "pedroarruda0013"
 data_base_name = "br13"
 home = "/home/twitchcollector1"
+OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twitchapps.com/tmi/
 
 
 email_login = login + "@outlook.com"
@@ -155,6 +157,8 @@ def Treino(driver):
         nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
         canalAssistir = random.randint(0, 2)
 
+        canalPortuguesAssistir = ""
+
         if(br):
             try:
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "ScTower-sc-1sjzzes-0.fwymPs.tw-tower")))
@@ -242,7 +246,24 @@ def Treino(driver):
         time.sleep(random.uniform(20, 25))
         RecuperarRecomendados(driver)
         id_transmissao += 1
-        time.sleep(tempoDeVisualizacao)
+
+        try:
+            channel = getChannelInfo(canalPortuguesAssistir)
+
+            asyncio.run(collect_twitch_chat(
+                channel_id=canalPortuguesAssistir,
+                oauth_token=OAUTH_TOKEN,
+                csv_filename="chat_us18.csv",  
+                duration=tempoDeVisualizacao,
+                StreamTitle=channel.stream_title,
+                StreamLanguage=channel.language,
+                StreamGame=channel.last_game_name
+            ))
+            logging.info(f"Coletado chat do canal {canalPortuguesAssistir} por {tempoDeVisualizacao} segundos")
+        except:
+            logging.error(f"Erro ao coletar chat do canal {canalPortuguesAssistir}")
+            pass
+
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
 
@@ -292,6 +313,6 @@ logging.info("Agendamento iniciado. Aguardando próxima execução...")
 TreinarPersona1()
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(60)
 
 
