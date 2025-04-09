@@ -14,9 +14,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from utils.login import LoginTwitch, NordVpnLogin
+from utils.login import LoginTwitch
 from utils.csv_operations import registrar_dados, registrar_dados_recomendados
 from utils.channelCollector import getChannelInfo
+from utils.chatCollector import collect_twitch_chat
 
 jogosLivre = {"minecraft", "ea-sports-fc-25"}
 jogos10 = {"roblox"}
@@ -42,6 +43,8 @@ br = False
 login = "jaylenwhite0013"
 data_base_name = "us13"
 home = "/home/twitchcollector1"
+OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twitchapps.com/tmi/
+
 
 
 email_login = login + "@outlook.com"
@@ -155,6 +158,8 @@ def Treino(driver):
         nomeArquivo = "coletaTwitch_" + data_base_name + ".csv"
         canalAssistir = random.randint(0, 2)
 
+        canalUSassistir = ""
+
         if(br):
             try:
                 WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "ScTower-sc-1sjzzes-0.fwymPs.tw-tower")))
@@ -236,13 +241,32 @@ def Treino(driver):
                 except:
                     continue
             logging.info(f"Assistindo {canal_escolhido.text} por {tempoDeVisualizacao} segundos")
+            href = canal_escolhido.get_attribute("href")  
+            print(href)
+            canalUSassistir = href.split("/")[-2]
             canal_escolhido.click()
 
 
         time.sleep(random.uniform(20, 25))
         RecuperarRecomendados(driver)
         id_transmissao += 1
-        time.sleep(tempoDeVisualizacao)
+
+        try:
+            channel = getChannelInfo(canalUSassistir)
+
+            asyncio.run(collect_twitch_chat(
+                channel_id=canalUSassistir,
+                oauth_token=OAUTH_TOKEN,
+                csv_filename="chat_us18.csv",  
+                duration=tempoDeVisualizacao,
+                StreamTitle=channel.stream_title,
+                StreamLanguage=channel.language,
+                StreamGame=channel.last_game_name
+            ))
+            logging.info(f"Coletado chat do canal {canalUSassistir} por {tempoDeVisualizacao} segundos")
+        except:
+            logging.error(f"Erro ao coletar chat do canal {canalUSassistir}")
+            pass
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
 
 
@@ -258,13 +282,29 @@ def acessarTwitch(driver):
 
 def TreinarPersona1():
     #iniciar driver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chromeOptions)
-    driver.maximize_window()
-   
-    
-    acessarTwitch(driver)
-    time.sleep(random.uniform(1.0, 2.0))
+    try:
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=chromeOptions)
+        driver.maximize_window()
+        
+        acessarTwitch(driver)
+        time.sleep(random.uniform(1.0, 2.0))
+    except Exception as e:
+        try:
+            logging.error(f"Erro ao iniciar o WebDriver: {e}")
+            logging.info("Tentando iniciar o Chrome novamente...")
+            time.sleep(10)
+            service = Service(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=chromeOptions)
+            driver.maximize_window()
+            
+            acessarTwitch(driver)
+            time.sleep(random.uniform(1.0, 2.0))
+        except Exception as e:
+            logging.error(f"Erro ao reiniciar o WebDriver: {e}")
+            return
+
+        
 
     try:
         logging.info("Iniciando treino...")
@@ -292,6 +332,6 @@ logging.info("Agendamento iniciado. Aguardando próxima execução...")
 TreinarPersona1()
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(60)
 
 
