@@ -37,11 +37,11 @@ allJogos = jogosLivre.union(jogos10, jogos12, jogos14, jogos16, jogos18)
 
 # Area das variáveis específicas de cada persona ( MUDE AQUI )
 
-idade = ""
-br = False
-login = ""
-data_base_name = ""
-home = "/home"
+idade = "13 - 19/10/2011"
+br = True
+login = "pedroarruda0013"
+data_base_name = "br13"
+home = "/home/twitchcollector1"
 
 
 email_login = login + "@outlook.com"
@@ -201,7 +201,7 @@ def Treino(driver):
                         i -= 1
                         continue
             except:
-                logging.error(f"Algo deu errodo nos card em portugues: {e}")
+                logging.error(f"Algo deu errodo nos card em portugues")
                 i -= 1
                 continue
         else:
