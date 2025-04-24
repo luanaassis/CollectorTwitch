@@ -3,7 +3,7 @@ import random
 import time
 import logging
 import schedule
-import asynchio
+import asyncio
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -60,13 +60,13 @@ if(br):
 faixaEtaria = 0 # ----Mudar para a faixa etária desejada----
 
 if faixaEtaria == 0: # 12-
-    tempo_min = 300
-    tempo_max = 600 
+    tempo_min = 600
+    tempo_max = 1200 
     jogosAssistir = allJogos
 
 if faixaEtaria == 1:
-    tempo_min = 300
-    tempo_max = 600
+    tempo_min = 600
+    tempo_max = 900
     jogosAssistir = allJogos
 
 # Configurar Logs
