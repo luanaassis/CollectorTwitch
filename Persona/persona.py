@@ -61,13 +61,13 @@ if(br):
 faixaEtaria = 0 # ----Mudar para a faixa etária desejada----
 
 if faixaEtaria == 0: # 12-
-    tempo_min = 300
-    tempo_max = 600 
+    tempo_min = 600
+    tempo_max = 1200 
     jogosAssistir = allJogos
 
 if faixaEtaria == 1:
-    tempo_min = 300
-    tempo_max = 600
+    tempo_min = 600
+    tempo_max = 900
     jogosAssistir = allJogos
 
 # Configurar Logs
@@ -238,13 +238,11 @@ def Treino(driver):
                     assistido = False
                     if(j == canalAssistir):
                         assistido = True
+                        canalUSassistir = id
                     registrar_dados(nomeArquivo, channel, tempoDeVisualizacao, jogoPesquisado, id_transmissao, assistido)
                 except:
                     continue
             logging.info(f"Assistindo {canal_escolhido.text} por {tempoDeVisualizacao} segundos")
-            href = canal_escolhido.get_attribute("href")  
-            print(href)
-            canalUSassistir = href.split("/")[-2]
             canal_escolhido.click()
 
 
@@ -258,7 +256,7 @@ def Treino(driver):
             asyncio.run(collect_twitch_chat(
                 channel_id=canalUSassistir,
                 oauth_token=OAUTH_TOKEN,
-                csv_filename="chat_us18.csv",  
+                csv_filename="chat_us13.csv",  
                 duration=tempoDeVisualizacao,
                 StreamTitle=channel.stream_title,
                 StreamLanguage=channel.language,
