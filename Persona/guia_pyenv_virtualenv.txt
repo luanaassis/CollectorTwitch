@@ -1,0 +1,79 @@
+
+Guia Completo: Usando pyenv + pyenv-virtualenv para múltiplas versões do Python
+================================================================================
+
+Pré-requisitos
+--------------
+
+No Linux (ex: Ubuntu/Debian):
+------------------------------
+sudo apt update
+sudo apt install -y build-essential curl libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev git
+
+No macOS (com Homebrew):
+-------------------------
+brew update
+brew install pyenv pyenv-virtualenv
+
+Passo 1: Instalar pyenv e pyenv-virtualenv
+------------------------------------------
+Linux/macOS (com script oficial):
+---------------------------------
+curl https://pyenv.run | bash
+
+Adicione ao final do seu ~/.bashrc, ~/.zshrc ou ~/.bash_profile:
+-----------------------------------------------------------------
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+Reinicie o terminal ou execute:
+-------------------------------
+source ~/.bashrc
+
+Verifique se a instalação foi bem-sucedida:
+-------------------------------------------
+pyenv --version
+pyenv virtualenv --version
+
+Passo 2: Instalar versões do Python
+-----------------------------------
+pyenv install 3.10.13
+pyenv install 3.11.8
+
+Verifique todas as versões disponíveis:
+---------------------------------------
+pyenv install --list
+
+Passo 3: Criar ambientes virtuais com pyenv virtualenv
+-------------------------------------------------------
+pyenv virtualenv 3.10.13 myenv310
+pyenv virtualenv 3.11.8 myenv311
+
+Passo 4: Usar os ambientes
+--------------------------
+Ativar:
+-------
+pyenv activate myenv310
+
+Desativar:
+----------
+pyenv deactivate
+
+Passo 5 (Opcional): Ativação automática por projeto
+---------------------------------------------------
+Dentro do diretório do seu projeto:
+cd meu_projeto/
+pyenv local myenv310
+
+Isso cria um arquivo .python-version e ativa o ambiente automaticamente ao entrar na pasta.
+
+Vantagens do pyenv virtualenv
+-----------------------------
+- Gerencia múltiplas versões do Python facilmente.
+- Mantém ambientes separados por projeto.
+- Sem conflitos entre versões.
+- Leve, direto e sem precisar de Docker ou conda.
