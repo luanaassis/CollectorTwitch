@@ -255,6 +255,7 @@ def Treino(driver):
             csv_filename="chat_br18.csv",  
             duration=tempoDeVisualizacao,  
             StreamTitle=channel.stream_title,
+            StreamLanguage=channel.stream_language,
             StreamGame=channel.last_game_name
         ))
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")

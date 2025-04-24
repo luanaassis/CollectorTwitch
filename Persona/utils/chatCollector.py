@@ -15,7 +15,8 @@ async def collect_twitch_chat(
     csv_filename: str,
     duration: int,
     StreamTitle: str,
-    StreamGame: str
+    StreamGame: str,
+    StreamLanguage: str
 ):
     """
     Coleta mensagens do chat da Twitch e salva em um CSV.
@@ -32,7 +33,7 @@ async def collect_twitch_chat(
     # Configurações do CSV
     HEADER = [
         'timestamp', 'message_id', 'user_id', 'user_name', 'channel_id',
-        'channel_id', 'stream_title', 'stream_game', 'message_content',
+        'channel_id', 'stream_title', 'stream_language', 'stream_game', 'message_content',
         'user_badges', 'badge_info', 'is_mod', 'is_sub', 'user_color',
         'bits_used', 'reply_parent_id', 'channel_reward_id', 'emotes_used',
         'is_deleted', 'deletion_reason'
@@ -81,6 +82,7 @@ async def collect_twitch_chat(
                 channel_id,
                 tags.get('room-id', 'N/A'),
                 StreamTitle,
+                StreamLanguage,
                 StreamGame,
                 message.content,
                 user_badges,  # Já formatado como string
@@ -132,5 +134,6 @@ if __name__ == "__main__":
         csv_filename="chat_custom.csv",  
         duration=60,  # Tempo em segundos para coleta
         StreamTitle="Título da Stream Exemplo",
+        StreamLanguage="pt",
         StreamGame="Jogo da Stream Exemplo"
     ))
