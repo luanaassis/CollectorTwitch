@@ -249,6 +249,8 @@ def Treino(driver):
         id_transmissao += 1
 
         channel = getChannelInfo(canalPortuguesAssistir)
+        if(channel.stream_language == None):
+            channel.stream_language = "pt"
         asyncio.run(collect_twitch_chat(
             channel_id=canalPortuguesAssistir,
             oauth_token=OAUTH_TOKEN,

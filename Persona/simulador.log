@@ -1,0 +1,1071 @@
+2025-05-06 20:54:18 - INFO - ====== WebDriver manager ======
+2025-05-06 20:54:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 20:54:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 20:54:19 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 20:54:20 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-06 20:54:20 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-06 20:54:20 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-06 20:54:20 - INFO - Driver downloading response is 200
+2025-05-06 20:54:21 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 20:54:21 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-06 20:54:34 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-06 20:54:35 - INFO - Iniciando treino...
+2025-05-06 20:54:35 - INFO - Realizando 3 buscas nessa sessão
+2025-05-06 20:54:35 - INFO - Jogo escolhido: the-sims-4
+2025-05-06 20:55:28 - INFO - Assistindo gemrqs por 1044 segundos
+2025-05-06 20:55:50 - INFO - Canais Recomendados atualmente:
+2025-05-06 20:55:50 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-06 20:55:54 - INFO - Canal Recomendado 1: waveigl (https://www.twitch.tv/waveigl)
+2025-05-06 20:55:59 - INFO - Canal Recomendado 2: animetvon (https://www.twitch.tv/animetvon)
+2025-05-06 20:56:03 - INFO - Canal Recomendado 3: criaplayer (https://www.twitch.tv/criaplayer)
+2025-05-06 20:56:08 - INFO - Canal Recomendado 4: gordox (https://www.twitch.tv/gordox)
+2025-05-06 20:56:12 - INFO - Canal Recomendado 5: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-06 20:56:16 - INFO - Canal Recomendado 6: giovanewonka (https://www.twitch.tv/giovanewonka)
+2025-05-06 20:56:21 - INFO - Canal Recomendado 7: praxt_ (https://www.twitch.tv/praxt_)
+2025-05-06 20:56:25 - INFO - Canal Recomendado 8: guunnerz (https://www.twitch.tv/guunnerz)
+2025-05-06 20:56:32 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-06 20:56:34 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-05-07 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 00:00:01 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-07 00:00:01 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-07 00:00:01 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-07 00:00:01 - INFO - Driver downloading response is 200
+2025-05-07 00:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 00:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-07 00:00:14 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 00:00:16 - INFO - Iniciando treino...
+2025-05-07 00:00:16 - INFO - Realizando 4 buscas nessa sessão
+2025-05-07 00:00:16 - INFO - Jogo escolhido: marvel-rivals
+2025-05-07 00:01:03 - INFO - Assistindo lollbits por 990 segundos
+2025-05-07 00:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-07 00:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 00:01:28 - INFO - Canal Recomendado 1: waveigl (https://www.twitch.tv/waveigl)
+2025-05-07 00:01:33 - INFO - Canal Recomendado 2: exexeboy (https://www.twitch.tv/exexeboy)
+2025-05-07 00:01:37 - INFO - Canal Recomendado 3: animetvon (https://www.twitch.tv/animetvon)
+2025-05-07 00:01:42 - INFO - Canal Recomendado 4: criaplayer (https://www.twitch.tv/criaplayer)
+2025-05-07 00:01:46 - INFO - Canal Recomendado 5: gordox (https://www.twitch.tv/gordox)
+2025-05-07 00:01:51 - INFO - Canal Recomendado 6: cruelmr_ (https://www.twitch.tv/cruelmr_)
+2025-05-07 00:01:55 - INFO - Canal Recomendado 7: pivini_ (https://www.twitch.tv/pivini_)
+2025-05-07 00:02:00 - INFO - Canal Recomendado 8: riyuuka (https://www.twitch.tv/riyuuka)
+2025-05-07 00:02:07 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 04:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 04:00:09 - INFO - Iniciando treino...
+2025-05-07 04:00:09 - INFO - Realizando 5 buscas nessa sessão
+2025-05-07 04:00:09 - INFO - Jogo escolhido: minecraft
+2025-05-07 04:01:02 - INFO - Assistindo zakl1k por 674 segundos
+2025-05-07 04:01:27 - INFO - Canais Recomendados atualmente:
+2025-05-07 04:01:27 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 04:01:32 - INFO - Canal Recomendado 1: animetvon (https://www.twitch.tv/animetvon)
+2025-05-07 04:01:36 - INFO - Canal Recomendado 2: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 04:01:40 - INFO - Canal Recomendado 3: ntv_games (https://www.twitch.tv/ntv_games)
+2025-05-07 04:01:45 - INFO - Canal Recomendado 4: saullo (https://www.twitch.tv/saullo)
+2025-05-07 04:01:49 - INFO - Canal Recomendado 5: matutosgaming (https://www.twitch.tv/matutosgaming)
+2025-05-07 04:01:54 - INFO - Canal Recomendado 6: bastet (https://www.twitch.tv/bastet)
+2025-05-07 04:01:58 - INFO - Canal Recomendado 7: srely (https://www.twitch.tv/srely)
+2025-05-07 04:02:02 - INFO - Canal Recomendado 8: littleb0yyy (https://www.twitch.tv/littleb0yyy)
+2025-05-07 04:02:10 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 08:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 08:00:07 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 08:00:08 - INFO - Iniciando treino...
+2025-05-07 08:00:08 - INFO - Realizando 4 buscas nessa sessão
+2025-05-07 08:00:08 - INFO - Jogo escolhido: fortnite
+2025-05-07 08:01:05 - INFO - Assistindo nykagamer_ por 912 segundos
+2025-05-07 08:01:30 - INFO - Canais Recomendados atualmente:
+2025-05-07 08:01:30 - INFO - Canal Recomendado 0: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 08:01:34 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 08:01:39 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-07 08:01:43 - INFO - Canal Recomendado 3: yoda (https://www.twitch.tv/yoda)
+2025-05-07 08:01:48 - INFO - Canal Recomendado 4: dexterhq (https://www.twitch.tv/dexterhq)
+2025-05-07 08:01:52 - INFO - Canal Recomendado 5: vicfdcss (https://www.twitch.tv/vicfdcss)
+2025-05-07 08:01:56 - INFO - Canal Recomendado 6: danizinhah_ (https://www.twitch.tv/danizinhah_)
+2025-05-07 08:02:01 - INFO - Canal Recomendado 7: xerekiss (https://www.twitch.tv/xerekiss)
+2025-05-07 08:02:05 - INFO - Canal Recomendado 8: kariuxaa (https://www.twitch.tv/kariuxaa)
+2025-05-07 08:02:12 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 12:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 12:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 12:00:12 - INFO - Iniciando treino...
+2025-05-07 12:00:12 - INFO - Realizando 5 buscas nessa sessão
+2025-05-07 12:00:12 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-07 12:01:07 - INFO - Assistindo fastkiller16_ por 844 segundos
+2025-05-07 12:01:32 - INFO - Canais Recomendados atualmente:
+2025-05-07 12:01:32 - INFO - Canal Recomendado 0: miguelitodoarrocha (https://www.twitch.tv/miguelitodoarrocha)
+2025-05-07 12:01:36 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 12:01:40 - INFO - Canal Recomendado 2: oantunesz (https://www.twitch.tv/oantunesz)
+2025-05-07 12:01:44 - INFO - Canal Recomendado 3: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-07 12:01:49 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 12:01:53 - INFO - Canal Recomendado 5: vicfdcss (https://www.twitch.tv/vicfdcss)
+2025-05-07 12:02:00 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 16:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 16:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 16:00:10 - INFO - Iniciando treino...
+2025-05-07 16:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-07 16:00:10 - INFO - Jogo escolhido: marvel-rivals
+2025-05-07 16:01:00 - INFO - Assistindo momolezinha por 920 segundos
+2025-05-07 16:01:21 - INFO - Canais Recomendados atualmente:
+2025-05-07 16:01:21 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 16:01:25 - INFO - Canal Recomendado 1: waveigl (https://www.twitch.tv/waveigl)
+2025-05-07 16:01:29 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-07 16:01:34 - INFO - Canal Recomendado 3: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 16:01:38 - INFO - Canal Recomendado 4: fevetz (https://www.twitch.tv/fevetz)
+2025-05-07 16:01:42 - INFO - Canal Recomendado 5: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-07 16:01:47 - INFO - Canal Recomendado 6: amohrte (https://www.twitch.tv/amohrte)
+2025-05-07 16:01:51 - INFO - Canal Recomendado 7: superleozao__ (https://www.twitch.tv/superleozao__)
+2025-05-07 16:01:56 - INFO - Canal Recomendado 8: tony_lvl (https://www.twitch.tv/tony_lvl)
+2025-05-07 16:02:03 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-07 20:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 20:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 20:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 20:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 20:00:13 - INFO - Iniciando treino...
+2025-05-07 20:00:13 - INFO - Realizando 4 buscas nessa sessão
+2025-05-07 20:00:13 - INFO - Jogo escolhido: league-of-legends
+2025-05-07 20:01:00 - INFO - Assistindo idrewzada por 973 segundos
+2025-05-07 20:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-07 20:01:24 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-07 20:01:28 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 20:01:33 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-07 20:01:37 - INFO - Canal Recomendado 3: waveigl (https://www.twitch.tv/waveigl)
+2025-05-07 20:01:42 - INFO - Canal Recomendado 4: elyzao (https://www.twitch.tv/elyzao)
+2025-05-07 20:01:46 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 20:01:50 - INFO - Canal Recomendado 6: guguole (https://www.twitch.tv/guguole)
+2025-05-07 20:01:54 - INFO - Canal Recomendado 7: animetvon (https://www.twitch.tv/animetvon)
+2025-05-07 20:01:59 - INFO - Canal Recomendado 8: guisobrevivente_ (https://www.twitch.tv/guisobrevivente_)
+2025-05-07 20:02:06 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 20:03:04 - INFO - ====== WebDriver manager ======
+2025-05-07 20:03:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 20:03:05 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 20:03:05 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-07 20:03:12 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-07 20:03:13 - INFO - Iniciando treino...
+2025-05-07 20:03:13 - INFO - Realizando 3 buscas nessa sessão
+2025-05-07 20:03:13 - INFO - Jogo escolhido: fortnite
+2025-05-07 20:04:06 - INFO - Assistindo oimille por 734 segundos
+2025-05-07 20:04:31 - INFO - Canais Recomendados atualmente:
+2025-05-07 20:04:31 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-07 20:04:36 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-07 20:04:40 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-07 20:04:44 - INFO - Canal Recomendado 3: waveigl (https://www.twitch.tv/waveigl)
+2025-05-07 20:04:49 - INFO - Canal Recomendado 4: elyzao (https://www.twitch.tv/elyzao)
+2025-05-07 20:04:53 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-07 20:04:57 - INFO - Canal Recomendado 6: suuhs2k (https://www.twitch.tv/suuhs2k)
+2025-05-07 20:05:02 - INFO - Canal Recomendado 7: itadorinha (https://www.twitch.tv/itadorinha)
+2025-05-07 20:05:06 - INFO - Canal Recomendado 8: 1reyko (https://www.twitch.tv/1reyko)
+2025-05-07 20:05:14 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-07 20:05:16 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-05-08 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 00:00:00 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-08 00:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-08 00:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-08 00:00:00 - INFO - Driver downloading response is 200
+2025-05-08 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 00:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-08 00:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 00:00:12 - INFO - Iniciando treino...
+2025-05-08 00:00:12 - INFO - Realizando 5 buscas nessa sessão
+2025-05-08 00:00:12 - INFO - Jogo escolhido: roblox
+2025-05-08 00:01:07 - INFO - Assistindo nickiietv por 875 segundos
+2025-05-08 00:01:27 - INFO - Canais Recomendados atualmente:
+2025-05-08 00:01:27 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-08 00:01:31 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 00:01:36 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-08 00:01:40 - INFO - Canal Recomendado 3: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-08 00:01:44 - INFO - Canal Recomendado 4: exexeboy (https://www.twitch.tv/exexeboy)
+2025-05-08 00:01:48 - INFO - Canal Recomendado 5: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 00:01:53 - INFO - Canal Recomendado 6: mandymess (https://www.twitch.tv/mandymess)
+2025-05-08 00:01:57 - INFO - Canal Recomendado 7: jennyprioli (https://www.twitch.tv/jennyprioli)
+2025-05-08 00:02:02 - INFO - Canal Recomendado 8: daniglass (https://www.twitch.tv/daniglass)
+2025-05-08 00:02:09 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-08 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-08 04:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 04:00:11 - INFO - Iniciando treino...
+2025-05-08 04:00:11 - INFO - Realizando 3 buscas nessa sessão
+2025-05-08 04:00:11 - INFO - Jogo escolhido: overwatch-2
+2025-05-08 04:01:00 - INFO - Assistindo exexeboy por 752 segundos
+2025-05-08 04:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-08 04:01:24 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-08 04:01:29 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 04:01:33 - INFO - Canal Recomendado 2: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 04:01:38 - INFO - Canal Recomendado 3: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-08 04:01:42 - INFO - Canal Recomendado 4: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-08 04:01:46 - INFO - Canal Recomendado 5: saullo (https://www.twitch.tv/saullo)
+2025-05-08 04:01:51 - INFO - Canal Recomendado 6: tiemis (https://www.twitch.tv/tiemis)
+2025-05-08 04:01:55 - INFO - Canal Recomendado 7: rehhdart (https://www.twitch.tv/rehhdart)
+2025-05-08 04:01:59 - INFO - Canal Recomendado 8: nicotinacat (https://www.twitch.tv/nicotinacat)
+2025-05-08 04:02:06 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-08 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 08:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 08:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-08 08:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 08:00:12 - INFO - Iniciando treino...
+2025-05-08 08:00:12 - INFO - Realizando 4 buscas nessa sessão
+2025-05-08 08:00:12 - INFO - Jogo escolhido: ea-sports-fc-25
+2025-05-08 08:01:03 - INFO - Assistindo xguuhgabrielx por 1107 segundos
+2025-05-08 08:01:28 - INFO - Canais Recomendados atualmente:
+2025-05-08 08:01:28 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 08:01:32 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 08:01:36 - INFO - Canal Recomendado 2: yoda (https://www.twitch.tv/yoda)
+2025-05-08 08:01:41 - INFO - Canal Recomendado 3: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-08 08:01:45 - INFO - Canal Recomendado 4: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-08 08:01:50 - INFO - Canal Recomendado 5: oantunesz (https://www.twitch.tv/oantunesz)
+2025-05-08 08:01:54 - INFO - Canal Recomendado 6: salomonif (https://www.twitch.tv/salomonif)
+2025-05-08 08:01:58 - INFO - Canal Recomendado 7: dieguitopotter (https://www.twitch.tv/dieguitopotter)
+2025-05-08 08:02:03 - INFO - Canal Recomendado 8: odekin (https://www.twitch.tv/odekin)
+2025-05-08 08:02:10 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-08 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 12:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-08 12:00:07 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 12:00:09 - INFO - Iniciando treino...
+2025-05-08 12:00:09 - INFO - Realizando 5 buscas nessa sessão
+2025-05-08 12:00:09 - INFO - Jogo escolhido: fortnite
+2025-05-08 12:01:02 - INFO - Assistindo tinnixtv por 1042 segundos
+2025-05-08 12:01:26 - INFO - Canais Recomendados atualmente:
+2025-05-08 12:01:26 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 12:01:30 - INFO - Canal Recomendado 1: pedro017yt (https://www.twitch.tv/pedro017yt)
+2025-05-08 12:01:35 - INFO - Canal Recomendado 2: bibitenebroza (https://www.twitch.tv/bibitenebroza)
+2025-05-08 12:01:39 - INFO - Canal Recomendado 3: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 12:01:43 - INFO - Canal Recomendado 4: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-08 12:01:48 - INFO - Canal Recomendado 5: vicfdcss (https://www.twitch.tv/vicfdcss)
+2025-05-08 12:01:52 - INFO - Canal Recomendado 6: minaletalx (https://www.twitch.tv/minaletalx)
+2025-05-08 12:01:56 - INFO - Canal Recomendado 7: maahmurollo (https://www.twitch.tv/maahmurollo)
+2025-05-08 12:02:01 - INFO - Canal Recomendado 8: kariuxaa (https://www.twitch.tv/kariuxaa)
+2025-05-08 12:02:08 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-08 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 16:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 16:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 16:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-08 16:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 16:00:11 - INFO - Iniciando treino...
+2025-05-08 16:00:11 - INFO - Realizando 4 buscas nessa sessão
+2025-05-08 16:00:11 - INFO - Jogo escolhido: ea-sports-fc-25
+2025-05-08 16:01:03 - INFO - Assistindo rovagool por 1043 segundos
+2025-05-08 16:01:26 - INFO - Canais Recomendados atualmente:
+2025-05-08 16:01:26 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 16:01:31 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 16:01:35 - INFO - Canal Recomendado 2: matgomesz (https://www.twitch.tv/matgomesz)
+2025-05-08 16:01:40 - INFO - Canal Recomendado 3: coraltv_ (https://www.twitch.tv/coraltv_)
+2025-05-08 16:01:44 - INFO - Canal Recomendado 4: joohn_garcia (https://www.twitch.tv/joohn_garcia)
+2025-05-08 16:01:48 - INFO - Canal Recomendado 5: momolezinha (https://www.twitch.tv/momolezinha)
+2025-05-08 16:01:53 - INFO - Canal Recomendado 6: hairzinho (https://www.twitch.tv/hairzinho)
+2025-05-08 16:01:57 - INFO - Canal Recomendado 7: igol7 (https://www.twitch.tv/igol7)
+2025-05-08 16:02:01 - INFO - Canal Recomendado 8: mgw_fc (https://www.twitch.tv/mgw_fc)
+2025-05-08 16:02:08 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-08 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-08 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 20:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 20:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-08 20:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-08 20:00:11 - INFO - Iniciando treino...
+2025-05-08 20:00:11 - INFO - Realizando 5 buscas nessa sessão
+2025-05-08 20:00:11 - INFO - Jogo escolhido: valorant
+2025-05-08 20:01:03 - INFO - Assistindo rdecarvalho por 1086 segundos
+2025-05-08 20:01:27 - INFO - Canais Recomendados atualmente:
+2025-05-08 20:01:27 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-08 20:01:32 - INFO - Canal Recomendado 1: waveigl (https://www.twitch.tv/waveigl)
+2025-05-08 20:01:36 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-08 20:01:41 - INFO - Canal Recomendado 3: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-08 20:01:45 - INFO - Canal Recomendado 4: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-08 20:01:50 - INFO - Canal Recomendado 5: animetvon (https://www.twitch.tv/animetvon)
+2025-05-08 20:01:54 - INFO - Canal Recomendado 6: excambaw (https://www.twitch.tv/excambaw)
+2025-05-08 20:01:58 - INFO - Canal Recomendado 7: sushikage__ (https://www.twitch.tv/sushikage__)
+2025-05-08 20:02:03 - INFO - Canal Recomendado 8: zutt00 (https://www.twitch.tv/zutt00)
+2025-05-08 20:02:10 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 00:00:00 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-09 00:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-09 00:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-09 00:00:00 - INFO - Driver downloading response is 200
+2025-05-09 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 00:00:01 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-09 00:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 00:00:11 - INFO - Iniciando treino...
+2025-05-09 00:00:11 - INFO - Realizando 5 buscas nessa sessão
+2025-05-09 00:00:11 - INFO - Jogo escolhido: counter-strike
+2025-05-09 00:00:59 - INFO - Assistindo brunoballoni por 1121 segundos
+2025-05-09 00:01:21 - INFO - Canais Recomendados atualmente:
+2025-05-09 00:01:21 - INFO - Canal Recomendado 0: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-09 00:01:26 - INFO - Canal Recomendado 1: saullo (https://www.twitch.tv/saullo)
+2025-05-09 00:01:30 - INFO - Canal Recomendado 2: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-09 00:01:34 - INFO - Canal Recomendado 3: waveigl (https://www.twitch.tv/waveigl)
+2025-05-09 00:01:39 - INFO - Canal Recomendado 4: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-09 00:01:43 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-09 00:01:47 - INFO - Canal Recomendado 6: max_lemos (https://www.twitch.tv/max_lemos)
+2025-05-09 00:01:52 - INFO - Canal Recomendado 7: bianchessics2 (https://www.twitch.tv/bianchessics2)
+2025-05-09 00:01:56 - INFO - Canal Recomendado 8: clovaorp (https://www.twitch.tv/clovaorp)
+2025-05-09 00:02:03 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-09 04:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 04:00:10 - INFO - Iniciando treino...
+2025-05-09 04:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-09 04:00:10 - INFO - Jogo escolhido: minecraft
+2025-05-09 04:00:58 - INFO - Assistindo zakl1k por 604 segundos
+2025-05-09 04:01:21 - INFO - Canais Recomendados atualmente:
+2025-05-09 04:01:21 - INFO - Canal Recomendado 0: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-09 04:01:26 - INFO - Canal Recomendado 1: saullo (https://www.twitch.tv/saullo)
+2025-05-09 04:01:30 - INFO - Canal Recomendado 2: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-09 04:01:34 - INFO - Canal Recomendado 3: seergiorp (https://www.twitch.tv/seergiorp)
+2025-05-09 04:01:38 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-09 04:01:43 - INFO - Canal Recomendado 5: obenee (https://www.twitch.tv/obenee)
+2025-05-09 04:01:47 - INFO - Canal Recomendado 6: muh_ra (https://www.twitch.tv/muh_ra)
+2025-05-09 04:01:51 - INFO - Canal Recomendado 7: gazorbinha (https://www.twitch.tv/gazorbinha)
+2025-05-09 04:01:55 - INFO - Canal Recomendado 8: srely (https://www.twitch.tv/srely)
+2025-05-09 04:02:02 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 08:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-09 08:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 08:00:12 - INFO - Iniciando treino...
+2025-05-09 08:00:12 - INFO - Realizando 3 buscas nessa sessão
+2025-05-09 08:00:12 - INFO - Jogo escolhido: minecraft
+2025-05-09 08:01:03 - INFO - Assistindo zakl1k por 991 segundos
+2025-05-09 08:01:23 - INFO - Canais Recomendados atualmente:
+2025-05-09 08:01:23 - INFO - Canal Recomendado 0: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-09 08:01:28 - INFO - Canal Recomendado 1: ntv_games (https://www.twitch.tv/ntv_games)
+2025-05-09 08:01:32 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-09 08:01:36 - INFO - Canal Recomendado 3: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-09 08:01:41 - INFO - Canal Recomendado 4: sophyysol (https://www.twitch.tv/sophyysol)
+2025-05-09 08:01:45 - INFO - Canal Recomendado 5: v1tona (https://www.twitch.tv/v1tona)
+2025-05-09 08:01:49 - INFO - Canal Recomendado 6: animetvon (https://www.twitch.tv/animetvon)
+2025-05-09 08:01:53 - INFO - Canal Recomendado 7: vovo_grobau (https://www.twitch.tv/vovo_grobau)
+2025-05-09 08:01:58 - INFO - Canal Recomendado 8: gabryelcwb (https://www.twitch.tv/gabryelcwb)
+2025-05-09 08:02:05 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 12:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-09 12:00:24 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 12:00:25 - INFO - Iniciando treino...
+2025-05-09 12:00:25 - INFO - Realizando 4 buscas nessa sessão
+2025-05-09 12:00:25 - INFO - Jogo escolhido: the-sims-4
+2025-05-09 12:01:45 - INFO - Assistindo babby_bella por 741 segundos
+2025-05-09 12:02:17 - ERROR - Erro ao recuperar canais recomendados: Message: 
+Stacktrace:
+#0 0x55d4d9cba14a <unknown>
+#1 0x55d4d9757b80 <unknown>
+#2 0x55d4d97a90e9 <unknown>
+#3 0x55d4d97a9271 <unknown>
+#4 0x55d4d97f7de4 <unknown>
+#5 0x55d4d97ceefd <unknown>
+#6 0x55d4d97f514a <unknown>
+#7 0x55d4d97ceca3 <unknown>
+#8 0x55d4d979af08 <unknown>
+#9 0x55d4d979c071 <unknown>
+#10 0x55d4d9c83b5b <unknown>
+#11 0x55d4d9c87ae2 <unknown>
+#12 0x55d4d9c6f967 <unknown>
+#13 0x55d4d9c886d4 <unknown>
+#14 0x55d4d9c53c7f <unknown>
+#15 0x55d4d9ca8cd8 <unknown>
+#16 0x55d4d9ca8ea9 <unknown>
+#17 0x55d4d9cb8fc6 <unknown>
+#18 0x7722fba9caa4 <unknown>
+#19 0x7722fbb29c3c <unknown>
+
+2025-05-09 12:02:19 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 16:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-09 16:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 16:00:11 - INFO - Iniciando treino...
+2025-05-09 16:00:11 - INFO - Realizando 3 buscas nessa sessão
+2025-05-09 16:00:11 - INFO - Jogo escolhido: minecraft
+2025-05-09 16:00:59 - INFO - Assistindo zakl1k por 974 segundos
+2025-05-09 16:01:23 - INFO - Canais Recomendados atualmente:
+2025-05-09 16:01:23 - INFO - Canal Recomendado 0: tck10 (https://www.twitch.tv/tck10)
+2025-05-09 16:01:27 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-09 16:01:32 - INFO - Canal Recomendado 2: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-09 16:01:36 - INFO - Canal Recomendado 3: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-09 16:01:40 - INFO - Canal Recomendado 4: iblusa (https://www.twitch.tv/iblusa)
+2025-05-09 16:01:45 - INFO - Canal Recomendado 5: animetvon (https://www.twitch.tv/animetvon)
+2025-05-09 16:01:49 - INFO - Canal Recomendado 6: zangdroid (https://www.twitch.tv/zangdroid)
+2025-05-09 16:01:53 - INFO - Canal Recomendado 7: ganizev (https://www.twitch.tv/ganizev)
+2025-05-09 16:01:57 - INFO - Canal Recomendado 8: itzvini__ (https://www.twitch.tv/itzvini__)
+2025-05-09 16:02:04 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-09 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-09 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 20:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-09 20:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-09 20:00:11 - INFO - Iniciando treino...
+2025-05-09 20:00:11 - INFO - Realizando 4 buscas nessa sessão
+2025-05-09 20:00:11 - INFO - Jogo escolhido: the-sims-4
+2025-05-09 20:01:01 - INFO - Assistindo letixiasims por 623 segundos
+2025-05-09 20:01:25 - INFO - Canais Recomendados atualmente:
+2025-05-09 20:01:25 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-09 20:01:29 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-09 20:01:33 - INFO - Canal Recomendado 2: tck10 (https://www.twitch.tv/tck10)
+2025-05-09 20:01:38 - INFO - Canal Recomendado 3: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-09 20:01:42 - INFO - Canal Recomendado 4: dilascio_ (https://www.twitch.tv/dilascio_)
+2025-05-09 20:01:47 - INFO - Canal Recomendado 5: waveigl (https://www.twitch.tv/waveigl)
+2025-05-09 20:01:51 - INFO - Canal Recomendado 6: thatales_ (https://www.twitch.tv/thatales_)
+2025-05-09 20:01:56 - INFO - Canal Recomendado 7: renatisses (https://www.twitch.tv/renatisses)
+2025-05-09 20:02:01 - INFO - Canal Recomendado 8: psicodelizei (https://www.twitch.tv/psicodelizei)
+2025-05-09 20:02:09 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 00:00:01 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-10 00:00:01 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-10 00:00:01 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-10 00:00:01 - INFO - Driver downloading response is 200
+2025-05-10 00:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 00:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-10 00:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 00:00:12 - INFO - Iniciando treino...
+2025-05-10 00:00:12 - INFO - Realizando 3 buscas nessa sessão
+2025-05-10 00:00:12 - INFO - Jogo escolhido: roblox
+2025-05-10 00:01:07 - INFO - Assistindo ofredizin por 993 segundos
+2025-05-10 00:01:30 - INFO - Canais Recomendados atualmente:
+2025-05-10 00:01:30 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 00:01:34 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-10 00:01:39 - INFO - Canal Recomendado 2: waveigl (https://www.twitch.tv/waveigl)
+2025-05-10 00:01:43 - INFO - Canal Recomendado 3: exexeboy (https://www.twitch.tv/exexeboy)
+2025-05-10 00:01:47 - INFO - Canal Recomendado 4: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-10 00:01:51 - INFO - Canal Recomendado 5: bocaorj (https://www.twitch.tv/bocaorj)
+2025-05-10 00:01:56 - INFO - Canal Recomendado 6: animetvon (https://www.twitch.tv/animetvon)
+2025-05-10 00:02:00 - INFO - Canal Recomendado 7: carlos_resende8 (https://www.twitch.tv/carlos_resende8)
+2025-05-10 00:02:04 - INFO - Canal Recomendado 8: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-10 00:02:11 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-10 04:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 04:00:12 - INFO - Iniciando treino...
+2025-05-10 04:00:12 - INFO - Realizando 4 buscas nessa sessão
+2025-05-10 04:00:12 - INFO - Jogo escolhido: league-of-legends
+2025-05-10 04:00:59 - INFO - Assistindo flapjacklol1 por 749 segundos
+2025-05-10 04:01:23 - INFO - Canais Recomendados atualmente:
+2025-05-10 04:01:23 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 04:01:27 - INFO - Canal Recomendado 1: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-10 04:01:32 - INFO - Canal Recomendado 2: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-10 04:01:36 - INFO - Canal Recomendado 3: saullo (https://www.twitch.tv/saullo)
+2025-05-10 04:01:40 - INFO - Canal Recomendado 4: waveigl (https://www.twitch.tv/waveigl)
+2025-05-10 04:01:45 - INFO - Canal Recomendado 5: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-10 04:01:49 - INFO - Canal Recomendado 6: drakeherolol (https://www.twitch.tv/drakeherolol)
+2025-05-10 04:01:53 - INFO - Canal Recomendado 7: krkled (https://www.twitch.tv/krkled)
+2025-05-10 04:01:57 - INFO - Canal Recomendado 8: yulla (https://www.twitch.tv/yulla)
+2025-05-10 04:02:04 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 08:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 08:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-10 08:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 08:00:10 - INFO - Iniciando treino...
+2025-05-10 08:00:10 - INFO - Realizando 3 buscas nessa sessão
+2025-05-10 08:00:10 - INFO - Jogo escolhido: ea-sports-fc-25
+2025-05-10 08:01:01 - INFO - Assistindo xguuhgabrielx por 996 segundos
+2025-05-10 08:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-10 08:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 08:01:28 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-10 08:01:32 - INFO - Canal Recomendado 2: xguuhgabrielx (https://www.twitch.tv/xguuhgabrielx)
+2025-05-10 08:01:37 - INFO - Canal Recomendado 3: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-10 08:01:41 - INFO - Canal Recomendado 4: casalskills (https://www.twitch.tv/casalskills)
+2025-05-10 08:01:45 - INFO - Canal Recomendado 5: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-10 08:01:49 - INFO - Canal Recomendado 6: mark__eleven (https://www.twitch.tv/mark__eleven)
+2025-05-10 08:01:54 - INFO - Canal Recomendado 7: favor1te_ws (https://www.twitch.tv/favor1te_ws)
+2025-05-10 08:01:58 - INFO - Canal Recomendado 8: maximocuevas (https://www.twitch.tv/maximocuevas)
+2025-05-10 08:02:05 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 12:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-10 12:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 12:00:12 - INFO - Iniciando treino...
+2025-05-10 12:00:12 - INFO - Realizando 5 buscas nessa sessão
+2025-05-10 12:00:12 - INFO - Jogo escolhido: ea-sports-fc-25
+2025-05-10 12:01:02 - INFO - Assistindo tiopedrojoga por 1056 segundos
+2025-05-10 12:01:26 - INFO - Canais Recomendados atualmente:
+2025-05-10 12:01:26 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 12:01:30 - INFO - Canal Recomendado 1: miguelitodoarrocha (https://www.twitch.tv/miguelitodoarrocha)
+2025-05-10 12:01:35 - ERROR - Erro ao processar canal 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x637dfe99b14a <unknown>
+#1 0x637dfe438b80 <unknown>
+#2 0x637dfe43f913 <unknown>
+#3 0x637dfe442187 <unknown>
+#4 0x637dfe4d724b <unknown>
+#5 0x637dfe4afed2 <unknown>
+#6 0x637dfe4d614a <unknown>
+#7 0x637dfe4afca3 <unknown>
+#8 0x637dfe47bf08 <unknown>
+#9 0x637dfe47d071 <unknown>
+#10 0x637dfe964b5b <unknown>
+#11 0x637dfe968ae2 <unknown>
+#12 0x637dfe950967 <unknown>
+#13 0x637dfe9696d4 <unknown>
+#14 0x637dfe934c7f <unknown>
+#15 0x637dfe989cd8 <unknown>
+#16 0x637dfe989ea9 <unknown>
+#17 0x637dfe999fc6 <unknown>
+#18 0x7b900549caa4 <unknown>
+#19 0x7b9005529c3c <unknown>
+
+2025-05-10 12:01:35 - ERROR - Erro ao processar canal 3: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x637dfe99b14a <unknown>
+#1 0x637dfe438b80 <unknown>
+#2 0x637dfe43f913 <unknown>
+#3 0x637dfe442187 <unknown>
+#4 0x637dfe4d724b <unknown>
+#5 0x637dfe4afed2 <unknown>
+#6 0x637dfe4d614a <unknown>
+#7 0x637dfe4afca3 <unknown>
+#8 0x637dfe47bf08 <unknown>
+#9 0x637dfe47d071 <unknown>
+#10 0x637dfe964b5b <unknown>
+#11 0x637dfe968ae2 <unknown>
+#12 0x637dfe950967 <unknown>
+#13 0x637dfe9696d4 <unknown>
+#14 0x637dfe934c7f <unknown>
+#15 0x637dfe989cd8 <unknown>
+#16 0x637dfe989ea9 <unknown>
+#17 0x637dfe999fc6 <unknown>
+#18 0x7b900549caa4 <unknown>
+#19 0x7b9005529c3c <unknown>
+
+2025-05-10 12:01:35 - INFO - Canal Recomendado 4: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-10 12:01:39 - ERROR - Erro ao processar canal 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x637dfe99b14a <unknown>
+#1 0x637dfe438b80 <unknown>
+#2 0x637dfe43f913 <unknown>
+#3 0x637dfe442187 <unknown>
+#4 0x637dfe4d724b <unknown>
+#5 0x637dfe4afed2 <unknown>
+#6 0x637dfe4d614a <unknown>
+#7 0x637dfe4afca3 <unknown>
+#8 0x637dfe47bf08 <unknown>
+#9 0x637dfe47d071 <unknown>
+#10 0x637dfe964b5b <unknown>
+#11 0x637dfe968ae2 <unknown>
+#12 0x637dfe950967 <unknown>
+#13 0x637dfe9696d4 <unknown>
+#14 0x637dfe934c7f <unknown>
+#15 0x637dfe989cd8 <unknown>
+#16 0x637dfe989ea9 <unknown>
+#17 0x637dfe999fc6 <unknown>
+#18 0x7b900549caa4 <unknown>
+#19 0x7b9005529c3c <unknown>
+
+2025-05-10 12:01:39 - ERROR - Erro ao processar canal 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.53); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x637dfe99b14a <unknown>
+#1 0x637dfe438b80 <unknown>
+#2 0x637dfe43f913 <unknown>
+#3 0x637dfe442187 <unknown>
+#4 0x637dfe4d724b <unknown>
+#5 0x637dfe4afed2 <unknown>
+#6 0x637dfe4d614a <unknown>
+#7 0x637dfe4afca3 <unknown>
+#8 0x637dfe47bf08 <unknown>
+#9 0x637dfe47d071 <unknown>
+#10 0x637dfe964b5b <unknown>
+#11 0x637dfe968ae2 <unknown>
+#12 0x637dfe950967 <unknown>
+#13 0x637dfe9696d4 <unknown>
+#14 0x637dfe934c7f <unknown>
+#15 0x637dfe989cd8 <unknown>
+#16 0x637dfe989ea9 <unknown>
+#17 0x637dfe999fc6 <unknown>
+#18 0x7b900549caa4 <unknown>
+#19 0x7b9005529c3c <unknown>
+
+2025-05-10 12:01:39 - INFO - Canal Recomendado 7: guneiva (https://www.twitch.tv/guneiva)
+2025-05-10 12:01:43 - INFO - Canal Recomendado 8: cecilia_1707 (https://www.twitch.tv/cecilia_1707)
+2025-05-10 12:01:50 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 16:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-10 16:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 16:00:10 - INFO - Iniciando treino...
+2025-05-10 16:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-10 16:00:10 - INFO - Jogo escolhido: ea-sports-fc-25
+2025-05-10 16:01:01 - INFO - Assistindo rovagool por 940 segundos
+2025-05-10 16:01:23 - INFO - Canais Recomendados atualmente:
+2025-05-10 16:01:23 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 16:01:27 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-10 16:01:32 - INFO - Canal Recomendado 2: rovagool (https://www.twitch.tv/rovagool)
+2025-05-10 16:01:36 - INFO - Canal Recomendado 3: kaori_game (https://www.twitch.tv/kaori_game)
+2025-05-10 16:01:41 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-10 16:01:46 - INFO - Canal Recomendado 5: tck10 (https://www.twitch.tv/tck10)
+2025-05-10 16:01:50 - INFO - Canal Recomendado 6: hairzinho (https://www.twitch.tv/hairzinho)
+2025-05-10 16:01:54 - INFO - Canal Recomendado 7: miguelles16 (https://www.twitch.tv/miguelles16)
+2025-05-10 16:01:59 - INFO - Canal Recomendado 8: guneiva (https://www.twitch.tv/guneiva)
+2025-05-10 16:02:06 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-10 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-10 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-10 20:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-10 20:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-10 20:00:13 - INFO - Iniciando treino...
+2025-05-10 20:00:13 - INFO - Realizando 4 buscas nessa sessão
+2025-05-10 20:00:13 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-10 20:01:06 - INFO - Assistindo coutinho0 por 1159 segundos
+2025-05-10 20:01:28 - INFO - Canais Recomendados atualmente:
+2025-05-10 20:01:28 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-10 20:01:32 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-10 20:01:37 - INFO - Canal Recomendado 2: waveigl (https://www.twitch.tv/waveigl)
+2025-05-10 20:01:41 - INFO - Canal Recomendado 3: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-10 20:01:45 - INFO - Canal Recomendado 4: kaori_game (https://www.twitch.tv/kaori_game)
+2025-05-10 20:01:50 - INFO - Canal Recomendado 5: gordox (https://www.twitch.tv/gordox)
+2025-05-10 20:01:55 - INFO - Canal Recomendado 6: noxboreastv (https://www.twitch.tv/noxboreastv)
+2025-05-10 20:02:01 - INFO - Canal Recomendado 7: franscione_tw (https://www.twitch.tv/franscione_tw)
+2025-05-10 20:02:05 - INFO - Canal Recomendado 8: leagueofthievestv (https://www.twitch.tv/leagueofthievestv)
+2025-05-10 20:02:14 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 00:00:01 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-11 00:00:01 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-11 00:00:01 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-11 00:00:01 - INFO - Driver downloading response is 200
+2025-05-11 00:00:02 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 00:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-11 00:00:12 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 00:00:13 - INFO - Iniciando treino...
+2025-05-11 00:00:13 - INFO - Realizando 4 buscas nessa sessão
+2025-05-11 00:00:13 - INFO - Jogo escolhido: overwatch-2
+2025-05-11 00:01:12 - INFO - Assistindo fearnando por 987 segundos
+2025-05-11 00:01:33 - INFO - Canais Recomendados atualmente:
+2025-05-11 00:01:33 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 00:01:38 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-11 00:01:42 - INFO - Canal Recomendado 2: waveigl (https://www.twitch.tv/waveigl)
+2025-05-11 00:01:48 - INFO - Canal Recomendado 3: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-11 00:01:52 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-11 00:01:56 - INFO - Canal Recomendado 5: kaori_game (https://www.twitch.tv/kaori_game)
+2025-05-11 00:02:01 - INFO - Canal Recomendado 6: zawy_ow (https://www.twitch.tv/zawy_ow)
+2025-05-11 00:02:05 - INFO - Canal Recomendado 7: rafergie (https://www.twitch.tv/rafergie)
+2025-05-11 00:02:10 - INFO - Canal Recomendado 8: viniciusstocker (https://www.twitch.tv/viniciusstocker)
+2025-05-11 00:02:17 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-11 04:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 04:00:11 - INFO - Iniciando treino...
+2025-05-11 04:00:11 - INFO - Realizando 4 buscas nessa sessão
+2025-05-11 04:00:11 - INFO - Jogo escolhido: league-of-legends
+2025-05-11 04:01:03 - INFO - Assistindo ivachuk por 736 segundos
+2025-05-11 04:01:25 - INFO - Canais Recomendados atualmente:
+2025-05-11 04:01:25 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 04:01:30 - INFO - Canal Recomendado 1: saullo (https://www.twitch.tv/saullo)
+2025-05-11 04:01:34 - INFO - Canal Recomendado 2: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-11 04:01:39 - INFO - Canal Recomendado 3: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-11 04:01:44 - INFO - Canal Recomendado 4: waveigl (https://www.twitch.tv/waveigl)
+2025-05-11 04:01:48 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-11 04:01:52 - INFO - Canal Recomendado 6: pxnnr6 (https://www.twitch.tv/pxnnr6)
+2025-05-11 04:01:57 - INFO - Canal Recomendado 7: katachi_____ (https://www.twitch.tv/katachi_____)
+2025-05-11 04:02:01 - INFO - Canal Recomendado 8: linkboygm (https://www.twitch.tv/linkboygm)
+2025-05-11 04:02:09 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 08:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-11 08:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 08:00:10 - INFO - Iniciando treino...
+2025-05-11 08:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-11 08:00:10 - INFO - Jogo escolhido: grand-theft-auto-v
+2025-05-11 08:01:02 - INFO - Assistindo ryanfeer por 792 segundos
+2025-05-11 08:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-11 08:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 08:01:29 - INFO - Canal Recomendado 1: oantunesz (https://www.twitch.tv/oantunesz)
+2025-05-11 08:01:33 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-11 08:01:38 - INFO - Canal Recomendado 3: xguuhgabrielx (https://www.twitch.tv/xguuhgabrielx)
+2025-05-11 08:01:42 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-11 08:01:46 - INFO - Canal Recomendado 5: sophyysol (https://www.twitch.tv/sophyysol)
+2025-05-11 08:01:51 - INFO - Canal Recomendado 6: roonald (https://www.twitch.tv/roonald)
+2025-05-11 08:01:56 - INFO - Canal Recomendado 7: genesizgames (https://www.twitch.tv/genesizgames)
+2025-05-11 08:02:01 - INFO - Canal Recomendado 8: japa_blk (https://www.twitch.tv/japa_blk)
+2025-05-11 08:02:09 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 12:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-11 12:00:11 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 12:00:12 - INFO - Iniciando treino...
+2025-05-11 12:00:12 - INFO - Realizando 4 buscas nessa sessão
+2025-05-11 12:00:12 - INFO - Jogo escolhido: the-sims-4
+2025-05-11 12:01:03 - INFO - Assistindo xpericaqx por 1062 segundos
+2025-05-11 12:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-11 12:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 12:01:28 - INFO - Canal Recomendado 1: iblusa (https://www.twitch.tv/iblusa)
+2025-05-11 12:01:32 - INFO - Canal Recomendado 2: gaules (https://www.twitch.tv/gaules)
+2025-05-11 12:01:38 - INFO - Canal Recomendado 3: animetvon (https://www.twitch.tv/animetvon)
+2025-05-11 12:01:42 - INFO - Canal Recomendado 4: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-11 12:01:46 - INFO - Canal Recomendado 5: ntv_games (https://www.twitch.tv/ntv_games)
+2025-05-11 12:01:51 - INFO - Canal Recomendado 6: conde_br (https://www.twitch.tv/conde_br)
+2025-05-11 12:01:55 - INFO - Canal Recomendado 7: doramagirl (https://www.twitch.tv/doramagirl)
+2025-05-11 12:02:00 - INFO - Canal Recomendado 8: kattyolivier (https://www.twitch.tv/kattyolivier)
+2025-05-11 12:02:07 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 16:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-11 16:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 16:00:10 - INFO - Iniciando treino...
+2025-05-11 16:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-11 16:00:10 - INFO - Jogo escolhido: overwatch-2
+2025-05-11 16:00:59 - INFO - Assistindo akrom_ow por 766 segundos
+2025-05-11 16:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-11 16:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 16:01:28 - INFO - Canal Recomendado 1: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-11 16:01:32 - INFO - Canal Recomendado 2: rovagool (https://www.twitch.tv/rovagool)
+2025-05-11 16:01:37 - INFO - Canal Recomendado 3: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-11 16:01:41 - INFO - Canal Recomendado 4: sacy (https://www.twitch.tv/sacy)
+2025-05-11 16:01:45 - INFO - Canal Recomendado 5: tck10 (https://www.twitch.tv/tck10)
+2025-05-11 16:01:49 - INFO - Canal Recomendado 6: owlnhira (https://www.twitch.tv/owlnhira)
+2025-05-11 16:01:54 - INFO - Canal Recomendado 7: kawanpls (https://www.twitch.tv/kawanpls)
+2025-05-11 16:01:58 - INFO - Canal Recomendado 8: thallew966 (https://www.twitch.tv/thallew966)
+2025-05-11 16:02:05 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-11 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-11 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-11 20:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-11 20:00:17 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-11 20:00:19 - INFO - Iniciando treino...
+2025-05-11 20:00:19 - INFO - Realizando 5 buscas nessa sessão
+2025-05-11 20:00:19 - INFO - Jogo escolhido: league-of-legends
+2025-05-11 20:01:09 - INFO - Assistindo gordox por 841 segundos
+2025-05-11 20:01:32 - INFO - Canais Recomendados atualmente:
+2025-05-11 20:01:32 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-11 20:01:36 - INFO - Canal Recomendado 1: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-11 20:01:41 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-11 20:01:45 - INFO - Canal Recomendado 3: waveigl (https://www.twitch.tv/waveigl)
+2025-05-11 20:01:49 - INFO - Canal Recomendado 4: elyzao (https://www.twitch.tv/elyzao)
+2025-05-11 20:01:54 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-11 20:01:58 - INFO - Canal Recomendado 6: ayellol (https://www.twitch.tv/ayellol)
+2025-05-11 20:02:02 - INFO - Canal Recomendado 7: pijack11 (https://www.twitch.tv/pijack11)
+2025-05-11 20:02:07 - INFO - Canal Recomendado 8: filipoppy1 (https://www.twitch.tv/filipoppy1)
+2025-05-11 20:02:13 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 00:00:00 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-12 00:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-12 00:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-12 00:00:00 - INFO - Driver downloading response is 200
+2025-05-12 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 00:00:01 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-12 00:00:13 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 00:00:15 - INFO - Iniciando treino...
+2025-05-12 00:00:15 - INFO - Realizando 4 buscas nessa sessão
+2025-05-12 00:00:15 - INFO - Jogo escolhido: the-sims-4
+2025-05-12 00:01:05 - INFO - Assistindo mt_eu por 925 segundos
+2025-05-12 00:01:25 - INFO - Canais Recomendados atualmente:
+2025-05-12 00:01:25 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 00:01:29 - INFO - Canal Recomendado 1: saullo (https://www.twitch.tv/saullo)
+2025-05-12 00:01:34 - INFO - Canal Recomendado 2: ishadowwolf_ (https://www.twitch.tv/ishadowwolf_)
+2025-05-12 00:01:38 - INFO - Canal Recomendado 3: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 00:01:42 - INFO - Canal Recomendado 4: waveigl (https://www.twitch.tv/waveigl)
+2025-05-12 00:01:47 - INFO - Canal Recomendado 5: elyzao (https://www.twitch.tv/elyzao)
+2025-05-12 00:01:55 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 04:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 04:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 04:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-12 04:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 04:00:10 - INFO - Iniciando treino...
+2025-05-12 04:00:10 - INFO - Realizando 3 buscas nessa sessão
+2025-05-12 04:00:10 - INFO - Jogo escolhido: minecraft
+2025-05-12 04:01:00 - INFO - Assistindo chaves24hon por 787 segundos
+2025-05-12 04:01:20 - INFO - Canais Recomendados atualmente:
+2025-05-12 04:01:20 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 04:01:25 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 04:01:29 - INFO - Canal Recomendado 2: saullo (https://www.twitch.tv/saullo)
+2025-05-12 04:01:35 - INFO - Canal Recomendado 3: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-12 04:01:40 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-12 04:01:45 - INFO - Canal Recomendado 5: lobaorj21 (https://www.twitch.tv/lobaorj21)
+2025-05-12 04:01:49 - INFO - Canal Recomendado 6: seypas_serie27 (https://www.twitch.tv/seypas_serie27)
+2025-05-12 04:01:54 - INFO - Canal Recomendado 7: liupul_serie27 (https://www.twitch.tv/liupul_serie27)
+2025-05-12 04:01:58 - INFO - Canal Recomendado 8: simpsonsbrtv402 (https://www.twitch.tv/simpsonsbrtv402)
+2025-05-12 04:02:06 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-12 08:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 08:00:09 - INFO - Iniciando treino...
+2025-05-12 08:00:09 - INFO - Realizando 4 buscas nessa sessão
+2025-05-12 08:00:09 - INFO - Jogo escolhido: overwatch-2
+2025-05-12 08:00:40 - ERROR - Algo deu errodo nos card em portugues: 2.718281828459045
+2025-05-12 08:00:40 - INFO - Jogo escolhido: grand-theft-auto-v
+2025-05-12 08:01:35 - INFO - Assistindo ryanfeer por 922 segundos
+2025-05-12 08:02:00 - INFO - Canais Recomendados atualmente:
+2025-05-12 08:02:00 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 08:02:05 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 08:02:09 - INFO - Canal Recomendado 2: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-12 08:02:15 - INFO - Canal Recomendado 3: dexterhq (https://www.twitch.tv/dexterhq)
+2025-05-12 08:02:19 - INFO - Canal Recomendado 4: tinnixtv (https://www.twitch.tv/tinnixtv)
+2025-05-12 08:02:24 - INFO - Canal Recomendado 5: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-12 08:02:30 - INFO - Canal Recomendado 6: evansgaspar (https://www.twitch.tv/evansgaspar)
+2025-05-12 08:02:34 - INFO - Canal Recomendado 7: carlitop1_ (https://www.twitch.tv/carlitop1_)
+2025-05-12 08:02:38 - INFO - Canal Recomendado 8: nicklink (https://www.twitch.tv/nicklink)
+2025-05-12 08:02:45 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 12:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-12 12:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 12:00:10 - INFO - Iniciando treino...
+2025-05-12 12:00:10 - INFO - Realizando 3 buscas nessa sessão
+2025-05-12 12:00:10 - INFO - Jogo escolhido: grand-theft-auto-v
+2025-05-12 12:01:03 - INFO - Assistindo ryanfeer por 853 segundos
+2025-05-12 12:01:27 - INFO - Canais Recomendados atualmente:
+2025-05-12 12:01:27 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 12:01:37 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 12:01:43 - INFO - Canal Recomendado 2: tck10 (https://www.twitch.tv/tck10)
+2025-05-12 12:01:47 - INFO - Canal Recomendado 3: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-12 12:01:53 - INFO - Canal Recomendado 4: ckgeek (https://www.twitch.tv/ckgeek)
+2025-05-12 12:01:58 - INFO - Canal Recomendado 5: maahmurollo (https://www.twitch.tv/maahmurollo)
+2025-05-12 12:02:02 - INFO - Canal Recomendado 6: carlitop1_ (https://www.twitch.tv/carlitop1_)
+2025-05-12 12:02:08 - INFO - Canal Recomendado 7: pegasusp1 (https://www.twitch.tv/pegasusp1)
+2025-05-12 12:02:12 - INFO - Canal Recomendado 8: daii_rp (https://www.twitch.tv/daii_rp)
+2025-05-12 12:02:22 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 16:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-12 16:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 16:00:10 - INFO - Iniciando treino...
+2025-05-12 16:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-12 16:00:10 - INFO - Jogo escolhido: league-of-legends
+2025-05-12 16:01:01 - INFO - Assistindo ivachuk por 928 segundos
+2025-05-12 16:01:25 - INFO - Canais Recomendados atualmente:
+2025-05-12 16:01:25 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 16:01:30 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 16:01:35 - INFO - Canal Recomendado 2: tck10 (https://www.twitch.tv/tck10)
+2025-05-12 16:01:39 - INFO - Canal Recomendado 3: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-12 16:01:43 - INFO - Canal Recomendado 4: seergiorp (https://www.twitch.tv/seergiorp)
+2025-05-12 16:01:48 - INFO - Canal Recomendado 5: kaori_game (https://www.twitch.tv/kaori_game)
+2025-05-12 16:01:52 - INFO - Canal Recomendado 6: yunabacaxi (https://www.twitch.tv/yunabacaxi)
+2025-05-12 16:01:57 - INFO - Canal Recomendado 7: caarolowo (https://www.twitch.tv/caarolowo)
+2025-05-12 16:02:01 - INFO - Canal Recomendado 8: stelins2 (https://www.twitch.tv/stelins2)
+2025-05-12 16:02:08 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-12 20:00:00 - INFO - ====== WebDriver manager ======
+2025-05-12 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 20:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 20:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-12 20:00:10 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-12 20:00:12 - INFO - Iniciando treino...
+2025-05-12 20:00:12 - INFO - Realizando 4 buscas nessa sessão
+2025-05-12 20:00:12 - INFO - Jogo escolhido: grand-theft-auto-v
+2025-05-12 20:00:59 - INFO - Assistindo nicollerodrigues_ por 993 segundos
+2025-05-12 20:01:23 - INFO - Canais Recomendados atualmente:
+2025-05-12 20:01:23 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-12 20:01:27 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-12 20:01:32 - INFO - Canal Recomendado 2: elyzao (https://www.twitch.tv/elyzao)
+2025-05-12 20:01:36 - INFO - Canal Recomendado 3: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-12 20:01:40 - INFO - Canal Recomendado 4: dilascio_ (https://www.twitch.tv/dilascio_)
+2025-05-12 20:01:45 - INFO - Canal Recomendado 5: suetam1v4 (https://www.twitch.tv/suetam1v4)
+2025-05-12 20:01:49 - INFO - Canal Recomendado 6: locking (https://www.twitch.tv/locking)
+2025-05-12 20:01:54 - INFO - Canal Recomendado 7: imarianapit (https://www.twitch.tv/imarianapit)
+2025-05-12 20:01:58 - INFO - Canal Recomendado 8: pumacddrj (https://www.twitch.tv/pumacddrj)
+2025-05-12 20:02:06 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 00:00:00 - INFO - ====== WebDriver manager ======
+2025-05-13 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 00:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 00:00:00 - INFO - WebDriver version 133.0.6943.141 selected
+2025-05-13 00:00:00 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-13 00:00:00 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/linux64/chromedriver-linux64.zip
+2025-05-13 00:00:00 - INFO - Driver downloading response is 200
+2025-05-13 00:00:01 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 00:00:02 - INFO - Driver has been saved in cache [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141]
+2025-05-13 00:00:15 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 00:00:16 - INFO - Iniciando treino...
+2025-05-13 00:00:16 - INFO - Realizando 5 buscas nessa sessão
+2025-05-13 00:00:16 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-13 00:01:05 - INFO - Assistindo ishadowwolf_ por 1154 segundos
+2025-05-13 00:01:26 - INFO - Canais Recomendados atualmente:
+2025-05-13 00:01:26 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 00:01:30 - INFO - Canal Recomendado 1: elyzao (https://www.twitch.tv/elyzao)
+2025-05-13 00:01:35 - INFO - Canal Recomendado 2: japadamydiskins (https://www.twitch.tv/japadamydiskins)
+2025-05-13 00:01:40 - INFO - Canal Recomendado 3: lenonbruxo96 (https://www.twitch.tv/lenonbruxo96)
+2025-05-13 00:01:46 - INFO - Canal Recomendado 4: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 00:01:50 - INFO - Canal Recomendado 5: waveigl (https://www.twitch.tv/waveigl)
+2025-05-13 00:01:57 - INFO - Canal Recomendado 6: michelnishino_yt (https://www.twitch.tv/michelnishino_yt)
+2025-05-13 00:02:01 - INFO - Canal Recomendado 7: kurohanelives (https://www.twitch.tv/kurohanelives)
+2025-05-13 00:02:06 - INFO - Canal Recomendado 8: thlimes (https://www.twitch.tv/thlimes)
+2025-05-13 00:02:14 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 04:00:00 - INFO - ====== WebDriver manager ======
+2025-05-13 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 04:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 04:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 04:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 04:00:10 - INFO - Iniciando treino...
+2025-05-13 04:00:10 - INFO - Realizando 5 buscas nessa sessão
+2025-05-13 04:00:10 - INFO - Jogo escolhido: minecraft
+2025-05-13 04:00:59 - INFO - Assistindo zakl1k por 1029 segundos
+2025-05-13 04:01:21 - INFO - Canais Recomendados atualmente:
+2025-05-13 04:01:21 - INFO - Canal Recomendado 0: saullo (https://www.twitch.tv/saullo)
+2025-05-13 04:01:26 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 04:01:31 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 04:01:36 - INFO - Canal Recomendado 3: lenonbruxo96 (https://www.twitch.tv/lenonbruxo96)
+2025-05-13 04:01:41 - INFO - Canal Recomendado 4: waveigl (https://www.twitch.tv/waveigl)
+2025-05-13 04:01:47 - INFO - Canal Recomendado 5: xguuhgabrielx (https://www.twitch.tv/xguuhgabrielx)
+2025-05-13 04:01:51 - INFO - Canal Recomendado 6: dexggxp (https://www.twitch.tv/dexggxp)
+2025-05-13 04:01:56 - INFO - Canal Recomendado 7: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-13 04:02:01 - INFO - Canal Recomendado 8: rp_pitbull (https://www.twitch.tv/rp_pitbull)
+2025-05-13 04:02:08 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 08:00:00 - INFO - ====== WebDriver manager ======
+2025-05-13 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 08:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 08:00:01 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 08:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 08:00:10 - INFO - Iniciando treino...
+2025-05-13 08:00:10 - INFO - Realizando 4 buscas nessa sessão
+2025-05-13 08:00:10 - INFO - Jogo escolhido: roblox
+2025-05-13 08:01:09 - INFO - Assistindo yukinatsu7 por 899 segundos
+2025-05-13 08:01:30 - INFO - Canais Recomendados atualmente:
+2025-05-13 08:01:30 - INFO - Canal Recomendado 0: preludesurvival (https://www.twitch.tv/preludesurvival)
+2025-05-13 08:01:35 - INFO - Canal Recomendado 1: saullo (https://www.twitch.tv/saullo)
+2025-05-13 08:01:39 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 08:01:43 - INFO - Canal Recomendado 3: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 08:01:48 - INFO - Canal Recomendado 4: yoda (https://www.twitch.tv/yoda)
+2025-05-13 08:01:52 - INFO - Canal Recomendado 5: lucaspierry1 (https://www.twitch.tv/lucaspierry1)
+2025-05-13 08:01:57 - INFO - Canal Recomendado 6: tomatinhoyuki (https://www.twitch.tv/tomatinhoyuki)
+2025-05-13 08:02:01 - INFO - Canal Recomendado 7: krow_e_bell (https://www.twitch.tv/krow_e_bell)
+2025-05-13 08:02:06 - INFO - Canal Recomendado 8: catygamer03 (https://www.twitch.tv/catygamer03)
+2025-05-13 08:02:13 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 12:00:00 - INFO - ====== WebDriver manager ======
+2025-05-13 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 12:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 12:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 12:00:09 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 12:00:11 - INFO - Iniciando treino...
+2025-05-13 12:00:11 - INFO - Realizando 4 buscas nessa sessão
+2025-05-13 12:00:11 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-13 12:01:02 - INFO - Assistindo thaisavarez por 867 segundos
+2025-05-13 12:01:24 - INFO - Canais Recomendados atualmente:
+2025-05-13 12:01:24 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 12:01:29 - INFO - Canal Recomendado 1: souuthy (https://www.twitch.tv/souuthy)
+2025-05-13 12:01:33 - INFO - Canal Recomendado 2: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 12:01:37 - INFO - Canal Recomendado 3: yoda (https://www.twitch.tv/yoda)
+2025-05-13 12:01:43 - INFO - Canal Recomendado 4: paulinhoo46 (https://www.twitch.tv/paulinhoo46)
+2025-05-13 12:01:47 - INFO - Canal Recomendado 5: miguelitodoarrocha (https://www.twitch.tv/miguelitodoarrocha)
+2025-05-13 12:01:52 - INFO - Canal Recomendado 6: miguelangelo_live (https://www.twitch.tv/miguelangelo_live)
+2025-05-13 12:01:57 - INFO - Canal Recomendado 7: eulleref (https://www.twitch.tv/eulleref)
+2025-05-13 12:02:01 - INFO - Canal Recomendado 8: a_kitsunee (https://www.twitch.tv/a_kitsunee)
+2025-05-13 12:02:09 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 12:51:11 - INFO - ====== WebDriver manager ======
+2025-05-13 12:51:11 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 12:51:11 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 12:51:12 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 12:51:19 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 12:51:20 - INFO - Iniciando treino...
+2025-05-13 12:51:20 - INFO - Realizando 4 buscas nessa sessão
+2025-05-13 12:51:20 - INFO - Jogo escolhido: minecraft
+2025-05-13 12:52:12 - INFO - Assistindo zakl1k por 1070 segundos
+2025-05-13 12:52:35 - INFO - Canais Recomendados atualmente:
+2025-05-13 12:52:35 - INFO - Canal Recomendado 0: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 12:52:44 - INFO - Canal Recomendado 1: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 12:52:50 - INFO - Canal Recomendado 2: pedro017yt (https://www.twitch.tv/pedro017yt)
+2025-05-13 12:52:54 - INFO - Canal Recomendado 3: igol7 (https://www.twitch.tv/igol7)
+2025-05-13 12:52:59 - INFO - Canal Recomendado 4: tck10 (https://www.twitch.tv/tck10)
+2025-05-13 12:53:06 - INFO - Canal Recomendado 5: yoda (https://www.twitch.tv/yoda)
+2025-05-13 12:53:11 - INFO - Canal Recomendado 6: lyrafps (https://www.twitch.tv/lyrafps)
+2025-05-13 12:53:15 - INFO - Canal Recomendado 7: ganizev (https://www.twitch.tv/ganizev)
+2025-05-13 12:53:25 - INFO - Canal Recomendado 8: amaruc2 (https://www.twitch.tv/amaruc2)
+2025-05-13 12:53:32 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 12:53:34 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-05-13 13:05:43 - INFO - ====== WebDriver manager ======
+2025-05-13 13:05:43 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 13:05:43 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 13:05:43 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 13:05:53 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 13:05:54 - INFO - Iniciando treino...
+2025-05-13 13:05:54 - INFO - Realizando 3 buscas nessa sessão
+2025-05-13 13:05:54 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-13 13:06:52 - INFO - Assistindo zaitro por 927 segundos
+2025-05-13 13:07:14 - INFO - Canais Recomendados atualmente:
+2025-05-13 13:07:14 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 13:07:18 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 13:07:24 - INFO - Canal Recomendado 2: igol7 (https://www.twitch.tv/igol7)
+2025-05-13 13:07:28 - INFO - Canal Recomendado 3: pedro017yt (https://www.twitch.tv/pedro017yt)
+2025-05-13 13:07:33 - INFO - Canal Recomendado 4: kariuxaa (https://www.twitch.tv/kariuxaa)
+2025-05-13 13:07:37 - INFO - Canal Recomendado 5: tck10 (https://www.twitch.tv/tck10)
+2025-05-13 13:07:44 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 13:07:46 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-05-13 13:12:12 - INFO - ====== WebDriver manager ======
+2025-05-13 13:12:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 13:12:12 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 13:12:12 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 13:12:21 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 13:12:22 - INFO - Iniciando treino...
+2025-05-13 13:12:22 - INFO - Realizando 5 buscas nessa sessão
+2025-05-13 13:12:22 - INFO - Jogo escolhido: league-of-legends
+2025-05-13 13:13:14 - INFO - Assistindo yoda por 627 segundos
+2025-05-13 13:13:35 - INFO - Canais Recomendados atualmente:
+2025-05-13 13:13:35 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 13:13:39 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 13:13:43 - INFO - Canal Recomendado 2: igol7 (https://www.twitch.tv/igol7)
+2025-05-13 13:13:48 - INFO - Canal Recomendado 3: pedro017yt (https://www.twitch.tv/pedro017yt)
+2025-05-13 13:13:52 - INFO - Canal Recomendado 4: kariuxaa (https://www.twitch.tv/kariuxaa)
+2025-05-13 13:13:57 - INFO - Canal Recomendado 5: tck10 (https://www.twitch.tv/tck10)
+2025-05-13 13:14:01 - INFO - Canal Recomendado 6: kennzy (https://www.twitch.tv/kennzy)
+2025-05-13 13:14:06 - INFO - Canal Recomendado 7: mylonzete (https://www.twitch.tv/mylonzete)
+2025-05-13 13:14:10 - INFO - Canal Recomendado 8: buerinho (https://www.twitch.tv/buerinho)
+2025-05-13 13:14:18 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
+2025-05-13 13:14:19 - INFO - Agendamento iniciado. Aguardando próxima execução...
+2025-05-13 16:00:00 - INFO - ====== WebDriver manager ======
+2025-05-13 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 16:00:00 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 16:00:00 - INFO - Driver [/home/locus/.wdm/drivers/chromedriver/linux64/133.0.6943.141/chromedriver-linux64/chromedriver] found in cache
+2025-05-13 16:00:08 - INFO - Erro ao logar no Twitch ou Login já realizado
+2025-05-13 16:00:10 - INFO - Iniciando treino...
+2025-05-13 16:00:10 - INFO - Realizando 3 buscas nessa sessão
+2025-05-13 16:00:10 - INFO - Jogo escolhido: sea-of-thieves
+2025-05-13 16:01:05 - INFO - Assistindo dorsmiley por 1042 segundos
+2025-05-13 16:01:25 - INFO - Canais Recomendados atualmente:
+2025-05-13 16:01:25 - INFO - Canal Recomendado 0: zakl1k (https://www.twitch.tv/zakl1k)
+2025-05-13 16:01:30 - INFO - Canal Recomendado 1: brunoballoni (https://www.twitch.tv/brunoballoni)
+2025-05-13 16:01:34 - INFO - Canal Recomendado 2: igol7 (https://www.twitch.tv/igol7)
+2025-05-13 16:01:38 - INFO - Canal Recomendado 3: pedro017yt (https://www.twitch.tv/pedro017yt)
+2025-05-13 16:01:43 - INFO - Canal Recomendado 4: tck10 (https://www.twitch.tv/tck10)
+2025-05-13 16:01:47 - INFO - Canal Recomendado 5: kariuxaa (https://www.twitch.tv/kariuxaa)
+2025-05-13 16:01:51 - INFO - Canal Recomendado 6: playinghazel (https://www.twitch.tv/playinghazel)
+2025-05-13 16:01:56 - INFO - Canal Recomendado 7: iamcomh (https://www.twitch.tv/iamcomh)
+2025-05-13 16:02:00 - INFO - Canal Recomendado 8: skelecurseirl (https://www.twitch.tv/skelecurseirl)
+2025-05-13 16:02:07 - ERROR - Erro durante o treino: 'Channel' object has no attribute 'stream_language'
