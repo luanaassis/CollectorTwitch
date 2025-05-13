@@ -249,15 +249,13 @@ def Treino(driver):
         id_transmissao += 1
 
         channel = getChannelInfo(canalPortuguesAssistir)
-        if(channel.stream_language == None):
-            channel.stream_language = "pt"
         asyncio.run(collect_twitch_chat(
             channel_id=canalPortuguesAssistir,
             oauth_token=OAUTH_TOKEN,
             csv_filename="chat_br18.csv",  
             duration=tempoDeVisualizacao,  
             StreamTitle=channel.stream_title,
-            StreamLanguage=channel.stream_language,
+            StreamLanguage=channel.language,
             StreamGame=channel.last_game_name
         ))
         logging.info(f"Tempo de visualização encerrado, busca {i+1} de {numeroBuscas} encerrada")
