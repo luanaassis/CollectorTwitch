@@ -254,7 +254,7 @@ def Treino(driver):
             asyncio.run(collect_twitch_chat(
                 channel_id=canalPortuguesAssistir,
                 oauth_token=OAUTH_TOKEN,
-                csv_filename="chat_us18.csv",  
+                csv_filename="chat_br13.csv",  
                 duration=tempoDeVisualizacao,
                 StreamTitle=channel.stream_title,
                 StreamLanguage=channel.language,
