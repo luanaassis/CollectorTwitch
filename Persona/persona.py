@@ -43,7 +43,7 @@ idade = "15 - 27/09/2009"
 br = False
 login = "aaronthompson0015"
 data_base_name = "us15"
-home = "/home/twitchcollector1"
+home = "/home/locus"
 OAUTH_TOKEN = 'oauth:0hvgub57fwqekdaj5ku3cl18g3d0wp'  # Obtenha em: https://twitchapps.com/tmi/
 
 
@@ -281,8 +281,8 @@ def acessarTwitch(driver):
 def TreinarPersona1():
     #iniciar driver
     try:
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=chromeOptions)
+        print("Iniciando o WebDriver...")
+        driver = webdriver.Chrome(options=chromeOptions)
         driver.maximize_window()
         
         acessarTwitch(driver)
